@@ -1,0 +1,50 @@
+body{font:normal 12px "Helvetica Neue",Arial,Helvetica,sans-serif; background-color: #278BA0; background-image: url(/images/yfh/enarka3.png); background-repeat:repeat; color:#eee; line-height:160%;}
+a{color:#346781;}
+
+#wrapper{width:870px;margin:0px auto;padding:0px;border:0px;background-image: url(/images/yfh/banner.jpg);background-repeat:no-repeat;}
+
+#top-navigation ul li a{color:#FFF;font-size:14px;padding-top:2px;}
+#top-navigation{background-color:#3685A3;height:30px;top:59px;position:relative;}
+#top-navigation a{color:#FFF;}
+#top h1{color:#fff;margin:0;padding:0px 0 0 175px;font-size:28px;font-weight:bolder;}
+#top h2{color:#fff;margin:5px 0 0 0;padding:0 0 0 180px;font-size:14px;font-weight:bolder;}
+#top {padding:18px 0px 40px; background:none; height:0px;}
+
+#log-out{margin:5px 10px 0 0; vertical-align:middle;}
+
+.home-box{border-top:4px solid #3685A3;}
+.home-box h2{border-bottom:1px dotted #ccc;padding:3px 0px;margin:0;}
+.home-info{width:260px;margin:0 5px 5px 24px;}
+#member-story h2{margin:0px;padding:5px 0;border-bottom:1px dotted #ccc;border-top:4px solid #3685A3;}
+
+#content{color:#000;padding:0 0 0 0;min-height:600px;height:auto !important;height:600px;background-image: url(/images/yfh/onarka_body.jpg);}
+
+.activity_box{border-top:4px solid #3685A3;}
+
+.blog-simple a:hover{color:#346781;}
+
+#footer{background-color: #036; color:#FFF; font-size:1.0em; padding:10px; height:14px;}
+#footer a{color:#0CF;}
+
+.logo {float:left;padding:0px 20px 20px 0px;clear:both;}
+.sponsor {height:200px; width:200px;float:left;text-align:center;}
+.sponsor img{height:140px;padding-right:10px; margin:6px auto 6px auto;}
+#about p {font-size:14px;margin-top:10px;}
+#about div {font-size:14px;margin-top:10px;}
+#about h2{margin-top:20px;font-size:16px;clear:both;}
+#about h2 a{font-size:16px;font-weight:bold;}
+#about ul li{list-style:disc;margin:6px 6px 6px 18px;font-size:14px;}
+#about ol li{list-style:decimal;font-size:14px;margin-top:6px;}
+
+.link-button a,#group_nav a{margin:0 3px 0 0;padding:3px;background:#3685A3;border:1px solid #333;color:#fff;}
+
+.left_column{width:295px;margin:25px 22px 15px 0;}
+.home-right-column{width:520px;margin:25px 0px 15px 0;}
+.middle_column{width:120px;margin:25px 23px 15px 0;}
+.group-news-item-simple{margin:4px 0;border-bottom:dotted 1px #ccc;width:300px;}
+.group-news-item-simple .right{width:240px;}
+
+#city_list ul{height:340px;overflow:auto;border-bottom:solid 1px #ccc;}
+
+table.news th{font-weight:bold;font-size:14px;border-bottom:3px solid #3685A3;padding:4px;}
+.activity_box img{vertical-align:middle;margin-right:2px;}

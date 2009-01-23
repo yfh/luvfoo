@@ -1,0 +1,28 @@
+<div id="top-navigation">
+	<ul class="top-nav">
+		<li class="first"><a href="http://<%= GlobalConfig.application_base_url %>/"><%= _('Home') %></a></li>
+		<li><a href="<%= groups_path %>"><%= _('Groups') %></a></li>
+		<li><a href="<%= profiles_path %>"><%= _('People') %></a></li>
+		<li><a href="<%= photos_path %>"><%= _('Photos') %></a></li>
+		<li><a href="<%= videos_path %>"><%= _('Videos') %></a></li>
+		<li><a href="<%= working_groups_path %>"><%= _('Working Groups') %></a></li>
+		<li><a href="http://<%= GlobalConfig.application_base_url %>/courses"><%= _('Courses') %></a></li>
+	</ul>
+	<div id="log-out" class="right">
+	<% if logged_in? -%>
+		<%= link_to _('My Dashboard'), user_path(current_user) %>
+		<%= link_to current_user.login, profile_path(current_user) %>
+		<%= link_to _('Logout'), logout_path %>
+	<% else -%>
+		<%= _("%{login_link} %{signup_link}") % {:login_link => link_to(_('Login'), login_path), :signup_link => link_to(_('Sign-up'), signup_path)} %>
+	<% end -%>
+        <%= locale.to_s == "yfh_EN" ? '<a href="?lang=yfh-tr">T&#xFC;rk&#xE7;e</a>' : '<a href="?lang=yfh-en">English</a>' %>
+	</div>
+</div>
+
+<div class="clear"></div>
+
+<div id="top">
+ </div>
+
+<div class="clear"></div>
