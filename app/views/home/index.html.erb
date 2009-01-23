@@ -1,0 +1,49 @@
+<% content_for :head do -%>
+<%#= auto_discovery_link_tag(:rss, "http://#{GlobalConfig.application_url}/latest_comments.rss", :title=>_('Latest Comments')) %>
+<%#= auto_discovery_link_tag(:rss, "http://#{GlobalConfig.application_url}/newest_members.rss", :title=>_('Newest Members')) %>
+<% end -%>
+<div>
+    <div> <!-- top row --> 
+		<%= render :partial => 'member_stories/member_stories' -%>
+		<%= render :partial => 'widgets/latest_news' -%>
+		<div id="about-us" class="home-info left home-box">
+			<h2><%= _('About Us') %></h2>
+            <%= render :partial => 'shared/content_page_link', :collection => @about_us_pages -%>
+		</div>
+    </div> <!-- end top row -->
+	
+    <div> <!-- second row --> 
+        <div id="groups" class="left_column left home-box"> 
+          <h2><%= _('Groups') -%> <%=link_to _('View All'), groups_path, :title => _('View more of our groups') -%></h2>
+          <%= render :partial => 'groups/news_item_simple', :collection => latest_group_news -%>
+        </div>  
+    
+        <%#= render :partial => 'location_list' -%>
+    		
+        <div class="clear"></div>
+    </div> <!-- end second row -->
+
+    <div> <!-- bottom row --> 
+        <div id="staff" class="left_column left home-box"> 
+          <h2><%= _('Welcome to Our New Members') %></h2>
+          <%= render :partial => 'profiles/newest_member', :collection => new_members -%>
+        </div>
+    
+    	<div class="home-box left home-right-column">
+            <h2><%= _('Newest Pictures') -%></h2>
+            <% newest_pictures(12).each do |picture| -%>
+                <div class="image left small_down_image">
+                  <div>
+            				<% if picture.photoable.is_a? User -%>
+                    	<%= link_to image(picture, :small), user_photos_path(picture.photoable) -%>
+            				<% elsif picture.photoable.is_a? Group -%>
+            					<%= link_to image(picture, :small), group_photos_path(picture.photoable) -%>
+            				<% end -%>
+                  </div>
+                </div>
+            <% end %>
+        </div>
+        <div class="clear"></div>
+     </div>
+
+</div>

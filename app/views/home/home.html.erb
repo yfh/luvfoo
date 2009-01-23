@@ -4,13 +4,60 @@
 <% end -%>
 <% cache(:controller => '/home', :action => 'home') do %>
 <div id="home-page">
-  <div>
-    <%= @content_page.body %>
-  </div>
-  <div>
+    <div>
 		<%= render :partial => 'member_stories/member_stories' -%>
 		<%= render :partial => 'widgets/latest_news' -%>
-	</div>		
+	</div>
+	
+	<div>			
+    <div id="groups" class="left_column left home-box"> 
+      <h2><%= _('Group News') -%> <%=link_to _('View All Groups'), groups_path, :title => _('View more of our groups') -%></h2>
+      <%= render :partial => 'groups/news_item_simple', :collection => latest_group_news -%>
+    </div>  
+
+		<div id="countries" class="middle_column left">
+			
+			<div class="home-box">
+				<h2><%= _('About Us') %></h2>
+				<ul>
+					<%= render :partial => 'shared/content_page_link', :collection => about_us_pages -%>
+					<li><%= link_to(_('Volunteer Now!'), signup_path) %></li>
+				</ul>
+			</div>
+		
+			<div style="margin-top:15px;" class="home-box">
+				<h2><%= _('Countries') %> <a href="/pages/countries"><%= _('View All') -%></a></h2>
+				<ul>
+					<%= render :partial => 'shared/content_page_link', :collection => country_pages -%>
+				</ul>
+			</div>
+		</div>
+		
+    <div id="staff" class="right_column left home-box"> 
+      <h2><%= _('Welcome to Our New Members') %></h2>
+      <%= render :partial => 'profiles/newest_member', :collection => new_members -%>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+	<div class="home-box">
+    <h2><%= _('Newest Pictures') -%> <%= link_to _('View All Pictures'), photos_path %></h2>
+    <% newest_pictures.each do |picture| -%>
+    <div class="image left small_down_image">
+      <div>
+				<% if picture.photoable.is_a? User -%>
+        	<%= link_to image(picture, :small), user_photos_path(picture.photoable) -%>
+				<% elsif picture.photoable.is_a? Group -%>
+					<%= link_to image(picture, :small), group_photos_path(picture.photoable) -%>
+				<% end -%>
+      </div>
+    </div>
+    <% end %>
+    <div class="clear"></div>  
+  </div>
+		
 </div>
+
 <img src="https://cts.vresp.com/s.gif?h=5e87091708" height="1" width="1"/>
 <% end %>

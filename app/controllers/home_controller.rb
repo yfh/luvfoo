@@ -7,13 +7,10 @@ class HomeController < ApplicationController
   before_filter :get_site
   
   def index
-    render :layout => false
-  end
-
-  def home
-    @content_page = @site.pages.find_by_url_key('home')
+#    @content_page = @site.pages.find_by_url_key('home')
+    @about_us_pages = ContentPage.tagged_with('HomeAboutUs', :on => :menus).by_alpha
     respond_to do |format|
-      format.html {render :layout => 'home'}
+      format.html {render :layout => 'application'}
       format.rss {render :partial =>  'profiles/newest_member', :collection => new_members}
     end
   end

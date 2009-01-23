@@ -1,10 +1,10 @@
 ActionController::Routing::Routes.draw do |map|
 
-#  map.root :controller => 'home', :action => 'index'
+  map.root :controller => 'home', :action => 'index'
 
   # home
   map.with_options(:controller => 'home') do |home|
-    home.home '/home', :action => 'home'
+    home.home '/', :action => 'index'
     home.latest_comments '/latest_comments.rss', :action => 'latest_comments', :format=>'rss'
     home.newest_members '/newest_members.rss', :action => 'newest_members', :format=>'rss'
     home.sitemap '/sitemap', :action => 'sitemap'
@@ -147,6 +147,10 @@ ActionController::Routing::Routes.draw do |map|
   map.connect '/search', :controller => 'search', :action => 'index'
   
   map.photos 'photos', :controller => 'site_photos', :action => 'index'
+
+  map.working_groups 'working_groups', :controller => 'working_groups', :action => 'index'
+
+  map.videos 'videos', :controller => 'videos', :action => 'index'
 
   #    map.group_page '/groups/:group_id/page/:locale/*content_page', :controller => 'page', :action => 'show_group_page'
 
