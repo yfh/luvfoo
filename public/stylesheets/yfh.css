@@ -36,7 +36,7 @@ a{color:#346781;}
 #about ul li{list-style:disc;margin:6px 6px 6px 18px;font-size:14px;}
 #about ol li{list-style:decimal;font-size:14px;margin-top:6px;}
 
-.link-button a,#group_nav a{margin:0 3px 0 0;padding:3px;background:#3685A3;border:1px solid #333;color:#fff;}
+.link-button a,#group_nav a{margin:0 3px 0 0;padding:3px;background:#3685A3;border:1px solid #333;color:#fff;letter-spacing:0;}
 
 .left_column{width:295px;margin:25px 22px 15px 0;}
 .home-right-column{width:520px;margin:25px 0px 15px 0;}
