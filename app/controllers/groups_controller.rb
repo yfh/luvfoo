@@ -10,13 +10,15 @@ class GroupsController < ApplicationController
 
   # if a user exists in the request show groups for that user.  If not then show all groups
   def index
+    @per_page = 20
     @visibility_threshold = is_admin? ? -1 : 0
-    if params[:alpha_index]
-      @alpha_index = params[:alpha_index]
-      @groups = Group.find(:all, :conditions => ["visibility > ? AND name LIKE ?", @visibility_threshold, @alpha_index + '%'], :order => 'name').paginate(:page => @page, :per_page => @per_page)
-    else
-      @groups = Group.find(:all, :conditions => ["visibility > ?", @visibility_threshold], :order => 'name').paginate(:page => @page, :per_page => @per_page)
-    end
+#    if params[:alpha_index]
+#      @alpha_index = params[:alpha_index]
+#      @groups = Group.find(:all, :conditions => ["location IS NULL AND visibility > ? AND name LIKE ?", @visibility_threshold, @alpha_index + '%'], :order => 'name').paginate(:page => @page, :per_page => @per_page)
+#    else
+      @groups = Group.find(:all, :conditions => ["requires_approval_to_join = false AND location IS NULL AND visibility > ?", @visibility_threshold], :order => 'name').paginate(:page => @page, :per_page => @per_page)
+        @results = @groups
+#    end
     #@my_groups = logged_in? ? current_user.public_groups : []
     respond_to do |format|
       format.html # index.html.erb
