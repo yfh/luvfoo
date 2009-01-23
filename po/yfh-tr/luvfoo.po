@@ -1,0 +1,2605 @@
+﻿# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Ahmet BATAT <ahbatat AT gmail DOT com>, 2008.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: luvfoo 1.0.0\n"
+"POT-Creation-Date: 2008-09-19 09:41-0600\n"
+"PO-Revision-Date: 2008-09-19 09:41-0600\n"
+"Last-Translator: Ahmet BATAT <ahbatat AT gmail DOT com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: app/views/admin/member_stories/edit.html.erb:1
+#: app/views/admin/member_stories/new.html.erb:1
+#: app/views/admin/member_stories/show.html.erb:1
+msgid "&lt;&lt; Back to Member Stories"
+msgstr "&lt;&lt; Üye Hikayesine Geri Dön"
+
+#: app/views/admin/member_stories/edit.html.erb:3
+msgid "Edit Member Story"
+msgstr "Üye Hikayesi Düzenle"
+
+#: app/views/admin/member_stories/index.html.erb:2
+#: app/views/member_stories/index.html.erb:2
+#: app/views/users/_dashboard_actions.html.erb:23
+
+msgid "Member Stories"
+msgstr "Arþiv"
+
+#: app/views/admin/member_stories/index.html.erb:2
+#: app/views/admin/news_items/index.html.erb:2
+#: app/views/member_stories/index.html.erb:2
+
+msgid "Add New Story"
+msgstr "Üye Hikayesi Ekle"
+
+#: app/views/admin/member_stories/index.html.erb:6
+#: app/views/users/blogs/index.html.erb:9
+msgid "Icon"
+msgstr "İkon"
+
+#: app/views/admin/member_stories/index.html.erb:7
+msgid "Story Title"
+msgstr "Hikaye Başlığı"
+
+#: app/views/admin/member_stories/index.html.erb:8
+#: app/views/admin/news_items/index.html.erb:7
+#: app/views/users/blogs/index.html.erb:11
+msgid "Summary"
+msgstr "Özet"
+
+#: app/views/admin/member_stories/new.html.erb:3
+msgid "Add Member Story"
+msgstr "Üye Hikayesi Ekle"
+
+#: app/views/admin/news_items/index.html.erb:2
+
+msgid "Site News Stories"
+msgstr "Haberleri düzenle"
+
+#: app/views/admin/news_items/index.html.erb:6
+#: app/views/page/_form.html.erb:10 app/views/users/blogs/index.html.erb:10
+#: app/views/users/shared_entries/new.html.erb:68
+msgid "Title"
+msgstr "Başlık"
+
+#: app/views/admin/news_items/index.html.erb:8
+
+msgid "Created"
+msgstr "Oluştur"
+
+#: app/views/admin/news_items/index.html.erb:23
+msgid "Promote Story: %{story_name}"
+msgstr " %{story_name} tarafından gönderildi."
+
+#: app/views/admin/news_items/index.html.erb:27
+#: app/views/admin/roles/show.html.erb:6 app/views/forums/_forum.html.erb:13
+#: app/views/forum_posts/_post.html.erb:9
+#: app/views/forum_topics/_topic.html.erb:17
+#: app/views/groups/news/show.html.erb:8
+#: app/views/member_stories/_admin.html.erb:1
+#: app/views/users/blogs/_admin_links.html.erb:1
+msgid "Edit"
+msgstr "Düzenle"
+
+#: app/views/admin/news_items/index.html.erb:27
+#: app/views/member_stories/_admin.html.erb:1
+
+msgid "Edit this news story."
+msgstr "Bu sayfayı düzenle"
+
+#: app/views/admin/news_items/index.html.erb:28
+#: app/views/groups/news/show.html.erb:9
+#: app/views/member_stories/_admin.html.erb:2
+#: app/views/users/blogs/_admin_links.html.erb:2
+#: app/helpers/comments_helper.rb:5
+msgid "Delete"
+msgstr "Sil"
+
+#: app/views/admin/news_items/index.html.erb:29
+msgid "Ban"
+msgstr "Banla"
+
+#: app/views/admin/news_items/new.html.erb:2
+#: app/views/groups/news/new.html.erb:1
+#: app/views/widgets/_latest_news.html.erb:4
+msgid "Add News Item"
+msgstr "Haberler ekle"
+
+#: app/views/admin/roles/edit.html.erb:1
+msgid "Editing role"
+msgstr "Profil Düzenle"
+
+#: app/views/admin/roles/edit.html.erb:7 app/views/admin/roles/new.html.erb:7
+msgid "Rolename"
+msgstr "Profil Adı"
+
+#: app/views/admin/roles/edit.html.erb:12 app/views/forums/edit.html.erb:16
+#: app/views/forum_posts/edit.html.erb:10 app/views/groups/edit.html.erb:10
+#: app/views/groups/edit.html.erb:35
+msgid "Update"
+msgstr "Güncelle"
+
+#: app/views/admin/roles/edit.html.erb:16
+msgid "Show"
+msgstr "Göster"
+
+#: app/views/admin/roles/edit.html.erb:17
+#: app/views/admin/roles/new.html.erb:16 app/views/admin/roles/show.html.erb:7
+#: app/views/forum_posts/edit.html.erb:13
+msgid "Back"
+msgstr "Geri"
+
+#: app/views/admin/roles/index.html.erb:1
+msgid "Roles for %{user}"
+msgstr "Profiller %{user}"
+
+#: app/views/admin/roles/index.html.erb:3
+msgid "Roles assigned:"
+msgstr "Atanmış Profiller"
+
+#: app/views/admin/roles/index.html.erb:6
+msgid "Roles available:"
+msgstr "Uygun Profiller"
+
+#: app/views/admin/roles/new.html.erb:1
+msgid "New role"
+msgstr "Yeni Profil"
+
+#: app/views/admin/roles/new.html.erb:12
+#: app/views/forum_topics/new.html.erb:22
+#: app/views/users/groups/new.html.erb:7
+msgid "Create"
+msgstr "Oluştur"
+
+#: app/views/admin/roles/show.html.erb:2
+msgid "Rolename:"
+msgstr "Profil Adı"
+
+#: app/views/admin/roles/_role.html.erb:4
+msgid "remove role"
+msgstr "Profil Sil"
+
+#: app/views/admin/roles/_role.html.erb:6
+msgid "assign role"
+msgstr "Profil Ata"
+
+#: app/views/admin/users/index.html.erb:3
+msgid "Search Results"
+msgstr "Arama Sonuçları"
+
+#: app/views/comments/_comment.html.erb:11
+#: app/views/comments/_comment_title.html.erb:6
+msgid "%{comment_age} ago %{user_name_link} wrote :"
+msgstr "%{comment_age} ago %{user_name_link} wrote :"
+
+#: app/views/comments/_form.html.erb:6 app/views/news/_form.html.erb:11
+#: app/views/page/_form.html.erb:22
+msgid "To include a youtube video use: [youtube: address_of_video]"
+msgstr "Google videosu kullanmak için: [googlevideo: address_of_video] "
+
+#: app/views/comments/_form.html.erb:8
+msgid "Add Comment"
+msgstr "Yorum ekle"
+
+#: app/views/feed_items/_blog.html.erb:4
+#: app/views/feed_items/_photo.html.erb:5
+msgid "User Photo Icon"
+msgstr "Kullanıcı Fotoğraf Simgesi"
+
+#: app/views/feed_items/_blog.html.erb:5
+msgid "%{user_name} blogged %{article_age} ago %{blog_title}"
+msgstr "%{user_name} blogged %{article_age} ago %{blog_title}"
+
+#: app/views/feed_items/_comment.html.erb:4
+msgid "Comment Icon"
+msgstr "Yorum Simgesi"
+
+#: app/views/feed_items/_friend.html.erb:10
+msgid "Friends Icon"
+msgstr "Arkadaşlar Simgesi"
+
+#: app/views/feed_items/_friend.html.erb:11
+msgid ""
+"%{person_invited} is now a %{friendship_description} of %{person_who_invited}"
+msgstr ""
+"%{person_invited} is now a %{friendship_description} of %{person_who_invited}"
+
+#: app/views/feed_items/_news_item.html.erb:4
+
+msgid "News Icon"
+msgstr "Mesaj Simgesi"
+
+#: app/views/feed_items/_photo.html.erb:6
+
+msgid ""
+"%{user_name_link} uploaded a %{photo_link_begin_tag}new photo%"
+"{photo_link_end_tag}"
+msgstr "%{user_name_link} uploaded a %{photo_link_begin_tag}new photo</a>"
+
+#: app/views/feed_items/_shared_entry.html.erb:7
+
+msgid "Shared Page Icon"
+msgstr "Simgeyi Paylaş"
+
+#: app/views/feed_items/_shared_entry.html.erb:8
+msgid "%{link_to_user} shared %{share_link} with you."
+msgstr "%{link_to_user} tarafından seninle paylaşılanlar %{share_link}"
+
+#: app/views/forms/_base_field.html.erb:8
+msgid "Please enter a value for %{label}"
+msgstr "Lütfen %{label} için bir değer giriniz"
+
+#: app/views/forums/edit.html.erb:1
+msgid "Editing forum"
+msgstr "Forum Düzenleme"
+
+#: app/views/forums/edit.html.erb:4 app/views/forums/new.html.erb:3
+#: app/views/forums/show.html.erb:17
+msgid "Back to Forums"
+msgstr "Forumlara Geri Dön"
+
+#: app/views/forums/index.html.erb:1
+msgid "%{application_name} Forums"
+msgstr "%{application_name} Forumlar"
+
+#: app/views/forums/index.html.erb:5
+msgid "Create a new forum"
+msgstr "Yeni Forum oluştur"
+
+#: app/views/forums/index.html.erb:5
+msgid "Creating a new forum"
+msgstr "Yeni Forum Oluşturma"
+
+#: app/views/forums/index.html.erb:13 app/views/forums/show.html.erb:36
+#: app/views/groups/forums/show.html.erb:22
+msgid "Last Post"
+msgstr "Son Posta"
+
+#: app/views/forums/index.html.erb:14 app/views/groups/forums/show.html.erb:2
+msgid "Forum"
+msgstr "Forum"
+
+#: app/views/forums/index.html.erb:21
+msgid "No forums exist at this time."
+msgstr "Şu anda hiç bir forum bulunmuyor"
+
+#: app/views/forums/index.html.erb:27
+msgid "Drag forum rows to reorder."
+msgstr "Forum Satırlarını yeniden düzenlemek için sürükleyiniz"
+
+#: app/views/forums/new.html.erb:1
+msgid "New forum"
+msgstr "Yeni Forum"
+
+#: app/views/forums/show.html.erb:4 app/views/forum_topics/show.html.erb:2
+msgid "Forums"
+msgstr "Forumlar"
+
+#: app/views/forums/show.html.erb:12
+msgid "Start a new topic"
+msgstr "Yeni Konu aç"
+
+#: app/views/forums/show.html.erb:12
+msgid "Starting a new topic in %{forum_name}"
+msgstr "%{forum_name} 'da yeni konu aç"
+
+#: app/views/forums/show.html.erb:32 app/views/groups/forums/show.html.erb:20
+msgid "Topic"
+msgstr "Konu"
+
+#: app/views/forums/show.html.erb:34 app/views/groups/forums/show.html.erb:21
+msgid "Posts"
+msgstr "Postalar"
+
+#: app/views/forums/show.html.erb:47 app/helpers/forums_helper.rb:18
+msgid "There are no topics in this forum yet."
+msgstr "Bu forumda henüz hiç bir konu bulunmuyor"
+
+#: app/views/forums/_form.html.erb:11 app/views/forum_posts/_form.html.erb:14
+#: app/views/forum_topics/_form.html.erb:13 app/views/news/_form.html.erb:16
+#: app/views/page/_form.html.erb:30 app/views/users/edit.html.erb:48
+msgid "Save"
+msgstr "Kaydet"
+
+#: app/views/forums/_forum.html.erb:13
+msgid "Editing forum %{forum_name}"
+msgstr "Forum Düzenle %{forum_name}"
+
+#: app/views/forums/_forum.html.erb:15 app/views/forum_posts/_post.html.erb:11
+#: app/views/forum_topics/_topic.html.erb:19
+msgid "Destroy"
+msgstr "Yok et"
+
+#: app/views/forums/_forum.html.erb:15 app/views/forum_posts/_post.html.erb:11
+#: app/views/forum_topics/_topic.html.erb:19
+msgid "Are you sure?"
+msgstr "Emin misiniz?"
+
+#: app/views/forum_posts/edit.html.erb:1
+#: app/views/forum_posts/_post.html.erb:9
+msgid "Editing post in %{topic_title}"
+msgstr "%{topic_title} alanında posta düzenle"
+
+#: app/views/forum_posts/_list.html.erb:13
+msgid "Most Recent Forum Posts"
+msgstr "En yeni forum postaları"
+
+#: app/views/forum_posts/_list.html.erb:14
+msgid "(latest %{number_of_posts_displayed} of %{total_posts})"
+msgstr "(latest %{number_of_posts_displayed} of %{total_posts})"
+
+#: app/views/forum_posts/_post.html.erb:6
+msgid "Posted by %{user_name_link}"
+msgstr " %{user_name_link} tarafından gönderildi."
+
+#: app/views/forum_posts/_post.html.erb:7
+msgid "Posted %{time_since_post} ago"
+msgstr "%{time_since_post} önce gönderildi"
+
+#: app/views/forum_topics/edit.html.erb:4
+#: app/views/forum_topics/new.html.erb:4
+#: app/views/forum_topics/show.html.erb:12
+msgid "Back to %{forum_name}"
+msgstr "%{forum_name} geri dön"
+
+#: app/views/forum_topics/new.html.erb:15 app/views/messages/_form.html.erb:21
+msgid "Body:"
+msgstr "Body:"
+
+#: app/views/forum_topics/show.html.erb:11
+msgid "Post a follow up"
+msgstr "Takip postası gönder"
+
+#: app/views/forum_topics/show.html.erb:23
+msgid "Post a followup"
+msgstr "Takip Postası gönder"
+
+#: app/views/forum_topics/show.html.erb:28
+msgid "Please %{login_link} or %{sign_up_link} to participate!"
+msgstr "Lütfen katılmak için %{login_link} ya da %{sign_up_link} tıklayınız.  "
+
+#: app/views/forum_topics/show.html.erb:28
+msgid "login"
+msgstr "Oturum aç"
+
+#: app/views/forum_topics/show.html.erb:28
+msgid "Sign In"
+msgstr "Oturum Aç"
+
+#: app/views/forum_topics/show.html.erb:28
+msgid "sign-up"
+msgstr "kayıt Ol"
+
+#: app/views/forum_topics/_new_topic.html.erb:12
+msgid ""
+"%{age_of_forum_post} ago, %{user_name_link} posted %{post_title_link} in %"
+"{forum_link}"
+msgstr ""
+"%{age_of_forum_post} ago, %{user_name_link} posted %{post_title_link} in %"
+
+#: app/views/forum_topics/_topic.html.erb:17
+msgid "Editing topic %{topic_title}"
+msgstr "Konuyu Düzenle %{topic_title}"
+
+#: app/views/friends/index.html.erb:1
+msgid "My Network"
+msgstr "Networküm"
+
+#: app/views/friends/_list.html.erb:2
+msgid "friends"
+msgstr "Arkadaşlar"
+
+#: app/views/friends/_list.html.erb:7
+msgid "Following"
+msgstr "İzleyen"
+
+#: app/views/friends/_list.html.erb:20 app/views/groups/show.html.erb:6
+#: app/views/groups/show.html.erb:16 app/views/groups/show.html.erb:32
+#: app/views/home/index.html.erb:22
+#: app/views/profiles/blogs/_history.html.erb:4
+#: app/views/profiles/blogs/_list.html.erb:6
+msgid "View All"
+msgstr "Hepsini Gör"
+
+#: app/views/groups/comments/index.html.erb:2
+msgid "%{group_name} Comments"
+msgstr "%{group_name} Görüşler"
+
+#: app/views/groups/comments/index.html.erb:8
+#: app/views/news/_news_item.html.erb:14
+msgid "Add a Comment"
+msgstr "Yorum Ekle"
+
+#: app/views/groups/comments/index.html.erb:8
+msgid "Leaving A Comment On %{group_name}"
+msgstr "%{group_name} grubuna yorum bırakınız"
+
+#: app/views/groups/edit.html.erb:1
+
+msgid "Editing Group: %{group_name}"
+msgstr "Forum Düzenle %{forum_name}"
+
+#: app/views/groups/edit.html.erb:21 app/views/news/_form.html.erb:22
+#: app/views/users/edit.html.erb:60
+
+msgid "Upload Photo:"
+msgstr "Fotoğraf Yükle"
+
+#: app/views/groups/edit.html.erb:45
+
+msgid "Delete Group"
+msgstr "Gruptan Ayrıl"
+
+#: app/views/groups/forums/show.html.erb:5
+
+msgid "Latest Discussions"
+msgstr "Son Yorumlar"
+
+#: app/views/groups/forums/show.html.erb:7
+
+msgid "Start a new discussion"
+msgstr "Yeni Konu aç"
+
+#: app/views/groups/forums/show.html.erb:8
+
+msgid "Starting a new discussion in %{forum_name}"
+msgstr "%{forum_name} 'da yeni konu aç"
+
+#: app/views/groups/index.html.erb:6 app/views/home/index.html.erb:22
+#: app/views/layouts/application.html.erb:23
+#: app/views/layouts/google_docs.html.erb:24
+#: app/views/users/shared_entries/_share_list.html.erb:6
+#: app/views/users/_groups.html.erb:3
+msgid "Groups"
+msgstr "Gruplar"
+
+#: app/views/groups/index.html.erb:6 app/views/profiles/_groups.html.erb:4
+#: app/views/users/groups/new.html.erb:4 app/views/users/_groups.html.erb:3
+msgid "Create a New Group"
+msgstr "Yeni Grup Oluştur"
+
+#: app/views/groups/invites/new.html.erb:2
+#: app/views/users/invites/new.html.erb:2
+
+msgid "Invite Your Friends"
+msgstr "Arkadaşlarını Davet Et"
+
+#: app/views/groups/memberships/index.html.erb:8
+#: app/views/groups/show.html.erb:64 app/views/groups/_group_nav.html.erb:5
+#: app/views/profiles/search.html.erb:2
+msgid "Members"
+msgstr "Üyeler"
+
+#: app/views/groups/news/edit.html.erb:1
+msgid "Edit News Item"
+msgstr "Haberleri düzenle"
+
+#: app/views/groups/news/index.html.erb:5
+#: app/views/widgets/_latest_news.html.erb:2
+msgid "Latest News"
+msgstr "Haberler"
+
+#: app/views/groups/news/index.html.erb:5 app/views/groups/show.html.erb:7
+msgid "Add News"
+msgstr "Haber Ekle"
+
+#: app/views/groups/news/show.html.erb:2
+msgid "%{group_name} - Latest News"
+msgstr "%{group_name} - Son Haberler"
+
+#: app/views/groups/news/_news_item_title.html.erb:9
+#: app/views/member_stories/_member_stories.html.erb:24
+msgid "Read More &gt;&gt;"
+msgstr "Daha fazlasını Oku &gt;&gt;"
+
+#: app/views/groups/photos/show.html.erb:2
+msgid "%{group_name} - Photos"
+msgstr "%{group_name} - Fotoğraflar"
+
+#: app/views/groups/photos/show.html.erb:5 app/views/groups/show.html.erb:32
+#: app/views/groups/_group_nav.html.erb:7
+#: app/views/photos/_gallery.html.erb:13
+msgid "Photos"
+msgstr "Fotoğraflar"
+
+#: app/views/groups/photos/_form.html.erb:2 app/views/photos/_form.html.erb:2
+msgid "Upload A Photo"
+msgstr "Fotoğraf yükle"
+
+#: app/views/groups/photos/_form.html.erb:7 app/views/photos/_form.html.erb:9
+#: app/views/users/edit.html.erb:74
+msgid "Upload Photo"
+msgstr "Fotoğraf Yükle"
+
+#: app/views/groups/shared_entries/show.html.erb:1
+
+msgid "Return to %{group_name}"
+msgstr "%{forum_name} geri dön"
+
+#: app/views/groups/show.html.erb:6 app/views/groups/_group_nav.html.erb:3
+#: app/views/layouts/application.html.erb:26
+#: app/views/layouts/google_docs.html.erb:27
+msgid "News"
+msgstr "Haberler"
+
+#: app/views/groups/show.html.erb:16
+msgid "Member Comments"
+msgstr "Yorumlar"
+
+#: app/views/groups/show.html.erb:18
+#: app/views/profiles/comments/_list.html.erb:6
+#: app/views/profiles/show.html.erb:57
+msgid "Leave a Comment"
+msgstr "Yorum Bırak"
+
+#: app/views/groups/show.html.erb:41 app/views/profiles/show.html.erb:84
+msgid "Shared Web Pages"
+msgstr "Paylaşılan Web Sayfaları"
+
+#: app/views/groups/show.html.erb:41
+#: app/views/users/shared_entries/new.html.erb:53
+msgid "Share a Web Page"
+msgstr "Web Sayfası Paylaş"
+
+#: app/views/groups/show.html.erb:56
+msgid "Officers"
+msgstr "Yönetici"
+
+#: app/views/groups/_form.html.erb:2
+
+msgid "Group Name"
+msgstr "Gruplar"
+
+#: app/views/groups/_form.html.erb:7
+
+msgid "Group Tags"
+msgstr "Gruplar"
+
+#: app/views/groups/_google_docs.html.erb:3
+#: app/views/profiles/_google_docs.html.erb:3
+
+msgid "Shared Documents"
+msgstr "Paylaşılan Fotoğraflar"
+
+#: app/views/groups/_group_info.html.erb:9
+#: app/views/layouts/application.html.erb:35
+#: app/views/layouts/google_docs.html.erb:36
+msgid "Login"
+msgstr "Oturum Aç"
+
+#: app/views/groups/_group_info.html.erb:9
+
+msgid "Signup"
+msgstr "Kayıt Ol"
+
+#: app/views/groups/_group_info.html.erb:22
+msgid "Information"
+msgstr "Bilgi"
+
+#: app/views/groups/_group_nav.html.erb:2
+msgid "Main"
+msgstr "Anasayfa"
+
+#: app/views/groups/_group_nav.html.erb:4
+#: app/views/profiles/comments/_list.html.erb:3
+#: app/views/users/shared_entries/new.html.erb:77
+msgid "Comments"
+msgstr "İçerikler"
+
+#: app/views/groups/_group_nav.html.erb:16
+msgid "Edit Group"
+msgstr "Grubu Düzenle"
+
+#: app/views/groups/_join_controls.html.erb:9
+
+msgid "Rejoin %{group_name}"
+msgstr "%{group_name}grubuna katılmak istiyor musunuz?"
+
+#: app/views/groups/_join_controls.html.erb:11
+#: app/views/groups/_join_controls.html.erb:15
+
+msgid "Join %{group_name}"
+msgstr "%{group_name} Görüşler"
+
+#: app/views/groups/_join_form.html.erb:23
+
+msgid "Would you like to request membership in the group %{group_name}?"
+msgstr "%{group_name}grubuna katılmak istiyor musunuz?"
+
+#: app/views/groups/_join_form.html.erb:26
+#: app/views/groups/_join_form.html.erb:39
+msgid "Join"
+msgstr "Katıl"
+
+#: app/views/groups/_join_form.html.erb:35
+msgid "%{group_name} is an open group that anyone can join."
+msgstr "%{group_name} herkesin katılabileceği açık bir gruptur."
+
+#: app/views/groups/_join_form.html.erb:36
+msgid "Would you like to join %{group_name}?"
+msgstr "%{group_name}grubuna katılmak istiyor musunuz?"
+
+#: app/views/groups/_member_controls.html.erb:2
+#: app/views/users/show.html.erb:20
+msgid "Invite Friends"
+msgstr "Arkadaşlarını Davet Et"
+
+#: app/views/groups/_member_controls.html.erb:5
+msgid "Leave Group"
+msgstr "Gruptan Ayrıl"
+
+#: app/views/groups/_shared_entry.html.erb:2
+
+msgid "%{link_to_sharer} shared %{link_to_web_page} %{time_since_shared} ago."
+msgstr ""
+"%{link_to_sharer} tarafından %{time_since_shared} önce %{link_to_sharer} "
+"paylaşıldı."
+
+#: app/views/home/contact.html.erb:3
+msgid "Contact Us"
+msgstr "Bizimle İletişime Geçin"
+
+#: app/views/home/contact.html.erb:5
+msgid ""
+"Thank you for contacting Teachers Without Borders. Please complete the form "
+"below and a Teachers Without Borders staff member will contact you shortly."
+msgstr ""
+"Habitat İçin Gençlik ile iletişime geçtiğiniz için teşekkürler. Lütfen "
+"aşağıdaki formu doldurunuz, en kısa zamanda Habitat İçin Gençlik "
+"çalışanı sizinle iletişim egeçecektir."
+
+#: app/views/home/contact.html.erb:10
+msgid "Your name:"
+msgstr "Adınız:"
+
+#: app/views/home/contact.html.erb:11
+msgid "Please provide us with your name."
+msgstr "Lütfen adınızı giriniz"
+
+#: app/views/home/contact.html.erb:16
+msgid "Your phone number:"
+msgstr "Telefon Numaranız:"
+
+#: app/views/home/contact.html.erb:17
+msgid ""
+"Your phone number is optional but will help us contact you if necessary."
+msgstr ""
+"Telefon numarası zorunlu değildir fakat gerekli olması durumunda sizinle "
+"iletişime geçmemize yardım edecektir."
+
+#: app/views/home/contact.html.erb:22
+msgid "Your email:"
+msgstr "E-Posta Adresiniz:"
+
+#: app/views/home/contact.html.erb:23
+msgid ""
+"Please provide us with your email so that we can contact you if necessary."
+msgstr "Lütfen e-posta adresinizi giriniz."
+
+#: app/views/home/contact.html.erb:28 app/views/messages/_form.html.erb:16
+msgid "Subject:"
+msgstr "Konu:"
+
+#: app/views/home/contact.html.erb:29
+msgid "A simple statement indicating the nature of your feedback."
+msgstr "Basit bir ifade geri bildiriminizin esasını belirtiyor."
+
+#: app/views/home/contact.html.erb:34
+msgid "Your message/question:"
+msgstr "Mesajınız/Sorunuz:"
+
+#: app/views/home/contact.html.erb:35
+msgid "Please include any comments you would like us to hear."
+msgstr "Lütfen bize görüşlerinizi iletiniz."
+
+#: app/views/home/contact.html.erb:39 app/views/shared/_invite.html.erb:56
+msgid "Send"
+msgstr "Gönder"
+
+#: app/views/home/index.html.erb:2
+msgid "Latest Comments"
+msgstr "Son Yorumlar"
+
+#: app/views/home/index.html.erb:3
+msgid "Newest Members"
+msgstr "En Yeni Üyeler"
+
+#: app/views/home/index.html.erb:10
+msgid "About Us"
+msgstr "Hakkımızda"
+
+#: app/views/home/index.html.erb:34
+msgid "Welcome to Our New Members"
+msgstr "Üyeler"
+
+#: app/views/home/index.html.erb:39
+msgid "Newest Pictures"
+msgstr "En Yeni Resimler"
+
+#: app/views/home/_location_list.html.erb:2 app/views/home/_map.html.erb:2
+msgid "Countries"
+msgstr "Şehirler"
+
+#: app/views/layouts/application.html.erb:22
+#: app/views/layouts/google_docs.html.erb:23
+msgid "Home"
+msgstr "Ana Sayfa"
+
+#: app/views/layouts/application.html.erb:24
+#: app/views/layouts/google_docs.html.erb:25
+#: app/views/users/shared_entries/_share_list.html.erb:24
+msgid "People"
+msgstr "Üyeler"
+
+#: app/views/layouts/application.html.erb:27
+#: app/views/layouts/google_docs.html.erb:28
+msgid "Courses"
+msgstr "Eğitimler"
+
+#: app/views/layouts/application.html.erb:31
+#: app/views/layouts/google_docs.html.erb:32
+#: app/views/shared/_user_menu.html.erb:3 app/views/users/show.html.erb:8
+msgid "My Dashboard"
+msgstr "Panom"
+
+#: app/views/layouts/application.html.erb:33
+#: app/views/layouts/google_docs.html.erb:34
+msgid "Logout"
+msgstr "Oturumu Kapat"
+
+#: app/views/layouts/application.html.erb:35
+#: app/views/layouts/google_docs.html.erb:36
+
+msgid "%{login_link} %{signup_link}"
+msgstr "%{login_link} %{signup_link}"
+
+#: app/views/layouts/application.html.erb:35
+#: app/views/layouts/google_docs.html.erb:36
+msgid "Sign-up"
+msgstr "Kayıt Ol"
+
+#: app/views/layouts/application.html.erb:44
+#: app/views/layouts/google_docs.html.erb:45
+msgid "Teachers Without Borders"
+msgstr "Habitat İçin Gençlik"
+
+#: app/views/layouts/application.html.erb:45
+#: app/views/layouts/google_docs.html.erb:46
+msgid "Global Colleagues Local Solutions"
+msgstr "Global Colleagues Local Solutions"
+
+#: app/views/member_stories/_member_stories.html.erb:31
+msgid "More Stories"
+msgstr "Arþiv"
+
+#: app/views/member_stories/_member_stories.html.erb:33
+msgid "Manage Stories"
+msgstr "Yönetmek Öyküler"
+
+#: app/views/member_stories/_member_story_summary.html.erb:7
+msgid "Read More"
+msgstr "Detaylı bilgi için tıklayınız"
+
+#: app/views/messages/new.html.erb:1 app/views/shared/_user_menu.html.erb:7
+msgid "My Messages"
+msgstr "Mesajlarım"
+
+#: app/views/messages/sent.html.erb:1 app/views/shared/_user_menu.html.erb:13
+msgid "Sent Messages"
+msgstr "Mesajları Gönder"
+
+#: app/views/messages/show.html.erb:2 app/views/shared/_invite.html.erb:45
+msgid "Message"
+msgstr "Mesaj"
+
+#: app/views/messages/show.html.erb:6 app/views/shared/_user_menu.html.erb:19
+msgid "Reply"
+msgstr "Yanıtla"
+
+#: app/views/messages/show.html.erb:9
+msgid "RE: %{message_subject}"
+msgstr "YNT: %{message_subject}"
+
+#: app/views/messages/_form.html.erb:11
+msgid "To:"
+msgstr "Kime:"
+
+#: app/views/messages/_form.html.erb:26
+msgid "Send Message"
+msgstr "Mesajı Gönder"
+
+#: app/views/messages/_list.html.erb:4
+msgid "Inbox Messages"
+msgstr "Posta Kutusu"
+
+#: app/views/messages/_list.html.erb:8
+msgid "Message Center"
+msgstr "Mesaj Merkezi"
+
+#: app/views/messages/_list.html.erb:14
+msgid "No Messages"
+msgstr "Mesaj Yok"
+
+#: app/views/messages/_list.html.erb:18
+msgid "To"
+msgstr "Kime"
+
+#: app/views/messages/_list.html.erb:18
+msgid "From"
+msgstr "Kimden"
+
+#: app/views/messages/_list.html.erb:19 app/views/shared/_invite.html.erb:37
+msgid "Subject"
+msgstr "Konu"
+
+#: app/views/messages/_list.html.erb:20
+msgid "When"
+msgstr "Ne Zaman"
+
+#: app/views/messages/_list.html.erb:27
+msgid "%{time_since_created} ago"
+msgstr "%{time_since_created} ago"
+
+#: app/views/messages/_message.html.erb:4
+msgid "From: %{sender_link} %{time_since_created} ago"
+msgstr "Kimden: %{sender_link} %{time_since_created} kadar önce"
+
+#: app/views/news/_form.html.erb:9
+msgid "Add tags to help others discover your content."
+msgstr "Başkalarının da içeriğinizi keşfetmeleri için etiket ekleyin."
+
+#: app/views/news/_form.html.erb:30 app/views/users/edit.html.erb:68
+
+msgid "delete icon"
+msgstr "(sil)"
+
+#: app/views/news/_news_item.html.erb:13
+msgid "Comments %{number_of_comments}"
+msgstr "Yorumlar%{number_of_comments} "
+
+#: app/views/news/_news_item.html.erb:14
+msgid "Leaving A Comment On %{news_item_title}"
+msgstr "%{news_item_title} üzerine yorum bırakın"
+
+#: app/views/news/_news_item_min.html.erb:6
+msgid "Posted %{time_since_posted} ago"
+msgstr "%{time_since_posted} önce gönderildi"
+
+#: app/views/news/_news_item_simple.html.erb:2
+msgid "From %{news_source}"
+msgstr "%{news_source}'den haberler"
+
+#: app/views/page/edit.html.erb:1 app/views/page/_show.html.erb:2
+msgid "Edit Page"
+msgstr "Sayfayı düzenle"
+
+#: app/views/page/new.html.erb:1
+msgid "New Page"
+msgstr "Yeni sayfa"
+
+#: app/views/page/_form.html.erb:18
+msgid "Content"
+msgstr "İçerik"
+
+#: app/views/passwords/edit.html.erb:2 app/views/users/edit.html.erb:91
+#: app/views/users/welcome.html.erb:10
+msgid "Password:"
+msgstr "Şifre:"
+
+#: app/views/passwords/edit.html.erb:4 app/views/users/edit.html.erb:96
+msgid "Confirm Password:"
+msgstr "Şifreyi Doğrula"
+
+#: app/views/passwords/edit.html.erb:6
+msgid "Reset Your Password"
+msgstr "Şifrenizi Yenileyin"
+
+#: app/views/passwords/new.html.erb:1
+msgid "Forgot Password"
+msgstr "Şifreyi Unuttum"
+
+#: app/views/passwords/new.html.erb:3
+msgid "What is the email address used to create your account?"
+msgstr "Hesabınızı oluşturma için kullanılan e-posta adresi nedir?"
+
+#: app/views/passwords/new.html.erb:5
+msgid "Reset Password"
+msgstr "Şifreyi yenile"
+
+#: app/views/photos/_form.html.erb:5
+msgid "Photo: "
+msgstr "Fotoğraf:"
+
+#: app/views/photos/_photo.html.erb:5
+msgid "(delete)"
+msgstr "(sil)"
+
+#: app/views/profiles/blogs/index.html.erb:2
+msgid "%{user_name}'s Blogs"
+msgstr "%{user_name} Blogları"
+
+#: app/views/profiles/blogs/index.html.erb:6
+#: app/views/shared/_user_menu.html.erb:6
+#: app/views/users/blogs/index.html.erb:2
+
+msgid "My Blog"
+msgstr "Blog"
+
+#: app/views/profiles/blogs/index.html.erb:8
+#: app/views/profiles/blogs/show.html.erb:6
+msgid "%{user_name}'s Blog"
+msgstr "%{user_name} Blogu"
+
+#: app/views/profiles/blogs/index.html.erb:12
+msgid "%{user_name} has no blog posts."
+msgstr "%{user_name}'ın blog postası yok"
+
+#: app/views/profiles/blogs/_blog.html.erb:6
+msgid "Comments (%{number_of_comments})"
+msgstr "Görüşler (%{number_of_comments}) "
+
+#: app/views/profiles/blogs/_blog.html.erb:7
+
+msgid "Posted %{time_ago} ago"
+msgstr "%{time_since_post} önce gönderildi"
+
+#: app/views/profiles/blogs/_history.html.erb:4
+msgid "Blog Post History"
+msgstr "Blog Posta Geçmişi"
+
+#: app/views/profiles/blogs/_list.html.erb:3
+msgid "Most Recent Blog Posts"
+msgstr "En yeni Blog postaları"
+
+#: app/views/profiles/blogs/_list.html.erb:4
+
+msgid "latest %{number_of_posts_displayed} of %{total_blogs}"
+msgstr "(latest %{number_of_posts_displayed} of %{total_posts})"
+
+#: app/views/profiles/blogs/_list.html.erb:8
+
+msgid "Write a New Post"
+msgstr "Yeni Posta Yaz"
+
+#: app/views/profiles/comments/index.html.erb:2
+
+msgid "Conversation with %{user_name}"
+msgstr "Wall to wall with %{user_name}"
+
+#: app/views/profiles/comments/index.html.erb:9
+msgid "Back to Profile"
+msgstr "Profile Geri Dön"
+
+#: app/views/profiles/comments/index.html.erb:10
+msgid "Add A Comment"
+msgstr "Yorum Ekle"
+
+#: app/views/profiles/comments/index.html.erb:10
+msgid "Adding A Comment"
+msgstr "Yorum ekleniyor"
+
+#: app/views/profiles/comments/_list.html.erb:7
+msgid "Leaving A Comment On %{user_name}'s Wall"
+msgstr "%{user_name}'ın duvarına yorum bırakılıyor"
+
+#: app/views/profiles/show.html.erb:20
+msgid "Latest YouTube Video"
+msgstr "En Son Youtube Videoları"
+
+#: app/views/profiles/show.html.erb:27
+msgid "Latest Flickr Pictures"
+msgstr "En Son Flickr Resimleri"
+
+#: app/views/profiles/show.html.erb:32
+msgid "FlickrHolder"
+msgstr "FlickrHolder"
+
+#: app/views/profiles/show.html.erb:54
+msgid "Direct Message"
+msgstr "Doğrudan Mesaj"
+
+#: app/views/profiles/show.html.erb:55
+
+msgid "New Message For %{user_name}"
+msgstr "%{user_name} isimli kullanıcından yeni mesaj"
+
+#: app/views/profiles/show.html.erb:58
+
+msgid "Leaving A Comment For %{user_name}"
+msgstr "%{user_name}'ın duvarına yorum bırakılıyor"
+
+#: app/views/profiles/_bio.html.erb:6
+
+msgid "(Edit Profile)"
+msgstr "Profili Düzenle"
+
+#: app/views/profiles/_bio.html.erb:9
+msgid "About:"
+msgstr "Hakkında:"
+
+#: app/views/profiles/_bio.html.erb:10
+msgid "Website:"
+msgstr "Web sitesi:"
+
+#: app/views/profiles/_bio.html.erb:11
+msgid "Blog:"
+msgstr "Blog:"
+
+#: app/views/profiles/_bio.html.erb:12
+msgid "Flickr:"
+msgstr "Flickr:"
+
+#: app/views/profiles/_bio.html.erb:13
+msgid "AIM:"
+msgstr "AIM:"
+
+#: app/views/profiles/_bio.html.erb:14
+msgid "GTalk:"
+msgstr "Gtalk:"
+
+#: app/views/profiles/_bio.html.erb:15
+msgid "iChat:"
+msgstr "iChat:"
+
+#: app/views/profiles/_featured.html.erb:6
+msgid "Featured Member"
+msgstr "Gösterilen Üye"
+
+#: app/views/profiles/_featured.html.erb:9
+msgid "more"
+msgstr "Daha fazla"
+
+#: app/views/profiles/_groups.html.erb:3
+
+msgid "Groups %{user_name} Belongs To"
+msgstr "%{user_name} Blogları"
+
+#: app/views/profiles/_newest_member.html.erb:4
+msgid "Nowhere"
+msgstr "Hiç Bir yerde"
+
+#: app/views/profiles/_recent_activity.html.erb:4
+msgid "Recent Activity"
+msgstr "Son faaliyet"
+
+#: app/views/sessions/new.html.erb:4
+
+msgid "Log-in to your Account"
+msgstr "Hesabınıza Bağlanın"
+
+#: app/views/sessions/new.html.erb:7 app/views/users/index.html.erb:4
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+#: app/views/sessions/new.html.erb:12 app/views/users/new.html.erb:19
+msgid "Password"
+msgstr "Şifre"
+
+#: app/views/sessions/new.html.erb:17
+msgid "Remember me"
+msgstr "Beni Hatırla"
+
+#: app/views/sessions/new.html.erb:22
+msgid "Log-in Now"
+msgstr "Şimdi Bağlan"
+
+#: app/views/sessions/new.html.erb:26
+msgid "Register for an account"
+msgstr "Hesap için Kayıt olun"
+
+#: app/views/sessions/new.html.erb:27
+msgid "Forgot your password?"
+msgstr "Şifreyi unuttum"
+
+#: app/views/shared/_admin_search.html.erb:2
+#: app/views/shared/_search.html.erb:2 app/views/shared/_search.html.erb:3
+msgid "Search"
+msgstr "Arama"
+
+#: app/views/shared/_footer.html.erb:5 app/views/shared/_footer.html.erb:7
+msgid "Feedback"
+msgstr "Geri Bildirim"
+
+#: app/views/shared/_footer.html.erb:9
+msgid "Privacy"
+msgstr "Gizlilik"
+
+#: app/views/shared/_footer.html.erb:10
+msgid "Terms of Service"
+msgstr "Hizmet Koşulları"
+
+#: app/views/shared/_invite.html.erb:33
+msgid "Invite More"
+msgstr "Daha fazla davet et"
+
+#: app/views/shared/_user_menu.html.erb:4
+#: app/views/users/groups/index.html.erb:6
+
+msgid "My Groups"
+msgstr "Gruplar"
+
+#: app/views/shared/_user_menu.html.erb:5
+
+msgid "My Friends"
+msgstr "Arkadaşlar"
+
+#: app/views/shared/_user_menu.html.erb:8
+#: app/views/users/photos/index.html.erb:6
+
+msgid "My Photos"
+msgstr "Fotoğraflar"
+
+#: app/views/shared/_user_menu.html.erb:12
+#: app/views/users/_dashboard_actions.html.erb:12
+msgid "Inbox"
+msgstr "Gelen Kutusu"
+
+#: app/views/shared/_user_menu.html.erb:14
+msgid "New Message"
+msgstr "Yeni Mesaj"
+
+#: app/views/shared/_user_menu.html.erb:19
+msgid "Reply To %{sender}"
+msgstr "%{sender}'a yanıtla"
+
+#: app/views/users/blogs/edit.html.erb:1 app/views/users/blogs/edit.html.erb:4
+msgid "Edit Post"
+msgstr "Posta Düzenle"
+
+#: app/views/users/blogs/index.html.erb:2
+
+msgid "Write New Blog Post"
+msgstr "Yeni Posta Yaz"
+
+#: app/views/users/blogs/index.html.erb:4
+
+msgid "You have no blog posts."
+msgstr "Oturum kapatıldı"
+
+#: app/views/users/blogs/new.html.erb:2
+msgid "New Post"
+msgstr "Yeni Posta"
+
+#: app/views/users/blogs/_admin_links.html.erb:1
+
+msgid "Edit this post."
+msgstr "Bu sayfayı düzenle"
+
+#: app/views/users/edit.html.erb:2
+msgid "Edit Profile"
+msgstr "Profili Düzenle"
+
+#: app/views/users/edit.html.erb:2
+msgid "or "
+msgstr "Ya da "
+
+#: app/views/users/edit.html.erb:2
+msgid "Skip This Step"
+msgstr "Bu adımı atla"
+
+#: app/views/users/edit.html.erb:2
+msgid "Thanks for signing up!"
+msgstr "Kayıt olduğunuz için teşekkürler!"
+
+#: app/views/users/edit.html.erb:9
+msgid "General info"
+msgstr "Genel Bilgi"
+
+#: app/views/users/edit.html.erb:11 app/views/users/new.html.erb:10
+
+msgid "First Name"
+msgstr "Adı:"
+
+#: app/views/users/edit.html.erb:12 app/views/users/new.html.erb:11
+
+msgid "Last Name"
+msgstr "Soyadı:"
+
+#: app/views/users/edit.html.erb:13 app/views/users/new.html.erb:12
+msgid "Email Address"
+msgstr "E-Posta Adresi"
+
+#: app/views/users/edit.html.erb:44
+
+msgid "Flickr"
+msgstr "Flickr:"
+
+#: app/views/users/edit.html.erb:45
+msgid "MSN messenger"
+msgstr "MSN messenger"
+
+#: app/views/users/edit.html.erb:83 app/views/users/edit.html.erb:101
+
+msgid "Change Password"
+msgstr "Şifreyi Doğrula"
+
+#: app/views/users/edit.html.erb:86
+
+msgid "Current Password:"
+msgstr "Şifreyi yenile"
+
+#: app/views/users/edit.html.erb:109
+
+msgid "Remove My Account"
+msgstr "Hesabınıza Bağlanın"
+
+#: app/views/users/groups/index.html.erb:8
+msgid "%{user_name}'s Groups"
+msgstr "%{user_name}'ın Grupları"
+
+#: app/views/users/groups/index.html.erb:13
+msgid "You aren't a member of any groups."
+msgstr "Herhangi bir gruba üye değilsiniz."
+
+#: app/views/users/groups/index.html.erb:13
+msgid "%{user_name} isn't a member of any groups."
+msgstr "%{user_name herhangi bir gruba üye değil."
+
+#: app/views/users/index.html.erb:1
+msgid "All Users"
+msgstr "Bütün Kullanıcılar"
+
+#: app/views/users/index.html.erb:5
+msgid "Email"
+msgstr "E-Posta"
+
+#: app/views/users/index.html.erb:6
+msgid "Enabled?"
+msgstr "Etkin?"
+
+#: app/views/users/index.html.erb:7
+msgid "Roles"
+msgstr "Profiller"
+
+#: app/views/users/new.html.erb:5
+msgid "Join Teachers Without Borders"
+msgstr "Habitat İçin Gençlik'a katıl"
+
+#: app/views/users/new.html.erb:6
+msgid "Welcome to %{application_name}"
+msgstr "%{application_name}'a Hoşgeldiniz"
+
+#: app/views/users/new.html.erb:7
+msgid "Already a member? %{login_link_anchor}Sign in now%{login_link_end}"
+msgstr ""
+"Zaten üye misiniz?%{login_link_anchor} Şimdi Kayıt olun%{login_link_end} "
+
+#: app/views/users/new.html.erb:9
+msgid "Choose a Member Name"
+msgstr "Üye adı seçin"
+
+#: app/views/users/new.html.erb:20
+msgid "Confirm Password"
+msgstr "Şifreyi Doğrula"
+
+#: app/views/users/new.html.erb:85
+
+msgid "I agree to the %{tos_link_anchor}Terms and Conditions%{tos_link_end}"
+msgstr "%{tos_link_anchor}koşul ve şartları%{tos_link_end} kabul ediyorum."
+
+#: app/views/users/new.html.erb:88
+msgid "Sign-up Now"
+msgstr "Şimdi kayıt Ol"
+
+#: app/views/users/new.html.erb:99
+msgid "Why Joining Matters"
+msgstr "Why Joining Matters"
+
+#: app/views/users/new.html.erb:101
+msgid ""
+"Consult for Teachers Without Borders projects to close the education divide."
+msgstr "Eğitim bölümünü kapatmak için Habitat İçin Gençlik'a danışın. "
+
+#: app/views/users/new.html.erb:102
+msgid ""
+"Improve the chances for stability, democracy, hope, and participation in a "
+"global economy."
+msgstr ""
+"istikrar, demokrasi, umut ve global bir ekonomiye katılım için fırsatları "
+"geliştir."
+
+#: app/views/users/new.html.erb:103
+msgid ""
+"Help teachers gain access to a global network and clearinghouse of good "
+"ideas."
+msgstr "Global bir network edinebilmek için öğretmenlere yardım edin"
+
+#: app/views/users/new.html.erb:104
+msgid ""
+"Ensure digital desegregation in a world increasingly dependent upon "
+"technology."
+msgstr "Teknolojiye dayalı dünyada dijital bütünleymeyi sağlayın."
+
+#: app/views/users/new.html.erb:105
+msgid ""
+"Enlarge attention to one of the most crucial issues of our time - education "
+"in an information age."
+msgstr ""
+"Bilgi çağında en önemli konulardan biri olan eğitim hakkında "
+"farkındalığınızı genişletin"
+
+#: app/views/users/photos/index.html.erb:8
+msgid "%{user_name}'s Photos"
+msgstr "%{user_name} Fotoğrafları"
+
+#: app/views/users/shared_entries/new.html.erb:63
+msgid ""
+"<b>Hint:</b> After you have set up the bookmark for sharing, go to a Google "
+"Document, Spreadsheet, or Presentation and click the bookmark to share it "
+"with a person or group inside of TWB."
+msgstr ""
+
+#: app/views/users/shared_entries/new.html.erb:78
+msgid "(select text before sharing it to make it show up here)"
+msgstr "(Yukarıda görünücek biçimde paylaşmadan önce metni seçin)"
+
+#: app/views/users/shared_entries/presentation.html.erb:3
+#: app/views/users/shared_entries/show.html.erb:3
+
+msgid "Edit Document"
+msgstr "Posta Düzenle"
+
+#: app/views/users/welcome.html.erb:2
+msgid "Thank you for registering!"
+msgstr "Kaydolduğunuz için teşekkürler."
+
+#: app/views/users/welcome.html.erb:3
+msgid "You will be receiving an email shortly at %{user_email}."
+msgstr "%{user_email} adresine bir e-posta alacaksınız."
+
+#: app/views/users/welcome.html.erb:4
+msgid "Please check your email to confirm your account."
+msgstr "Lütfen hesabınızı doğrulamak için e-posta adresinizi kontrol edin."
+
+#: app/views/users/welcome.html.erb:9
+msgid "Username:"
+msgstr "Kullanıcı Adı:"
+
+#: app/views/users/welcome.html.erb:10
+msgid "(password sent via email)"
+msgstr "(şifre e-posta yoluyla gönderildi)"
+
+#: app/views/users/welcome.html.erb:11
+msgid "Email Address:"
+msgstr "E-posta Adresi:"
+
+#: app/views/users/welcome.html.erb:12
+msgid "Date Registered:"
+msgstr "Tarih Kaydedildi"
+
+#: app/views/users/welcome.html.erb:18
+
+msgid "Thank you for registering %{user_name}!"
+msgstr "Kaydolduğunuz için teşekkürler."
+
+#: app/views/users/_dashboard_actions.html.erb:5
+msgid "Actions"
+msgstr "Eylemler"
+
+#: app/views/users/_dashboard_actions.html.erb:8
+msgid "Messages"
+msgstr "Mesajlar"
+
+#: app/views/users/_dashboard_actions.html.erb:8
+#: app/views/users/_dashboard_actions.html.erb:14
+#: app/views/users/_dashboard_actions.html.erb:23
+
+msgid "Write"
+msgstr "Web sitesi:"
+
+#: app/views/users/_dashboard_actions.html.erb:8
+
+msgid "Write a Message"
+msgstr "Yeni Mesaj"
+
+#: app/views/users/_dashboard_actions.html.erb:14
+
+msgid "Blog Posts"
+msgstr "Blog Posta Geçmişi"
+
+#: app/views/users/_dashboard_actions.html.erb:14
+#: app/views/users/_dashboard_actions.html.erb:23
+
+msgid "Manage"
+msgstr "Mesaj"
+
+#: app/views/users/_dashboard_actions.html.erb:15
+
+msgid "Upload and Manage Photos"
+msgstr "Fotoğraf yükle"
+
+#: app/views/users/_dashboard_actions.html.erb:16
+
+msgid "Share a Web Page or Google Document"
+msgstr "Web Sayfası Paylaş"
+
+#: app/views/users/_dashboard_actions.html.erb:17
+
+msgid "Edit Your Profile"
+msgstr "Profili Düzenle"
+
+#: app/views/users/_dashboard_actions.html.erb:19
+#: app/views/users/_dashboard_actions.html.erb:20
+
+msgid "Write a Page"
+msgstr "Sayfayı düzenle"
+
+#: app/views/users/_google_docs.html.erb:3
+
+msgid "Documents"
+msgstr "İçerikler"
+
+#: app/views/users/_google_docs.html.erb:8
+
+msgid "[edit]"
+msgstr "(edit)"
+
+#: app/views/users/_notifications.html.erb:3
+msgid "Notifications"
+msgstr "Bildiriler"
+
+#: app/views/users/_pages.html.erb:3 app/views/users/_pages.html.erb:4
+
+msgid "Add a Page"
+msgstr "Sayfayı düzenle"
+
+#: app/views/users/_pages.html.erb:4
+msgid "Pages"
+msgstr "Sayfalar"
+
+#: app/views/users/_turkey_cities.html.erb:2
+msgid "City"
+msgstr "Şehir:"
+
+#: app/views/users/_user.html.erb:4
+msgid "yes"
+msgstr "Evet"
+
+#: app/views/users/_user.html.erb:4
+msgid "no"
+msgstr "Hayır"
+
+#: app/views/users/_user.html.erb:7
+msgid "disable"
+msgstr "Uygun değil"
+
+#: app/views/users/_user.html.erb:9
+msgid "enable"
+msgstr "Uygun"
+
+#: app/views/users/_user.html.erb:13
+msgid "edit roles"
+msgstr "Profili düzenle"
+
+#: app/helpers/forums_helper.rb:4
+
+msgid "post"
+msgstr "Postalar"
+
+#: app/helpers/forums_helper.rb:4
+
+msgid "posts"
+msgstr "Postalar"
+
+#: app/helpers/friends_helper.rb:4
+
+msgid "Sign-up to Follow"
+msgstr "Şimdi kayıt Ol"
+
+#: app/helpers/friends_helper.rb:8
+
+msgid "Stop Being Friends"
+msgstr "Arkadaşları Bul"
+
+#: app/helpers/friends_helper.rb:9
+
+msgid "Stop Following"
+msgstr "İzleyen"
+
+#: app/helpers/friends_helper.rb:10
+
+msgid "Be Friends"
+msgstr "Arkadaşlar"
+
+msgid "Friend Request"
+msgstr "İzleyen"
+
+#: app/helpers/friends_helper.rb:11
+
+msgid "Start Following"
+msgstr "İzleyen"
+
+#: app/controllers/accounts_controller.rb:22
+msgid "Your account has been activated! You can now login."
+msgstr "Hesabınız aktivite edildi. Şimdi oturum açabilirsiniz."
+
+#: app/controllers/accounts_controller.rb:25
+#: app/controllers/accounts_controller.rb:28
+msgid "Activation code not found. Please try creating a new account."
+msgstr "Aktivasyon kodu bulunamadı.Lütfen yeni hesap oluşturmayı deneyin."
+
+#: app/controllers/accounts_controller.rb:31
+msgid "Your account has already been activated. You can log in below."
+msgstr "Hesabınız daha önce aktivite edilmiş. Aşağıdan otrum açabilirsiniz."
+
+#: app/controllers/accounts_controller.rb:44
+msgid "Password successfully updated."
+msgstr "Şifre başarıyla güncellendi."
+
+#: app/controllers/accounts_controller.rb:47
+
+msgid "There was a problem changing your password. %{errors}"
+msgstr "Bu kullanıcıya ulaşmada bir sorun var"
+
+#: app/controllers/accounts_controller.rb:51
+msgid "New password does not match the password confirmation."
+msgstr "Yeni şifreniz şifre doğrulama ile uyuşmuyor."
+
+#: app/controllers/accounts_controller.rb:56
+msgid "Your old password is incorrect."
+msgstr "Eski şifreniz yanlış."
+
+#: app/controllers/admin/roles_controller.rb:23
+
+msgid "Role was successfully created."
+msgstr "grup başarıyla oluşturuldu."
+
+#: app/controllers/comments_controller.rb:24
+
+msgid "Oops... I could not create that comment.  %{errors}"
+msgstr "Oops... Yorum oluşturamıyorum."
+
+#: app/controllers/comments_controller.rb:38
+
+msgid "Comment successfully removed."
+msgstr "Fotoğraf başarıyla yüklendi"
+
+#: app/controllers/comments_controller.rb:81
+#: app/controllers/comments_controller.rb:84
+#: app/controllers/feed_items_controller.rb:29
+#: app/controllers/feed_items_controller.rb:32
+msgid "Sorry, you can't do that."
+msgstr "Özür dileriz, bunu yapamazsınız."
+
+#: app/controllers/feed_items_controller.rb:14
+msgid "Item successfully removed from the recent activities list."
+msgstr "Öğe son aktiviteler listesinden başarıyla kaldırıldı."
+
+#: app/controllers/forum_posts_controller.rb:55
+msgid "ForumPost was successfully saved."
+msgstr "Forum postası başarıyla kaydedildi."
+
+#: app/controllers/forum_topics_controller.rb:74
+msgid "ForumTopic was successfully saved."
+msgstr "Forum konusu başarıyla kaydedildi."
+
+#: app/controllers/friends_controller.rb:13
+msgid "Oops... That didn't work. Try again!"
+msgstr "Oops...Çalışmadı. Tekrar deneyin!..."
+
+#: app/controllers/groups/invites_controller.rb:42
+
+msgid "Please come and join me on %{group_name}"
+msgstr "%{group_name}grubuna katılmak istiyor musunuz?"
+
+#: app/controllers/groups/memberships_controller.rb:23
+
+msgid "You have joined the group %{group_name}"
+msgstr "%{group_name}grubuna katılmak istiyor musunuz?"
+
+#: app/controllers/groups/memberships_controller.rb:32
+
+msgid "You have left the group"
+msgstr "Oturum kapatıldı"
+
+#: app/controllers/groups/memberships_controller.rb:40
+
+msgid "There was a problem with the group.  Please try again."
+msgstr "Bu kullanıcıya ulaşmada bir sorun var"
+
+#: app/controllers/groups/photos_controller.rb:45
+#: app/controllers/users/photos_controller.rb:42
+msgid "Photo was deleted."
+msgstr "Fotoğraf Silindi"
+
+#: app/controllers/groups_controller.rb:46
+msgid "Group was successfully updated."
+msgstr "Grup başarıyla güncellendi."
+
+#: app/controllers/home_controller.rb:17
+msgid "from %{application_url_name} contact page"
+msgstr "from %{application_url_name} contact page"
+
+#: app/controllers/home_controller.rb:18
+msgid ""
+"Thank you for your message.  A member of our team will respond to you "
+"shortly."
+msgstr ""
+"Mesajınız için teşekkürler. Takım üyelerimizden birisi size en kısa sürede "
+"geri dönecektir."
+
+#: app/controllers/messages_controller.rb:9
+
+msgid "You have no mail in your inbox.  Send a message to someone."
+msgstr "Gelen kutunuzda posta yok. Birisine mesaj göndermeyi deneyin."
+
+#: app/controllers/messages_controller.rb:27
+msgid "Message sent."
+msgstr "Mesaj gönderildi"
+
+#: app/controllers/messages_controller.rb:61
+msgid "Sorry, you can't send messages."
+msgstr "Özür dileriz, mesaj gönderemezsiniz."
+
+#: app/controllers/passwords_controller.rb:18
+msgid "A password reset link has been sent to your email address."
+msgstr "Şifre yenileme linki e-posta adresinize gönderildi."
+
+#: app/controllers/passwords_controller.rb:21
+msgid "Could not find a user with that email address."
+msgstr "Bu e-posta adresine ilişkin bir kullanıcı bulunamıyor"
+
+#: app/controllers/passwords_controller.rb:38
+msgid "Invalid Reset Code entered."
+msgstr "Geçersiz yenileme kodu girildi"
+
+#: app/controllers/passwords_controller.rb:39
+#: app/controllers/passwords_controller.rb:81
+msgid ""
+"Sorry - That is an invalid password reset code. Please check your code and "
+"try again. (Perhaps your email client inserted a carriage return?)"
+msgstr ""
+"Bu geçersiz bir şifre yenileme kodudur. Lütfen kodu kontrol ediniz ve tekrar "
+"deneyin."
+
+#: app/controllers/passwords_controller.rb:53
+msgid "Password field cannot be blank."
+msgstr "Şifre bölümü boş bırakılmamalı"
+
+#: app/controllers/passwords_controller.rb:70
+msgid "Password reset."
+msgstr "Şifre yenilendi"
+
+#: app/controllers/passwords_controller.rb:70
+msgid "Password not reset."
+msgstr "Şifre yenilenemedi"
+
+#: app/controllers/passwords_controller.rb:80
+msgid "Invalid Reset Code entered"
+msgstr "Geçersiz Yenileme kodu girildi"
+
+#: app/controllers/profiles/blogs_controller.rb:8
+
+msgid "%{name} hasn't written any blog posts yet."
+msgstr "%{user_name}'ın blog postası yok"
+
+#: app/controllers/profiles/blogs_controller.rb:19
+
+msgid "Could not find the requested blog post"
+msgstr "Blog postasını güncelleme başarısız oldu."
+
+#: app/controllers/sessions_controller.rb:22
+msgid ""
+"Sorry could not log in with identity URL.  It is possible that your login or "
+"email is already in use.  If you already have an account, log into your "
+"account and then associate your Open ID with that account."
+msgstr ""
+"Özür dileriz, bu URL ile oturum açılamıyor Bu durum e-postanız ya da oturum "
+"açmanız kullanılıyor olmasından kaynaklanıyor olabilir. Eğer hesabınız "
+"varsa, oturum açınız ve daha sonra kimliğinizle hesabınızı ilişkilendirirniz."
+
+#: app/controllers/sessions_controller.rb:34
+msgid "You have been logged out."
+msgstr "Oturum kapatıldı"
+
+#: app/controllers/sessions_controller.rb:51
+msgid ""
+"Your account must include at a minimum a nickname and valid email address to "
+"use OpenID on this site."
+msgstr ""
+"Bu sitede hesap açmak için hesabınız bir kullanızı adı ve geçerli bir e-"
+"posta adresi içermelidir."
+
+#: app/controllers/sessions_controller.rb:56
+#: app/controllers/sessions_controller.rb:84
+msgid ""
+"Your account is not active, please check your email for the activation code."
+msgstr ""
+"Hesabınız aktif değil. Lütfen e-postanızı aktivasyon kodu için kontrol "
+"ediniz."
+
+#: app/controllers/sessions_controller.rb:58
+#: app/controllers/sessions_controller.rb:86
+msgid "Your account has been disabled."
+msgstr "Hesabınız engellenmiştir."
+
+#: app/controllers/sessions_controller.rb:72
+msgid ""
+"Thanks for signing up! Please check your email to activate your account "
+"before logging in."
+msgstr ""
+"Kayıt olduğunuz için teşekkürler!Lütfen oturum açmadan önce e-postanızı "
+"hesabınızı aktivite etmek için kontrol ediniz."
+
+#: app/controllers/sessions_controller.rb:75
+msgid ""
+"Someone has signed up with that nickname or email address. Please select a "
+"diferent username and/or use a different email address."
+msgstr ""
+"Başka birisi bu kullanıcı adı ya da e-posta adresi ile kayıt olmuş. lütfen "
+"başka bir kullanıcı adı ya da e-posta adresi seçin"
+
+#: app/controllers/sessions_controller.rb:82
+msgid ""
+"We're sorry, but we couldn't recognize your login information.  Please try "
+"again."
+msgstr ""
+"Özür dileriz, oturum açma bilgileriniz tanınamıyor. Lütfen tekrar deneyin."
+
+#: app/controllers/sessions_controller.rb:106
+msgid "Logged in successfully"
+msgstr "Başarıyla oturum açıldı"
+
+#: app/controllers/users/blogs_controller.rb:36
+msgid "New blog post created."
+msgstr "Yeni Blog postası oluşturuldu."
+
+#: app/controllers/users/blogs_controller.rb:41
+msgid "Failed to create a new blog post."
+msgstr "Yeni blog postası oluşturma başarısız oldu."
+
+#: app/controllers/users/blogs_controller.rb:56
+msgid "Blog post updated."
+msgstr "Blog postası güncellendi."
+
+#: app/controllers/users/blogs_controller.rb:61
+msgid "Failed to update the blog post."
+msgstr "Blog postasını güncelleme başarısız oldu."
+
+#: app/controllers/users/blogs_controller.rb:72
+msgid "Blog post deleted."
+msgstr "Blog postası silindi."
+
+#: app/controllers/users/invites_controller.rb:28
+
+msgid "Please specify an email address of a friend you would like to invite"
+msgstr "Lütfen bize görüşlerinizi iletiniz."
+
+#: app/controllers/users/photos_controller.rb:24
+msgid "Photo successfully uploaded."
+msgstr "Fotoğraf başarıyla yüklendi"
+
+#: app/controllers/users/photos_controller.rb:29
+msgid "Photo could not be uploaded."
+msgstr "Fotoğraf yüklenemiyor"
+
+#: app/controllers/users/shared_entries_controller.rb:64
+
+msgid "Failed to share the web page."
+msgstr "Blog postasını güncelleme başarısız oldu."
+
+#: app/controllers/users_controller.rb:83
+msgid ""
+"Thanks for signing up! Please check your email to activate your account and "
+"then login."
+msgstr ""
+"Kayıt olduğunuz için teşekkürler! Lütfen e-postanızı hesabınızı aktivite "
+"etmek için kontrol edin ve oturum açın"
+
+#: app/controllers/users_controller.rb:183
+msgid "Settings have been saved."
+msgstr "Ayaralar kaydedildi"
+
+#: app/controllers/users_controller.rb:198
+msgid "User disabled"
+msgstr "Kullanıcı Engellendi"
+
+#: app/controllers/users_controller.rb:200
+msgid "There was a problem disabling this user."
+msgstr "Bu Kullanıcıyı engellemek için bir sorun var"
+
+#: app/controllers/users_controller.rb:225
+msgid "User enabled"
+msgstr "Kullanıcı Uygun"
+
+#: app/controllers/users_controller.rb:227
+msgid "There was a problem enabling this user."
+msgstr "Bu kullanıcıya ulaşmada bir sorun var"
+
+#: app/views/admin/news_items/index.html.erb:9
+msgid "Displayed On"
+msgstr "Görüntülenen"
+
+#: app/views/admin/news_items/index.html.erb:22
+msgid "Promote Story"
+msgstr "Hikayeyi Yükselt"
+
+#: app/views/admin/news_items/index.html.erb:28
+#: app/views/member_stories/_admin.html.erb:2
+msgid "Delete this news story."
+msgstr "Haberler hikayesini sil"
+
+#: app/views/admin/news_items/index.html.erb:29
+msgid ""
+"If this content is inappropriate or offensive, banning it will prevent it "
+"from showing up on the site"
+msgstr "Eğer içerik uygunsuz ya da saldırı niteliğinde ise,banlama içeriği engelleyecektir"
+
+#: app/views/comments/_form.html.erb:7 app/views/news/_form.html.erb:12
+#: app/views/page/_form.html.erb:23
+msgid "For example: [youtube: http://www.youtube.com/watch?v=J0K_s81Xe3E]"
+msgstr "Örneğin: [googlevideo: http://video.google.com/videoplay?docid=4343898391323537541]"
+
+#: app/views/friends/_list.html.erb:12
+msgid "You aren't currently following anyone"
+msgstr "Şu anda hiç kimseyi izlemiyorsunuz."
+
+#: app/views/friends/_list.html.erb:14
+msgid "You don't currently have any followers"
+msgstr "Şu anda sizi izleyen kimse yok."
+
+#: app/views/friends/_list.html.erb:16
+msgid "You don't currently have any friends"
+msgstr "Şu anda hiç bir arkadaşınız yok"
+
+#: app/views/groups/edit.html.erb:2
+msgid "Return to Group Home Page"
+msgstr "Grup anasayfasına geri dön"
+
+#: app/views/groups/edit.html.erb:11 app/views/users/groups/new.html.erb:8
+msgid "Cancel"
+msgstr "İptal"
+
+#: app/views/groups/edit.html.erb:29
+msgid "Delete Group Photo"
+msgstr "Grup fotoğrafını sil"
+
+#: app/views/groups/edit.html.erb:29 app/views/news/_form.html.erb:30
+#: app/views/users/edit.html.erb:68
+msgid ""
+"Are you sure you want to delete this photo?\n"
+"This can not be undone."
+msgstr "Bu fotoğrafı silmek istediğinize emin misiniz?\"
+
+#: app/views/groups/edit.html.erb:43
+msgid "Delete This Group"
+msgstr "Grubu sil"
+
+#: app/views/groups/edit.html.erb:44
+msgid ""
+"Once a group is deleted it cannot be restored.  Please be very careful when "
+"deleting a group"
+msgstr "Bir kere grup silindi mi, tekrar feri getirilemez. Lütfen grubu silerken dikkatli olunuz."
+
+#: app/views/groups/edit.html.erb:45
+msgid ""
+"Are you sure you want to delete this group?\n"
+"This can not be undone."
+msgstr "Grubu silmek istediğinizden emin misiniz?"
+
+#: app/views/groups/index.html.erb:9
+msgid "There are not currently any groups."
+msgstr "Şu anda mevcut herhangi bir grup bulunmuyor."
+
+#: app/views/groups/_form.html.erb:5
+msgid "Group Description"
+msgstr "Grup tanımı"
+
+#: app/views/groups/_form.html.erb:10
+msgid "Tags help other users find your group. Use something descriptive."
+msgstr "Etiketler, başkalarının grubunuzu bulmasına yardımcı olur. Grubunuzu tanımlayıcı etiket kullanının."
+
+#: app/views/groups/_form.html.erb:11
+msgid ""
+"Example: Teachers, French - for a group of teachers interested in French."
+msgstr "Öğretmenler,Fransızca - Fransızca'ya ilgi duyan öğretmenlerin grubu"
+
+#: app/views/groups/_form.html.erb:15
+msgid "Public (visible to non-members)"
+msgstr "Açık (üye olmayanlar tarafından görülebilir)"
+
+#: app/views/groups/_form.html.erb:16
+msgid "Requires Permission to Join"
+msgstr "Katılmak için izin gerekli"
+
+#: app/views/groups/_form.html.erb:18
+msgid "Default Role"
+msgstr "Varsayılan Rol"
+
+#: app/views/groups/_form.html.erb:22
+msgid "(observers can view but not participate)"
+msgstr "(Gözlemciler görebilirler fakat katılamazlar)"
+
+#: app/views/groups/_group_info.html.erb:9
+msgid ""
+"<span class=\"link-button\">%{login_link}</span> or <span class=\"link-button"
+"\">%{join_link}</span> before joining this group"
+msgstr "Gruba katılmadan önce <span class=\"link-button\">%{login_link}</span> or <span class=\"link-button"
+"\">%{join_link}</span>"
+
+#: app/views/groups/_group_info.html.erb:17
+msgid "Add Group Image"
+msgstr "Grup imajı ekle"
+
+#: app/views/groups/_join_form.html.erb:22
+msgid ""
+"Membership in the group %{group_name} requires approval from a group "
+"administrator."
+msgstr "%{group_name} grubunda üyelik yönetici onayı gerektirmektedir."
+
+#: app/views/groups/_member_controls.html.erb:8
+msgid "Stop membership in this group"
+msgstr "Bu gruptaki üyeliği durdur."
+
+#: app/views/groups/_member_controls.html.erb:9
+msgid "Are you sure you want to leave this group?"
+msgstr "Bu gruptan ayrılmak istediğinize emin misiniz?"
+
+#: app/views/layouts/application.html.erb:25
+#: app/views/layouts/google_docs.html.erb:26
+msgid "Events"
+msgstr "Etkinlikler"
+
+#: app/views/news/_form.html.erb:23
+msgid "Upload a photo for your story"
+msgstr "Hikayeniz için bir fotoğraf yükleyin"
+
+#: app/views/page/_form.html.erb:14
+msgid "Path"
+msgstr "Yol"
+
+#: app/views/profiles/blogs/_history.html.erb:7
+#: app/views/profiles/blogs/_list.html.erb:14
+msgid "%{link} - %{time} ago."
+msgstr "%{link} - %{time} önce"
+
+#: app/views/profiles/comments/index.html.erb:6
+#: app/views/profiles/comments/_list.html.erb:5
+msgid "Conversation with %{name}"
+msgstr "%{name} ile konuşmalar"
+
+#: app/views/profiles/_remote_blog.html.erb:1
+msgid "Latest from %{blog} "
+msgstr "%{blog} son bilgiler"
+
+#: app/views/shared/_invite.html.erb:13
+msgid "Send Invitations for Your Friends to Join %{name}"
+msgstr "%{name} katılmak için arkadaşlarınıza davetiye gönderin."
+
+#: app/views/users/blogs/_admin_links.html.erb:2
+msgid "Delete this post."
+msgstr "Bu gönderiyi sil."
+
+#: app/views/users/edit.html.erb:24 app/views/users/new.html.erb:38
+msgid "Organization"
+msgstr "Organizasyon"
+
+#: app/views/users/edit.html.erb:42 app/views/users/new.html.erb:56
+msgid "Web Site of your Organization"
+msgstr "Organizasyonunuzun web sayfası"
+
+#: app/views/users/edit.html.erb:43
+msgid "Primary Phone"
+msgstr "Telefon -1"
+
+#: app/views/users/edit.html.erb:61
+msgid "Upload a photo for your profile"
+msgstr "Profoliniz için bir fotoğraf yükleyin"
+
+#: app/views/users/edit.html.erb:110
+msgid "Delete my user account and all my data."
+msgstr "Kullanıcı hesabımı ve tüm bilgilerimi sil."
+
+#: app/views/users/edit.html.erb:110
+msgid ""
+"Are you sure you want to delete your account?\n"
+"This can not be undone."
+msgstr "Hesabınızı silmek istediğinizden emin misiniz?"
+
+#: app/views/users/groups/new.html.erb:15
+msgid "Some of our current groups"
+msgstr "Şu anki gruplarınızdan bazıları"
+
+#: app/views/users/new.html.erb:17
+msgid "Date of Birth"
+msgstr "Doğum tarihi"
+
+#: app/views/users/shared_entries/edit.html.erb:1
+msgid "Preview"
+msgstr "Önizleme"
+
+#: app/views/users/shared_entries/edit.html.erb:2
+msgid "Edit in New Window"
+msgstr "Yeni pencerede düzenle"
+
+#: app/views/users/shared_entries/new.html.erb:60
+msgid "Get a bookmark to make sharing easier"
+msgstr "Daha kolay paylaşım için yer imi edinin."
+
+#: app/views/users/shared_entries/new.html.erb:63
+msgid ""
+"<b>Hint:</b> After you have set up the bookmark for sharing, go to a Google "
+"Document, Spreadsheet, or Presentation and click the bookmark to share it "
+"with a person or group inside of TWB."
+msgstr "<b>Hint:</b> Paylaşım için yer imini kurduktan sonra,Google Document,Spreadsheet ya da Presentation'a gidiniz ve TWB içerisnde bir grup ya da kişiyle paylaşmak için yer imine tıklayınız."
+
+#: app/views/users/shared_entries/new.html.erb:71
+msgid "Url"
+msgstr "Url"
+
+#: app/views/users/shared_entries/new.html.erb:88
+msgid ""
+"Allow the groups and people I selected to <strong>view</strong> the "
+"document. (We verified that you published the document.)"
+msgstr "<strong>view</strong> belgesinden seçmiş olduğum gruplara ve kişilere izin ver. (Belgeyi yayınladığınız doğruluyoruz)"
+
+#: app/views/users/shared_entries/new.html.erb:90
+msgid ""
+"Because you haven't published the document, only people you share it with in "
+"Google Docs will be able to access it."
+msgstr "Sadece Google Docs aracılığı ile paylaşmış olduğunuz kişiler belgeye erişebilir çünkü belgeyi henüz yayınlamadınız."
+
+#: app/views/users/shared_entries/new.html.erb:92
+msgid "Return to the Google doc to publish it"
+msgstr "Yayınlamak için Google docs'a geri dön"
+
+#: app/views/users/shared_entries/new.html.erb:92
+msgid "(Choose <i>Publish as web page...</i> from the <i>Share</i> menu.)"
+msgstr "(<i>Paylaş</i> menüsünden <i>eb sayfası olarak yayınla...</i> seçiniz."
+
+#: app/views/users/shared_entries/new.html.erb:98
+msgid "Allow the people I selected to <strong>edit</strong> the document."
+msgstr "<strong>edit</strong> belgesi için seçtiğim kişilere izin ver"
+
+#: app/views/users/shared_entries/new.html.erb:101
+msgid "Use this email list to share the document to them in Google docs."
+msgstr "Google Docs'ta belgeyi paylaşmak için bu e-posta listesini kullanınız."
+
+#: app/views/users/shared_entries/new.html.erb:103
+msgid "Go to the Google doc to share it"
+msgstr "Paylaşmak için Google Doc'a gidiniz."
+
+#: app/views/users/shared_entries/new.html.erb:103
+msgid "(Choose <i>Share with others</i> from the <i>Share</i> menu.)"
+msgstr "<i>Paylaş</i> menüsünden <i>Başkaları ile paylaş</i> seçiniz"
+
+#: app/views/users/shared_entries/new.html.erb:107
+msgid "List the document on my dashboard"
+msgstr "Dashboard'umdaki belge listesi"
+
+#: app/views/users/shared_entries/new.html.erb:110
+msgid "List the document on my profile"
+msgstr "Profilimdeki belge listesi"
+
+#: app/views/users/welcome.html.erb:17
+msgid "We're glad to have you as a member of Teachers Without Borders."
+msgstr "Habitat İçin Gençlik üyesi olduğunuz için teşekkür ederiz"
+
+#: app/views/users/_dashboard_actions.html.erb:10
+msgid "Inbox(%{num_unread_messages})"
+msgstr "Gelen Kutusu(%{num_unread_messages})"
+
+#: app/views/users/_notifications.html.erb:6
+msgid "%{profile} requests to be your friend %{accept}"
+msgstr "%{profile} arkadaşınız olmak için talepler %{accept}"
+
+#: app/helpers/forums_helper.rb:4
+msgid "discussion"
+msgstr "Tartışma"
+
+#: app/helpers/forums_helper.rb:4
+msgid "discussions"
+msgstr "Tartışmalar"
+
+#: app/helpers/friends_helper.rb:15
+msgid "(accept)"
+msgstr "(Kabul)"
+
+#: app/controllers/comments_controller.rb:65
+msgid "Sorry, only group members can create comments"
+msgstr "Özür dileriz, sadece grup üyeleri yorum yapabilirler."
+
+#: app/controllers/groups/forums_controller.rb:29
+msgid "Forum For %{forum}"
+msgstr "%{forum} için Forum"
+
+#: app/controllers/groups/invites_controller.rb:24
+msgid "Thank you for inviting your friends to join '%{group_name}' on %{site}"
+msgstr "%{site} sitesindeki '%{group_name}' grup için arkadaşlarınızı davet ettiğiniz için teşekkürler."
+
+#: app/controllers/groups/invites_controller.rb:29
+msgid ""
+"Please specify an email address of a friend you would like to invite to join "
+"'%{group_name}'"
+msgstr "'%{group_name}' grubuna arkadaşınızı davet etmek için lütfen arkadaşınızın e-posta adresini açıkça belirtin."
+
+#: app/controllers/groups/invites_controller.rb:43
+msgid "Please come and join our group '%{group_name}' on %{site}."
+msgstr "%{site} sitesindeki '%{group_name}' grubumuza katılın."
+
+#: app/controllers/groups/memberships_controller.rb:25
+msgid "An error occured while joining the group.  Please try again."
+msgstr "Gruba katılırken bir hata oluştu.Lütfen tekrar deneyiniz."
+
+#: app/controllers/groups/news_controller.rb:86
+msgid "You don't have permission manage the news for this group."
+msgstr "Bu gruptaki haberleri yönetmek için izniniz bulunmuyor."
+
+#: app/controllers/groups/photos_controller.rb:62
+#: app/controllers/users/photos_controller.rb:75
+msgid "You don't have permission to delete that photo."
+msgstr "Fotoğrafı silmek için izniniz bulunmuyor."
+
+#: app/controllers/groups/shared_entries_controller.rb:27
+msgid "Unable to display document."
+msgstr "Belge görüntülenemiyor"
+
+#: app/controllers/passwords_controller.rb:48
+msgid ""
+"Could not find a password reset code.  Please try resetting your password "
+"again"
+msgstr "Reset kodu için şifre bulunamıyor. Lütfen şifrenizi resetlemeyi tekrar deneyiniz."
+
+#: app/controllers/profiles_controller.rb:28
+msgid "Could not find the specified user."
+msgstr "Belirlenmiş kullanıcı bulunamıyor."
+
+#: app/controllers/users/invites_controller.rb:23
+msgid "Thank you for inviting your friends to join %{site}"
+msgstr "%{site} sitesibe arkadaşlarınızı davet ettiğiniz için teşekkürler."
+
+#: app/controllers/users/invites_controller.rb:39
+msgid "Please come and join me on %{site}"
+msgstr "%{site} sitesine gelin ve bana katılın."
+
+#: app/controllers/users/invites_controller.rb:40
+msgid "Please come and join %{site}."
+msgstr "%{site} sitesine gelin ve katılın."
+
+#: app/controllers/users/shared_entries_controller.rb:55
+msgid "Web page was shared"
+msgstr "Web sayfası paylaşıldı"
+
+#: app/controllers/users_controller.rb:94
+#: app/controllers/users_controller.rb:96
+# Translate this to Welcome to YFH
+msgid "Welcome to TWB!"
+msgstr "TWB'ya hoşgeldiniz."
+
+#: app/controllers/users_controller.rb:97
+msgid ""
+"See the %{getting_started_link_anchor}getting started page%"
+"{getting_started_link_end} to learn more about what you can do here."
+msgstr "Burada neler yapabileceğinizi öğrenmek için %{getting_started_link_anchor}başlangıç sayfasına %{getting_started_link_end} bakınız."
+
+#~ msgid "Leave a Comment On %{blog_title}"
+#~ msgstr "%{blog_title} a yorum bırak"
+
+#~ msgid "Wall-to-Wall"
+#~ msgstr "Wall-to-Wall"
+
+#~ msgid "(Our Wall-to-Wall)"
+#~ msgstr "(Our Wall-to-Wall)"
+
+#~ msgid "(Leave a Comment)"
+#~ msgstr "(Yorum Bırak)"
+
+#~ msgid "User Comment Icon"
+#~ msgstr "Kullanıcı Yorum Simgesi"
+
+#~ msgid "Editing group"
+#~ msgstr "Grup Düzenleme"
+
+#~ msgid " %{user_name} isn't a member of any groups."
+#~ msgstr "%{user_name} herhangi bir grup üyesi değildir. "
+
+#~ msgid "New group"
+#~ msgstr "Yeni Grup"
+
+#~ msgid "Workspaces"
+#~ msgstr "Çalışma Alanları"
+
+#~ msgid "Donate"
+#~ msgstr "Bağışla"
+
+#~ msgid "Hi, %{logged_in_user}"
+#~ msgstr "Merhaba, %{logged_in_user}"
+
+#~ msgid "My TWB"
+#~ msgstr "Benim TWB"
+
+#~ msgid "(logout)"
+#~ msgstr "(Oturumu Kapat)"
+
+#~ msgid "%{profile_user}'s Photos"
+#~ msgstr "%{profile_user} Fotoğrafları"
+
+#~ msgid "%{user_name}'s recent activity"
+#~ msgstr "%{user_name} 'ın son faaliyetleri"
+
+#~ msgid "Our Wall-to-Wall"
+#~ msgstr "Our Wall-to-Wall"
+
+#~ msgid "Search for Friends"
+#~ msgstr "arkadaşları ara"
+
+#~ msgid "Back to %{user_name}'s Profile"
+#~ msgstr "%{user_name} Profiline Dön"
+
+#~ msgid "Edit My Profile"
+#~ msgstr "Profilimi Düzenle"
+
+#~ msgid "View Public Profile"
+#~ msgstr "Profile Bak"
+
+#~ msgid "Location:"
+#~ msgstr "Yer:"
+
+#~ msgid "State"
+#~ msgstr "Devlet:"
+
+#~ msgid "Postal Code"
+#~ msgstr "Posta Kodu:"
+
+#~ msgid "Country"
+#~ msgstr "Ülke:"
+
+#~ msgid "School District / University / Company:"
+#~ msgstr "Okul/Üniversite/Çalıştığı Kurum"
+
+#~ msgid "Grade Level Experience"
+#~ msgstr "Eğitim Düzeyi"
+
+#~ msgid "Phone"
+#~ msgstr "Telefon"
+
+#~ msgid "Phone 2"
+#~ msgstr "Telefon 2"
+
+#~ msgid "First Language"
+#~ msgstr "Bildiği Yabancı Dil"
+
+#~ msgid "Other Language(s)"
+#~ msgstr "Diğer Diller"
+
+#~ msgid "About Me"
+#~ msgstr "Hakkımda"
+
+#~ msgid "A few words on why you joined TWB"
+#~ msgstr "TWB'ye niçin katıldığınız hakkında bir kaç söz"
+
+#~ msgid "Additional Skills & Interests"
+#~ msgstr "Yetenekler & İlgiler"
+
+#~ msgid "Occupation"
+#~ msgstr "Meslek"
+
+#~ msgid "Youtube Username:"
+#~ msgstr "Youtube kullanıcı adı"
+
+#~ msgid "Flickr Username:"
+#~ msgstr "Flickr kullanıcı Adı"
+
+#~ msgid "AOL Instant messenger"
+#~ msgstr "AOL Instant messenger"
+
+#~ msgid "Skype"
+#~ msgstr "Skype"
+
+#~ msgid "Yahoo! Messenger"
+#~ msgstr "Yahoo! Messenger"
+
+#~ msgid "GTalk"
+#~ msgstr "GTalk"
+
+#~ msgid "iChat"
+#~ msgstr "iChat"
+
+#~ msgid "A few words on why you are joining TWB"
+#~ msgstr "TWB'ye niçin katıldığınız hakkında bir kaç söz"
+
+#~ msgid "We"
+#~ msgstr "Biz"
+
+#~ msgid "How to Get Started"
+#~ msgstr "Nasıl Başlanır"
+
+#~ msgid "Profile Icon"
+#~ msgstr "Profil Simgesi"
+
+#~ msgid "Setup Your Profile"
+#~ msgstr "Profilinizi Düzenleyin"
+
+#~ msgid ""
+#~ "Your public profile is the way your friends will learn about you and keep "
+#~ "up-to-date on your life. Upload a profile photo, add an \"about me\" "
+#~ "connect with new and old friends."
+#~ msgstr ""
+#~ "Profiliniz arkadaşlarınızın sizin hakkınızda bilgiler edinebileceği "
+#~ "bölümdür. Yeni ve eski arkadaşlarınızla iletişim kurmak için profil "
+#~ "fotoğrafı yükleyin, 'hakkımda' bölümüc ekleyin."
+
+#~ msgid ""
+#~ "%{application_url_name} allows users to upload images with captions to "
+#~ "their profile."
+#~ msgstr ""
+#~ "%{application_url_name} bölümü kullanıcılara profilleri için resim "
+#~ "görüntü eklemeye olanak sağlar."
+
+#~ msgid ""
+#~ "We would love someone to build albums, tagging and commenting on photos "
+#~ "for this open source project!"
+#~ msgstr ""
+#~ "Bu açık kaynak projesinde albüm oluşturanlara, fotoğraflar üzerinde "
+#~ "tagleme yapanlara ve yorum yapanlara teşekkür ediyoruz."
+
+#~ msgid "Friend Icon"
+#~ msgstr "Arkadaş Simgesi"
+
+#~ msgid "Search for others with common interests."
+#~ msgstr "Ortak ilgileri olan bşkalarını araştır"
+
+#~ msgid "Message Friends"
+#~ msgstr "Mesaj Arkadaşları"
+
+#~ msgid "Start Blogging!"
+#~ msgstr "Bloglamaya Başla"
+
+#~ msgid ""
+#~ "Your public profile is the way your friends will learn about you and keep "
+#~ "up-to-date on your life."
+#~ msgstr ""
+#~ "Profiliniz arkadaşlarınızın sizin hakkınızda bilgiler edinebileceği "
+#~ "bölümdür."
+
+#~ msgid ""
+#~ "Upload a profile photo, add an \"about me\" connect with new and old "
+#~ "friends."
+#~ msgstr ""
+#~ "Profil fotoğrafı yükleyin, eski ve yeni arkadaşlarınızla iletişim kurmak "
+#~ "için \"hakkımda\"bölümü ekleyin."
+
+#~ msgid "An error occured, your password was not changed."
+#~ msgstr "Bir hata oluştu, şifreniz değişmedi."
+
+#~ msgid "You have not create any blog posts.  Try creating one now."
+#~ msgstr ""
+#~ "Herhangi bir blog postası oluşturmamışsınız. Blog postası oluşturmayı "
+#~ "şimdi deneyin."
+
+#~ msgid "Forum was successfully saved."
+#~ msgstr "Forum başarıyla kaydedildi."
+
+#~ msgid "FAQ"
+#~ msgstr "SSS"
+
+#~ msgid "Projects"
+#~ msgstr "Gruplar"
+
+#~ msgid "Shared"
+#~ msgstr "Linkler"
+
+#~ msgid "creator"
+#~ msgstr "grup oluşturucusu"
+
+#~ msgid "Register"
+#~ msgstr "Hesap"
+
+#~ msgid "Share a Link"
+#~ msgstr "Yeni Link Paylaş"
+
+#~ msgid "Create A New Group"
+#~ msgstr "Yeni Grup Oluştur"
+
+msgid "Youth for Habitat"
+msgstr "Habitat İçin Gençlik"
+
+#~ msgid "%{user_name}\\'s Blog"
+#~ msgstr "%{user_name} \\'in bloğu"
+
+
+msgid "Are you a member of a volunteer or civil society organization?"
+msgstr "Herhangi bir sivil toplum ya da gönüllü kuruluşa üye misiniz? "
+
+msgid "Yes"
+msgstr "Evet"
+
+msgid "No"
+msgstr "Hayır"
+
+msgid "Organization Status"
+msgstr "Statüsü"
+
+msgid "Association"
+msgstr "Dernek"
+
+msgid "Foundation"
+msgstr "Vakıf"
+
+msgid "Youth Council"
+msgstr "Gençlik Meclisi"
+
+msgid "Student Club/Union/Council"
+msgstr "Öğrenci Kulübü/ Topluluğu / Konseyi"
+
+msgid "Youth Network"
+msgstr "Diğer"
+
+msgid "Other"
+msgstr "Diğer"
+
+msgid "Why are you signing up for www.tgag.org?"
+msgstr "www.TGAG.org web sitesinden nasıl haberdar oldunuz? "
+
+msgid "To benefit from the courses"
+msgstr "Eğitim bölümlerinde yer alan kurs içeriklerinden faydalanmak için"
+
+msgid "To represent my organization"
+msgstr "Kurum ya da Kuruluşumu bu web portalında temsil etmek için."
+
+msgid "To learn about youth projects"
+msgstr "Gençlik alanında gerçekleştirilen çalışmalardan haberdar olmak için"
+
+msgid "To find partners for new projects"
+msgstr "Gençlik alanında yeni projeler geliştirmede yeni ortaklar bulmak için."
+
+msgid "How did you learn about www.tgag.org?"
+msgstr "www.TGAG.org web sitesinden nasıl haberdar oldunuz?"
+
+msgid "Search Engine"
+msgstr "Arama Motorlarından"
+
+msgid "Youth Council Briefings"
+msgstr "Gençlik Meclisi Bilgilendirme Toplantısı"
+
+msgid "Friends"
+msgstr "Arkadaş Tavsiyesi"
+
+#: app/views/user_mailer/activation.erb:1
+#: app/views/user_mailer/forgot_password.erb:1
+#: app/views/user_mailer/reset_notification.erb:1
+#: app/views/user_mailer/reset_password.erb:1
+#: app/views/user_mailer/signup_notification.erb:1
+msgid "Dear %{user_name},"
+msgstr "Sevgili %{user_name}"
+
+#: app/views/user_mailer/activation.erb:3
+msgid "Your %{application_name} account has been activated"
+msgstr "%{application_name} hesabınız aktivite edildi."
+
+#: app/views/user_mailer/activation.erb:5
+#: app/views/user_mailer/forgot_password.erb:6
+#: app/views/user_mailer/reset_notification.erb:8
+#: app/views/user_mailer/signup_notification.erb:8
+msgid "For future reference, you are registered as:"
+msgstr "Gelecekteki başvuru için, şu şekilde kaydoldunuz:"
+
+#: app/views/user_mailer/activation.erb:6
+#: app/views/user_mailer/forgot_password.erb:7
+#: app/views/user_mailer/reset_notification.erb:9
+#: app/views/user_mailer/signup_notification.erb:9
+msgid "login name %{user_name}."
+msgstr "Oturum Açma Adı %{user_name}"
+
+#: app/views/user_mailer/activation.erb:8
+msgid "To visit the site, follow the link below:"
+msgstr "Siteyi ziyaret etmek için aşağıdaki linki takip ediniz:"
+
+#: app/views/user_mailer/activation.erb:11
+#: app/views/user_mailer/forgot_password.erb:12
+#: app/views/user_mailer/reset_notification.erb:14
+#: app/views/user_mailer/reset_password.erb:5
+#: app/views/user_mailer/signup_notification.erb:11
+msgid "Please email %{support_email} if you have any questions or comments about the website."
+msgstr "Herhangi bir sorunuz ya da öneriniz olması durumunda lütfen bizile iletişime geçmekten çekinmeyiniz. %{support_email} "
+
+#: app/views/user_mailer/activation.erb:13
+#: app/views/user_mailer/forgot_password.erb:14
+#: app/views/user_mailer/reset_notification.erb:16
+#: app/views/user_mailer/reset_password.erb:7
+#: app/views/user_mailer/signup_notification.erb:13
+msgid "Best Regards,"
+msgstr "İyi günler"
+
+#: app/views/user_mailer/follow.erb:1
+msgid "Hello %{user_name}\r\nWe "
+msgstr "test %{user_name}"
+
+#: app/views/user_mailer/forgot_password.erb:3
+msgid "%{application_name} has received a request to reset your password."
+msgstr "%{application_name} şifrenizin resetlenmesi için bir talep ulaştı"
+
+#: app/views/user_mailer/forgot_password.erb:4
+msgid "If this was not your intentions, please ignore this message."
+msgstr "Eğer bu sizin tarafınızdan gerçekleştirilmiş değilse lütfen bu mesajı dikkate almayınız."
+
+#: app/views/user_mailer/forgot_password.erb:9
+msgid "To reset your password please visit this link:"
+msgstr "Şifrenizi resetlemek için lütfen şu bağlantıyı takip ediniz.:"
+
+#: app/views/user_mailer/reset_notification.erb:3
+msgid ""
+"You requested that your %{application_name} password be reset, but your "
+"account is not yet active."
+msgstr "%{application_name} şifrenizi resetlemyi talep ettiniz ancak hesabınız henüz aktivite edilmemiş."
+
+#: app/views/user_mailer/reset_notification.erb:5
+msgid "Click the following link to activate your account and complete the signup process:"
+msgstr "Hesabınızı aktivite etmek için lütfen aşağıdaki bağlantıyı takip ediniz:"
+
+#: app/views/user_mailer/reset_notification.erb:11
+msgid "After activating your account you can reset your password by visiting:"
+msgstr "Hesabınızı aktivite ettikten sonra ziyaret ederek şifrenizi resetleyebilirsiniz."
+
+#: app/views/user_mailer/reset_password.erb:3
+msgid "Your %{application_name} password has been reset."
+msgstr "%{application_name} şifreniz resetlendi."
+
+#: app/views/user_mailer/signup_notification.erb:3
+msgid "Thank you for signing up at the %{application_name} website!"
+msgstr "%{application_name} üzerinde hesap açtığınız için teşekkürler."
+
+#: app/views/user_mailer/signup_notification.erb:5
+msgid "Please visit the following url to activate your account:"
+msgstr "Hesabınızı aktivite etmek için lütfen bağlantıyı takip ediniz."
+
+msgid "Username: %{user_name}"
+msgstr "Kullanıcı Adı: %{user_name}"
+
+msgid "Password: %{password}"
+msgstr "Şifre: %{password}"
+
+msgid "Send To"
+msgstr "Kime"
+
+msgid "Name"
+msgstr "Adı"
+
+msgid "Activate your %{application_name} account!"
+msgstr "%{application_name} hesabınızı aktivite edin."
+
+msgid "Your %{application_name} account has not yet been activated"
+msgstr "%{application_name} hesabınız henüz aktivite edilmedi."
+
+msgid "Your %{application_name} account has been activated!"
+msgstr "%{application_name} hesabınız aktivite edildi."
+
+msgid "You have requested to change your %{application_name} password"
+msgstr "%{application_name} şifrenizi değiştirmeyi talep ettiniz."
+
+msgid "Making connections through %{application_name}"
+msgstr "%{application_name} aracılığı ile bağlantılar kurun."
+
+msgid "%{follower} requested to make you a Friend on %{application_name}."
+msgstr "%{follower} isimli kişi sizi %{application_name} üzerinde arkadaş olmaya davet ediyor."
+
+
+msgid "You may view their profile at %{inviter_profile_url}"
+msgstr "Profillerini şuradan görebilirsiniz %{inviter_profile_url} "
+
+
+msgid "Visit that page to accept their request and add them to your Friend list."
+msgstr "Davetiyeyi kabul etmek ve arkadaş listenize eklemek için sayfayı ziyaret ediniz."
+
+msgid "Accept Friend Request"
+msgstr "Arkadaşlık Talebini Kabul Et"
+
+msgid "Friend Request Pending"
+msgstr "Arkadaş Talebi Beklemede"
+
+msgid "Working Groups"
+msgstr "Çalışma Grupları"
+
+msgid "Videos"
+msgstr "Videoları"
+
+msgid "Latest Videos"
+msgstr "En Son Videoları"
