@@ -3,7 +3,7 @@ a{color:#346781;}
 
 #wrapper{width:870px;margin:0px auto;padding:0px;border:0px;background-image: url(/images/yfh/banner.jpg);background-repeat:no-repeat;}
 
-#top-navigation ul li a{color:#FFF;font-size:14px;padding-top:2px;}
+#top-navigation ul li a{color:#FFF;font-size:12px;padding-top:2px;}
 #top-navigation{background-color:#3685A3;height:30px;top:59px;position:relative;}
 #top-navigation a{color:#FFF;}
 #top h1{color:#fff;margin:0;padding:0px 0 0 175px;font-size:28px;font-weight:bolder;}
@@ -48,3 +48,12 @@ a{color:#346781;}
 
 table.news th{font-weight:bold;font-size:14px;border-bottom:3px solid #3685A3;padding:4px;}
 .activity_box img{vertical-align:middle;margin-right:2px;}
+
+#messages th{background-color:#3685A3;}
+
+.pagination .current {background-color:#3685A3;}
+.tab_selected{background-color:#3685A3;}
+
+#search input[type="text"]{vertical-align:top;width:80px;margin:1px 0px 0px;padding:0px;color:#999;text-align:center;}
+
+ 

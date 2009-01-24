@@ -1,4 +1,5 @@
 <div id="top-navigation">
+  <form action="/search" style='margin:0px;padding:0px;'>
 	<ul class="top-nav">
 		<li class="first"><a href="http://<%= GlobalConfig.application_base_url %>/"><%= _('Home') %></a></li>
 		<li><a href="<%= groups_path %>"><%= _('Groups') %></a></li>
@@ -9,6 +10,11 @@
 		<li><a href="http://<%= GlobalConfig.application_base_url %>/courses"><%= _('Courses') %></a></li>
 	</ul>
 	<div id="log-out" class="right">
+		<span id='search'>
+		  	<script type='text/javascript'>function searchClicked(){sb=document.getElementById('search_box');sb.style.color='black';if (sb.value == '<%= _('Search')%>') sb.value='';}</script>
+		  	<input id='search_box' type='text' name='q' value='<%= _('Search') %>' onclick='searchClicked();'/>
+	      <button style='height:22px;'><span style='line-height:13px;vertical-align:middle;'><%= _('Go') %></span></button>
+	    </span>
 	<% if logged_in? -%>
 		<%= link_to _('My Dashboard'), user_path(current_user) %>
 		<%= link_to current_user.login, profile_path(current_user) %>
@@ -18,6 +24,7 @@
 	<% end -%>
         <%= locale.to_s == "yfh_EN" ? '<a href="?lang=yfh-tr">T&#xFC;rk&#xE7;e</a>' : '<a href="?lang=yfh-en">English</a>' %>
 	</div>
+  </form>
 </div>
 
 <div class="clear"></div>
