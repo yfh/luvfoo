@@ -20,14 +20,13 @@
 
 		<% if GlobalConfig.use_recaptcha -%>
 			<div class="recaptcha">
-				<%= recaptcha_tags %>
+				<%= recaptcha_tags(:display => {:lang => locale.to_s == 'yfh_TR' ? 'tr' : 'en'}) %>
 			</div>
 		<% end -%>
 			  
 		<div>
 		    <%= _("By clicking <i>Sign-up Now</i> you indicate that you are at least 18 years of 
-            age and agree to comply with the %{tos_link_anchor}Terms and Conditions%{link_end}
-			and %{coc_link_anchor}Code of Conduct%{link_end}.") % 
+            age and agree to comply with the %{tos_link_anchor}Terms and Conditions%{link_end}.") % 
 			{:tos_link_anchor => "<a href='" + page_path('terms') + "' target='_blank'>",
 			:coc_link_anchor => "<a href='" + page_path('code_of_conduct') + "' target='_blank'>",
 			:link_end => "</a>"} %>
