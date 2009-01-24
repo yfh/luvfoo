@@ -1,11 +1,15 @@
 class UsersController < ApplicationController
 
+  include PageMethods
+
   skip_filter :store_location, :only => [:new, :create, :edit, :update, :destory, 
     :welcome, :is_login_available, :is_email_available,
     :enable, :delete_icon]
   before_filter :not_logged_in_required, :only => [:new, :create] 
   before_filter :login_required, :only => [:show, :edit, :update, :share, :delete_icon]
   before_filter :check_administrator_role, :only => [:destroy, :enable]
+  before_filter :get_site, :only => [:new]
+
 
   def index
     respond_to do |format|
@@ -46,6 +50,8 @@ class UsersController < ApplicationController
 
   def new
     @title = _("Register for an account")
+    signup_content = @site.pages.find_by_url_key('signup')
+    @signup_info = signup_content ? signup_content.body : ''
 
     @user = User.new
     respond_to do |format|
