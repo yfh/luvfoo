@@ -1,17 +1,17 @@
 <div id="top-navigation">
   <form action="/search" style='margin:0px;padding:0px;'>
 	<ul class="top-nav">
-		<li class="first"><a href="http://<%= GlobalConfig.application_base_url %>/"><%= _('Home') %></a></li>
-		<li><a href="<%= groups_path %>"><%= _('Groups') %></a></li>
-		<li><a href="<%= profiles_path %>"><%= _('People') %></a></li>
-		<li><a href="<%= photos_path %>"><%= _('Photos') %></a></li>
-		<li><a href="<%= videos_path %>"><%= _('Videos') %></a></li>
-		<li><a href="<%= working_groups_path %>"><%= _('Working Groups') %></a></li>
-		<li><a href="http://<%= GlobalConfig.application_base_url %>/courses"><%= _('Courses') %></a></li>
+		<li class="first"><%= link_to _('Home'), "http://#{GlobalConfig.application_base_url}" %></li>
+		<li><%= link_to _('Groups'), groups_path %></li>
+		<li><%= link_to _('People'), profiles_path %></li>
+		<li><%= link_to _('Photos'), photos_path %></li>
+		<li><%= link_to _('Videos'), videos_path %></li>
+		<li><%= link_to _('Working Groups'), working_groups_path %></li>
+		<li><%= link_to _('Courses'), "http://#{GlobalConfig.application_base_url}/courses" %></li>
 	</ul>
 	<div id="log-out" class="right">
 		<span id='search'>
-		  	<script type='text/javascript'>function searchClicked(){sb=document.getElementById('search_box');sb.style.color='black';if (sb.value == '<%= _('Search')%>') sb.value='';}</script>
+		  	<script type='text/javascript'>function searchClicked(){sb=document.getElementById('search_box');sb.style.color='black';if (sb.value == '<%= _('Search') %>') sb.value='';}</script>
 		  	<input id='search_box' type='text' name='q' value='<%= _('Search') %>' onclick='searchClicked();'/>
 	      <button style='height:22px;'><span style='line-height:13px;vertical-align:middle;'><%= _('Go') %></span></button>
 	    </span>
