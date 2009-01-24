@@ -547,7 +547,7 @@ msgstr "Paylaşılan Web Sayfaları"
 #: app/views/groups/show.html.erb:41
 #: app/views/users/shared_entries/new.html.erb:53
 msgid "Share a Web Page"
-msgstr "Web Sayfası Paylaş"
+msgstr "Döküman Paylaş"
 
 #: app/views/groups/show.html.erb:56
 msgid "Officers"
@@ -607,7 +607,7 @@ msgstr "%{group_name}grubuna katılmak istiyor musunuz?"
 #: app/views/groups/_join_controls.html.erb:15
 
 msgid "Join %{group_name}"
-msgstr "%{group_name} Görüşler"
+msgstr "Gruba Katıl"
 
 #: app/views/groups/_join_form.html.erb:23
 
@@ -1124,7 +1124,7 @@ msgstr "Daha fazla davet et"
 #: app/views/users/groups/index.html.erb:6
 
 msgid "My Groups"
-msgstr "Gruplar"
+msgstr "Grupları"
 
 #: app/views/shared/_user_menu.html.erb:5
 
@@ -1330,13 +1330,6 @@ msgstr ""
 msgid "%{user_name}'s Photos"
 msgstr "%{user_name} Fotoğrafları"
 
-#: app/views/users/shared_entries/new.html.erb:63
-msgid ""
-"<b>Hint:</b> After you have set up the bookmark for sharing, go to a Google "
-"Document, Spreadsheet, or Presentation and click the bookmark to share it "
-"with a person or group inside of TWB."
-msgstr ""
-
 #: app/views/users/shared_entries/new.html.erb:78
 msgid "(select text before sharing it to make it show up here)"
 msgstr "(Yukarıda görünücek biçimde paylaşmadan önce metni seçin)"
@@ -1435,7 +1428,7 @@ msgstr "Sayfayı düzenle"
 #: app/views/users/_google_docs.html.erb:3
 
 msgid "Documents"
-msgstr "İçerikler"
+msgstr "Paylaşılmış Dökümanlar"
 
 #: app/views/users/_google_docs.html.erb:8
 
@@ -2029,7 +2022,7 @@ msgid ""
 "<b>Hint:</b> After you have set up the bookmark for sharing, go to a Google "
 "Document, Spreadsheet, or Presentation and click the bookmark to share it "
 "with a person or group inside of TWB."
-msgstr "<b>Hint:</b> Paylaşım için yer imini kurduktan sonra,Google Document,Spreadsheet ya da Presentation'a gidiniz ve TWB içerisnde bir grup ya da kişiyle paylaşmak için yer imine tıklayınız."
+msgstr "<b>Hint:</b> Paylaşım için yer imini kurduktan sonra, Google Document, Spreadsheet ya da Presentation'a gidiniz ve TWB içerisnde bir grup ya da kişiyle paylaşmak için yer imine tıklayınız."
 
 #: app/views/users/shared_entries/new.html.erb:71
 msgid "Url"
@@ -2400,7 +2393,7 @@ msgstr "Burada neler yapabileceğinizi öğrenmek için %{getting_started_link_a
 #~ msgstr "Yeni Grup Oluştur"
 
 msgid "Youth for Habitat"
-msgstr "Habitat İçin Gençlik"
+msgstr "Ulusal Gençlik Parlamentosu"
 
 #~ msgid "%{user_name}\\'s Blog"
 #~ msgstr "%{user_name} \\'in bloğu"
@@ -2461,7 +2454,7 @@ msgid "Youth Council Briefings"
 msgstr "Gençlik Meclisi Bilgilendirme Toplantısı"
 
 msgid "Friends"
-msgstr "Arkadaş Tavsiyesi"
+msgstr "Arkadaşları"
 
 #: app/views/user_mailer/activation.erb:1
 #: app/views/user_mailer/forgot_password.erb:1
@@ -2603,3 +2596,13 @@ msgstr "Videoları"
 
 msgid "Latest Videos"
 msgstr "En Son Videoları"
+
+msgid "Share It!"
+msgstr "Paylaş!"
+
+msgid "Go Back"
+msgstr "Geri"
+
+msgid "Go"
+msgstr "Ara"
+
