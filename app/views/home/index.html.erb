@@ -25,12 +25,12 @@
 
     <div> <!-- bottom row --> 
         <div id="staff" class="left_column left home-box"> 
-          <h2><%= _('Welcome to Our New Members') %></h2>
+          <h2><%= _('Welcome to Our New Members') %> <%= link_to _('View All'), profiles_path %></h2>
           <%= render :partial => 'profiles/newest_member', :collection => new_members -%>
         </div>
     
     	<div class="home-box left home-right-column">
-            <h2><%= _('Newest Pictures') -%></h2>
+            <h2><%= _('Newest Pictures') -%> <%= link_to _('View All'), photos_path %></h2>
             <% newest_pictures(12).each do |picture| -%>
                 <div class="image left small_down_image">
                   <div>
