@@ -3,8 +3,8 @@
 <div class="left activity_box" id="column_l">
 	<% custom_form_for :user, :url => users_path, :html => {:id => "register"} do |f| -%>
 	
-    <h1><%= _('Join %{application_name}') % {:application_name => GlobalConfig.application_name} %></h1>
-    <div class="instruction"><%= _("Welcome to %{application_name}") % {:application_name => GlobalConfig.application_name} %></div>
+    <h1><%= _('Join %{application_name}') % {:application_name => _(GlobalConfig.application_name)} %></h1>
+    <div class="instruction"><%= _("Welcome to %{application_name}") % {:application_name => _(GlobalConfig.application_name)} %></div>
     <div class="instruction"><p><%= _("Already a member? %{login_link_anchor}Sign in now%{login_link_end}") % {:login_link_anchor => '<a href="' + login_url + '">', :login_link_end => '</a>'} %></p></div>
 		<%= error_messages_for :user -%>		
 
@@ -27,8 +27,7 @@
 		<% end -%>
 			  
 		<div>
-		    <%= _("By clicking <i>Sign-up Now</i> you indicate that you are at least 18 years of 
-            age and agree to comply with the %{tos_link_anchor}Terms and Conditions%{link_end}.") % 
+		    <%= _("By clicking <i>Sign-up Now</i> you indicate that you are at least 18 years of age and agree to comply with the %{tos_link_anchor}Terms and Conditions%{link_end}.") % 
 			{:tos_link_anchor => "<a href='" + page_path('terms') + "' target='_blank'>",
 			:coc_link_anchor => "<a href='" + page_path('code_of_conduct') + "' target='_blank'>",
 			:link_end => "</a>"} %>
@@ -62,4 +61,3 @@ jQuery(document).ready(function()
 });
 </script>
 
-<img src="https://cts.vresp.com/s.gif?h=5e87091708" height="1" width="1"/>
