@@ -1260,8 +1260,8 @@ msgid "Roles"
 msgstr "Profiller"
 
 #: app/views/users/new.html.erb:5
-msgid "Join Teachers Without Borders"
-msgstr "Habitat İçin Gençlik'a katıl"
+msgid "Join %{application_name}"
+msgstr "%{application_name}'a Katıl"
 
 #: app/views/users/new.html.erb:6
 msgid "Welcome to %{application_name}"
@@ -1450,7 +1450,7 @@ msgstr "Sayfalar"
 
 #: app/views/users/_turkey_cities.html.erb:2
 msgid "City"
-msgstr "Şehir:"
+msgstr "Şehir"
 
 #: app/views/users/_user.html.erb:4
 msgid "yes"
@@ -2251,9 +2251,6 @@ msgstr "Burada neler yapabileceğinizi öğrenmek için %{getting_started_link_a
 #~ msgid "Grade Level Experience"
 #~ msgstr "Eğitim Düzeyi"
 
-#~ msgid "Phone"
-#~ msgstr "Telefon"
-
 #~ msgid "Phone 2"
 #~ msgstr "Telefon 2"
 
@@ -2606,3 +2603,41 @@ msgstr "Geri"
 msgid "Go"
 msgstr "Ara"
 
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "I am a member of"
+msgstr "Üyesi Olduğu Gençlik Meclis"
+
+msgid "Assignment"
+msgstr "Meclis içindeki Görevi"
+
+msgid "Current School"
+msgstr "Okuduğu Okul"
+
+msgid "Last graduated from"
+msgstr "Mezun Olduğu Son Okul"
+
+msgid "Education and Seminars"
+msgstr "Katıldığı Eğitim ve Seminerler"
+
+msgid "&lt;select a value&gt;"
+msgstr ""
+
+msgid "(required)"
+msgstr ""
+
+msgid "By clicking <i>Sign-up Now</i> you indicate that you are at least 18 years of age and agree to comply with the %{tos_link_anchor}Terms and Conditions%{link_end}."
+msgstr ""
+
+msgid "private"
+msgstr ""
+
+msgid "visible to colleagues"
+msgstr ""
+
+msgid "visible to members"
+msgstr ""
+
+msgid "visible to public"
+msgstr ""
