@@ -21,6 +21,7 @@ namespace :luvfoo do
         :data_type => BagProperty::DATA_TYPE_ENUM,
         :display_type => BagProperty::DISPLAY_TYPE_DROP_DOWN_LIST, 
         :default_visibility => BagProperty::VISIBILITY_USERS, 
+        :registration_page => 1,
         :sort => 10 
       ).id
       
@@ -51,6 +52,7 @@ namespace :luvfoo do
         :data_type => BagProperty::DATA_TYPE_ENUM,
         :display_type => BagProperty::DISPLAY_TYPE_RADIO, 
         :default_visibility => BagProperty::VISIBILITY_ADMIN, 
+        :registration_page => 1,
         :sort => 20 
       ).id
       [
@@ -62,6 +64,7 @@ namespace :luvfoo do
         :name => 'organization', 
         :label => 'Organization', 
         :default_visibility => BagProperty::VISIBILITY_FRIENDS, 
+        :registration_page => 1,
         :sort => 30 
       )
 
@@ -71,6 +74,7 @@ namespace :luvfoo do
         :data_type => BagProperty::DATA_TYPE_ENUM,
         :display_type => BagProperty::DISPLAY_TYPE_RADIO, 
         :default_visibility => BagProperty::VISIBILITY_FRIENDS, 
+        :registration_page => 1,
         :sort => 40 
       ).id
       [
@@ -86,8 +90,42 @@ namespace :luvfoo do
         :name => 'organization_website', 
         :label => 'Web Site of your Organization', 
         :default_visibility => BagProperty::VISIBILITY_FRIENDS, 
+        :registration_page => 1,
         :sort => 50 
       )
+      
+      bp_id = BagProperty.create(
+        :name => 'why_joined', 
+        :label => 'Why are you signing up for www.tgag.org?', 
+        :data_type => BagProperty::DATA_TYPE_ENUM,
+        :display_type => BagProperty::DISPLAY_TYPE_RADIO, 
+        :default_visibility => BagProperty::VISIBILITY_ADMIN, 
+        :registration_page => 1,
+        :sort => 53 
+      ).id
+      [
+        ['To benefit from the courses','1',10],
+        ['To represent my organization','2',20],
+        ['To learn about youth projects','3',20],
+        ['To find partners for new projects','4',20],
+        ['Other','5',20],
+      ].each {|c| BagPropertyEnum.create(:bag_property_id => bp_id, :value => c[1], :name => c[0], :sort => c[2]) }
+      
+      bp_id = BagProperty.create(
+        :name => 'how_found', 
+        :label => 'How did you learn about www.tgag.org?', 
+        :data_type => BagProperty::DATA_TYPE_ENUM,
+        :display_type => BagProperty::DISPLAY_TYPE_RADIO, 
+        :default_visibility => BagProperty::VISIBILITY_ADMIN, 
+        :registration_page => 1,
+        :sort => 56 
+      ).id
+      [
+        ['Search Engine','1',10],
+        ['Youth Council Briefings','2',20],
+        ['Friends','3',20],
+        ['Other','4',20],
+      ].each {|c| BagPropertyEnum.create(:bag_property_id => bp_id, :value => c[1], :name => c[0], :sort => c[2]) }
 
       BagProperty.create(
         :name => 'school', 
@@ -172,6 +210,18 @@ namespace :luvfoo do
         organization_status_enum_ids[oid.to_s] = BagPropertyEnum.find(:first, :conditions => {:bag_property_id => organization_status_id, :value => oid.to_s}).id
       end
 
+      why_joined_id = bag_property_ids["why_joined"]
+      why_joined_enum_ids = {}
+      (1..5).each do |eid|
+        why_joined_enum_ids[eid] = BagPropertyEnum.find(:first, :conditions => {:bag_property_id => why_joined_id, :value => eid}).id
+      end
+    
+      how_found_id = bag_property_ids["how_found"]
+      how_found_enum_ids = {}
+      (1..4).each do |eid|
+        how_found_enum_ids[eid] = BagPropertyEnum.find(:first, :conditions => {:bag_property_id => how_found_id, :value => eid}).id
+      end
+    
 #      User.find(:all).each do |user|
       User.find(:all, :conditions => {:login => 'joel'}).each do |user|
         
@@ -208,6 +258,16 @@ namespace :luvfoo do
             :svalue => user.organization_url)  
         end
         
+        bag_property_id = bag_property_ids['why_joined']
+        BagPropertyValue.create(:data_type => BagProperty::DATA_TYPE_ENUM, :user_id => user.id, 
+          :bag_property_id => bag_property_id, :bag_property_enum_id => why_joined_enum_ids[user.why_joined], 
+          :visibility => BagProperty::VISIBILITY_USERS)
+          
+        bag_property_id = bag_property_ids['how_found']
+        BagPropertyValue.create(:data_type => BagProperty::DATA_TYPE_ENUM, :user_id => user.id, 
+          :bag_property_id => bag_property_id, :bag_property_enum_id => how_found_enum_ids[user.how_found], 
+          :visibility => BagProperty::VISIBILITY_USERS)
+          
         if user.flickr != nil && !user.flickr.empty?
         bag_property_id = bag_property_ids["flickr"]
         BagPropertyValue.create(:data_type => BagProperty::DATA_TYPE_STRING, :user_id => user.id, 
