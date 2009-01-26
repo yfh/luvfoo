@@ -6,32 +6,32 @@
     <div> <!-- top row --> 
 		<%= render :partial => 'member_stories/member_stories' -%>
 		<%= render :partial => 'widgets/latest_news' -%>
-		<div id="about-us" class="home-info left home-box">
-			<h2><%= _('About Us') %></h2>
-            <%= render :partial => 'shared/content_page_link', :collection => @about_us_pages -%>
-		</div>
     </div> <!-- end top row -->
 	
     <div> <!-- second row --> 
         <div id="groups" class="left_column left home-box"> 
           <h2><%= _('Groups') -%> <%=link_to _('View All'), groups_path, :title => _('View more of our groups') -%></h2>
-          <%= render :partial => 'groups/news_item_simple', :collection => latest_group_news -%>
+          <%= render :partial => 'groups/news_item_simple', :collection => latest_group_news(3) -%>
         </div>  
     
+        <div id="newest-members" class="left home-box"> 
+          <h2><%= _('Newest Members') %> <%= link_to _('View All'), profiles_path %></h2>
+          <%= render :partial => 'profiles/newest_member', :collection => new_members(16) -%>
+        </div>
+    
+		<div id="about-us" class="home-info left home-box">
+			<h2><%= _('About Us') %></h2>
+            <%= render :partial => 'shared/content_page_link', :collection => @about_us_pages -%>
+		</div>
         <%#= render :partial => 'location_list' -%>
     		
         <div class="clear"></div>
     </div> <!-- end second row -->
 
     <div> <!-- bottom row --> 
-        <div id="staff" class="left_column left home-box"> 
-          <h2><%= _('Welcome to Our New Members') %> <%= link_to _('View All'), profiles_path %></h2>
-          <%= render :partial => 'profiles/newest_member', :collection => new_members -%>
-        </div>
-    
-    	<div class="home-box left home-right-column">
+    	<div class="home-box left">
             <h2><%= _('Newest Pictures') -%> <%= link_to _('View All'), photos_path %></h2>
-            <% newest_pictures(12).each do |picture| -%>
+            <% newest_pictures(7).each do |picture| -%>
                 <div class="image left small_down_image">
                   <div>
             				<% if picture.photoable.is_a? User -%>
