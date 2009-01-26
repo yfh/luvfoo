@@ -5,6 +5,7 @@ class WorkingGroupsController < ApplicationController
   skip_filter :login_required, :only => [:index]
   
   def index
+    @h1_title = _('Working Groups')
     @visibility_threshold = is_admin? ? -1 : 0
     @groups = Group.find(:all, :conditions => ['location IS NULL AND visibility > ? AND requires_approval_to_join = true', @visibility_threshold]).paginate(:page => @page, :per_page => @per_page)
     @results = @groups

@@ -4,7 +4,7 @@
 
 <% cache(:controller => '/groups', :action => 'index', :visibility => @visibility_threshold, :index => @alpha_index, :page => @page, :per_page => @per_page) do %>
 <form action='/groups/search' method='get'>
-<h1><%= _("Groups") -%>
+<h1><%= @h1_title.nil? ? _("Groups") : @h1_title -%>
 	<span id="search_object">
 		<input type='text' name='q' style='width:200px' value='<%= @query %>' />
 		<input type='submit' value='<%= _('Search') %>' />
