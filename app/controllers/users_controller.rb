@@ -216,6 +216,7 @@ class UsersController < ApplicationController
     if @user.update_from_params params
       expire_home_page_cache if !had_avatar && !@user.icon.nil?
       expire_profile_directory_cache(@user)
+      @user.join_city_group
       @user.salesforce_sync if GlobalConfig.integrate_salesforce
       flash[:notice] = _("Settings have been saved.")
       redirect_to is_admin? ? profile_path(@user) : user_path(@user) 
