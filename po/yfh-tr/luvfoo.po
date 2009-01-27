@@ -2622,22 +2622,25 @@ msgid "Education and Seminars"
 msgstr "Katıldığı Eğitim ve Seminerler"
 
 msgid "&lt;select a value&gt;"
-msgstr ""
+msgstr "&lt;bir değer seçiniz&gt;"
 
 msgid "(required)"
-msgstr ""
+msgstr "(zorunlu)"
 
 msgid "By clicking <i>Sign-up Now</i> you indicate that you are at least 18 years of age and agree to comply with the %{tos_link_anchor}Terms and Conditions%{link_end}."
-msgstr ""
+msgstr "<i>Kaydol </i>’a tıklayarak en az 18 yaşında olduğunuzu ve şartlara %{tos_link_anchor}uyduğunuzu kabul%{link_end} etmiş oluyorsunuz."
 
 msgid "private"
-msgstr ""
+msgstr "özel"
 
 msgid "visible to colleagues"
-msgstr ""
+msgstr "arkadaşlara görünür"
 
 msgid "visible to members"
-msgstr ""
+msgstr "üyelere görünür"
 
 msgid "visible to public"
-msgstr ""
+msgstr "herkese görünür"
+
+msgid "Please fill out the information below and upload a photo for your profile. By default your information can be searched by TWB members and colleagues; however, we have provided the option to change visibility preference. Below each area select who can view your information. TWB respects the privacy of all members."
+msgstr "Lütfen aşağıdaki bilgileri doldurunuz ve profiliniz için bir resim yükleyiniz. Varsayılan olarak, bilgileriniz UGP üyeleri ve arkadaşlarınız tarafından görülebilir fakat profilinizin kimler tarafından görüntülenebileceğini ayarlayabilirsiniz. Habitat için Gençlik Derneği kişilerin mahremiyetine saygı duyar."
