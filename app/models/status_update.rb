@@ -1,5 +1,5 @@
 # == Schema Information
-# Schema version: 20081219083410
+# Schema version: 20090123074335
 #
 # Table name: status_updates
 #
@@ -13,9 +13,12 @@
 class StatusUpdate < ActiveRecord::Base
   
   validates_presence_of :user
+  
   belongs_to :user
+  
   has_many :comments, :as => :commentable, :dependent => :destroy, :order => 'created_at DESC'  
   has_many :feed_items, :as => :item, :order => 'created_at desc', :dependent => :destroy    
+  
   named_scope :recent, :order => 'created_at DESC'
   
   def after_create

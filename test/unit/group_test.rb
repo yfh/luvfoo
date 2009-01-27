@@ -11,6 +11,7 @@ class GroupTest < ActiveSupport::TestCase
 
     should_belong_to :creator
     should_have_many :comments
+    should_have_many :events
     should_have_many :pages
     should_have_many :membership_requests        
     # TODO the next version of shoulda should handle the :source param.  Uncomment these lines when it does
@@ -38,29 +39,47 @@ class GroupTest < ActiveSupport::TestCase
 
   end
 
-  should "not be visible to invalid user" do
-    group = Factory(:group)
-    user = :false
-    assert !group.is_content_visible?(user)
+  context "public group" do
+    should "be visible to invalid user" do
+      group = Factory(:group)
+      user = :false
+      assert group.is_content_visible?(user)
+    end
+  
+    should "be visible to nil user" do
+      group = Factory(:group)
+      user = nil
+      assert group.is_content_visible?(user)
+    end
+  
+    should "be visible to valid user" do
+      group = Factory(:group)
+      assert group.is_content_visible?(@user)
+    end
   end
   
-  should "not be visible to nil user" do
-    group = Factory(:group)
-    user = nil
-    assert !group.is_content_visible?(user)
-  end
+  context 'invisible group' do
   
-  should "be visible to valid user" do
-    group = Factory(:group)
-    assert !group.is_content_visible?(@user)
-  end
-  
-  should "be invisible but visible to the right user" do
-    group = groups(:invisible)
-    user = users(:invisible_member)
-    assert group.is_content_visible?(user)
-  end
+    should "be invisible but visible to the right user" do
+      group = groups(:invisible)
+      user = users(:invisible_member)
+      assert group.is_content_visible?(user)
+    end
+
+    should "not be visible to nil user" do
+      group = groups(:invisible)
+      user = nil
+      assert !group.is_content_visible?(user)
+    end
       
+    should "not be visible to invalid user" do
+      group = groups(:invisible)
+      user = :false
+      assert !group.is_content_visible?(user)
+    end
+    
+  end
+  
   should "Create a new group" do
     assert_difference 'Group.count' do
       group = Factory(:group)
