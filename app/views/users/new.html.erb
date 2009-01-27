@@ -22,7 +22,8 @@
 
 		<% if GlobalConfig.use_recaptcha -%>
 			<div class="recaptcha">
-				<%= recaptcha_tags(:display => {:lang => locale.to_s == 'yfh_TR' ? 'tr' : 'en'}) %>
+				<%= '<script type="text/javascript">var RecaptchaOptions = {"lang":"tr"};</script>' if locale.to_s == 'yfh_TR' %>
+                                <%= recaptcha_tags %>
 			</div>
 		<% end -%>
 			  
