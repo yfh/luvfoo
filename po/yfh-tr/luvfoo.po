@@ -2427,7 +2427,7 @@ msgid "Other"
 msgstr "Diğer"
 
 msgid "Reason for signing up for www.tgag.org"
-msgstr "www.TGAG.org web sitesinden nasıl haberdar oldunuz? "
+msgstr "www.tgag.org web sitesinden nasıl haberdar oldunuz? "
 
 msgid "To benefit from the courses"
 msgstr "Eğitim bölümlerinde yer alan kurs içeriklerinden faydalanmak için"
@@ -2441,8 +2441,8 @@ msgstr "Gençlik alanında gerçekleştirilen çalışmalardan haberdar olmak i�
 msgid "To find partners for new projects"
 msgstr "Gençlik alanında yeni projeler geliştirmede yeni ortaklar bulmak için."
 
-msgid "How did you learn about www.tgag.org?"
-msgstr "www.TGAG.org web sitesinden nasıl haberdar oldunuz?"
+msgid "How learned about www.tgag.org"
+msgstr "www.tgag.org web sitesinden nasıl haberdar oldunuz?"
 
 msgid "Search Engine"
 msgstr "Arama Motorlarından"
