@@ -48,7 +48,7 @@ namespace :luvfoo do
 
       bp_id = BagProperty.create(
         :name => 'organization_member', 
-        :label => 'Are you a member of a volunteer or civil society organization?', 
+        :label => 'Member of a volunteer or civil society organization', 
         :data_type => BagProperty::DATA_TYPE_ENUM,
         :display_type => BagProperty::DISPLAY_TYPE_RADIO, 
         :default_visibility => BagProperty::VISIBILITY_ADMIN, 
@@ -96,7 +96,7 @@ namespace :luvfoo do
       
       bp_id = BagProperty.create(
         :name => 'why_joined', 
-        :label => 'Why are you signing up for www.tgag.org?', 
+        :label => 'Reason for signing up for www.tgag.org', 
         :data_type => BagProperty::DATA_TYPE_ENUM,
         :display_type => BagProperty::DISPLAY_TYPE_RADIO, 
         :default_visibility => BagProperty::VISIBILITY_ADMIN, 
@@ -237,7 +237,7 @@ namespace :luvfoo do
         bag_property_id = bag_property_ids['organization_member']
         BagPropertyValue.create(:data_type => BagProperty::DATA_TYPE_ENUM, :user_id => user.id, 
           :bag_property_id => bag_property_id, :bag_property_enum_id => organization_member_enum_ids[user.organization_member.to_s], 
-          :visibility => BagProperty::VISIBILITY_USERS)
+          :visibility => BagProperty::VISIBILITY_ADMIN)
             
         if user.organization != nil && !user.organization.empty?
           bag_property_id = bag_property_ids["organization"]
@@ -249,7 +249,7 @@ namespace :luvfoo do
         bag_property_id = bag_property_ids['organization_status']
         BagPropertyValue.create(:data_type => BagProperty::DATA_TYPE_ENUM, :user_id => user.id, 
           :bag_property_id => bag_property_id, :bag_property_enum_id => organization_status_enum_ids[user.organization_status.to_s], 
-          :visibility => BagProperty::VISIBILITY_USERS)
+          :visibility => BagProperty::VISIBILITY_ADMIN)
             
         if user.website != nil && !user.website.empty?
           bag_property_id = bag_property_ids["organization_website"]
@@ -261,12 +261,12 @@ namespace :luvfoo do
         bag_property_id = bag_property_ids['why_joined']
         BagPropertyValue.create(:data_type => BagProperty::DATA_TYPE_ENUM, :user_id => user.id, 
           :bag_property_id => bag_property_id, :bag_property_enum_id => why_joined_enum_ids[user.why_joined], 
-          :visibility => BagProperty::VISIBILITY_USERS)
+          :visibility => BagProperty::VISIBILITY_ADMIN)
           
         bag_property_id = bag_property_ids['how_found']
         BagPropertyValue.create(:data_type => BagProperty::DATA_TYPE_ENUM, :user_id => user.id, 
           :bag_property_id => bag_property_id, :bag_property_enum_id => how_found_enum_ids[user.how_found], 
-          :visibility => BagProperty::VISIBILITY_USERS)
+          :visibility => BagProperty::VISIBILITY_ADMIN)
           
         if user.flickr != nil && !user.flickr.empty?
         bag_property_id = bag_property_ids["flickr"]

@@ -425,7 +425,7 @@ msgstr "%{group_name} grubuna yorum bırakınız"
 #: app/views/groups/edit.html.erb:1
 
 msgid "Editing Group: %{group_name}"
-msgstr "Forum Düzenle %{forum_name}"
+msgstr "Forum Düzenle %{group_name}"
 
 #: app/views/groups/edit.html.erb:21 app/views/news/_form.html.erb:22
 #: app/views/users/edit.html.erb:60
@@ -2396,7 +2396,7 @@ msgstr "Ulusal Gençlik Parlamentosu"
 #~ msgstr "%{user_name} \\'in bloğu"
 
 
-msgid "Are you a member of a volunteer or civil society organization?"
+msgid "Member of a volunteer or civil society organization"
 msgstr "Herhangi bir sivil toplum ya da gönüllü kuruluşa üye misiniz? "
 
 msgid "Yes"
@@ -2426,7 +2426,7 @@ msgstr "Diğer"
 msgid "Other"
 msgstr "Diğer"
 
-msgid "Why are you signing up for www.tgag.org?"
+msgid "Reason for signing up for www.tgag.org"
 msgstr "www.TGAG.org web sitesinden nasıl haberdar oldunuz? "
 
 msgid "To benefit from the courses"
