@@ -8,7 +8,7 @@ class HomeController < ApplicationController
   
   def index
 #    @content_page = @site.pages.find_by_url_key('home')
-    @about_us_pages = ContentPage.tagged_with('HomeAboutUs', :on => :menus).by_alpha
+    @about_us_pages = ContentPage.tagged_with(_('HomeAboutUs'), :on => :menus).by_alpha
     respond_to do |format|
       format.html {render :layout => 'application'}
       format.rss {render :partial =>  'profiles/newest_member', :collection => new_members}
