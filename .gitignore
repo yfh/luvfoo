@@ -24,7 +24,6 @@ public/system
 public/javascripts/all.js
 public/stylesheets/all.css
 public/stylesheets/custom.css
-public/favicon.ico
 test/public/system
 tmp
 vendor/rails
