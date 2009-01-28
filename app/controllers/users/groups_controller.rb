@@ -18,6 +18,10 @@ class Users::GroupsController < ApplicationController
 
   def new
     @group = Group.new
+    if params['working_group'] == 'true'
+      @group.visibility = 1
+      @working_group = true
+    end
     @groups = Group.find(:all, :conditions => 'visibility > 0', :limit => 16, :order => 'created_at desc')
     respond_to do |format|
       format.html # new.html.erb

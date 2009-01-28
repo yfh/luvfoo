@@ -1,15 +1,19 @@
+<% 
+    @h1_title = @working_group == true ? _('Working Groups') : _('Groups')
+    @create_group_label = @working_group == true ? _('Create a New Working Group') : _('Create a New Group')
+%>
 <% content_for :head do  -%>
 	<%#= auto_discovery_link_tag :rss, formatted_groups_url(:rss), :title=> _("Groups") -%>
 <% end -%>
 
 <% cache(:controller => '/groups', :action => 'index', :visibility => @visibility_threshold, :index => @alpha_index, :page => @page, :per_page => @per_page) do %>
 <form action='/groups/search' method='get'>
-<h1><%= @h1_title.nil? ? _("Groups") : @h1_title -%>
+<h1><%= @h1_title -%>
 	<span id="search_object">
 		<input type='text' name='q' style='width:200px' value='<%= @query %>' />
 		<input type='submit' value='<%= _('Search') %>' />
 	</span>
-<span class="link-button"><%= link_to _('Create a New Group'), new_user_group_path(current_user) if logged_in? %></span>
+<span class="link-button"><%= link_to @create_group_label, @working_group == true ? new_user_group_path(current_user, :working_group => @working_group) : new_user_group_path(current_user) if logged_in? %></span>
 </h1>
 </form>
 <div class="activity_box">

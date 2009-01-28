@@ -1,7 +1,10 @@
+<% 
+    @h1_title = @working_group == true ? _('Create a New Working Group') : _('Create a New Group') 
+%>
 <div class="left" id="column_l" style="padding-top:8px;">
 	<div class="activity_box standard_form">
 		<% custom_form_for :group, :url => user_groups_path(@user) do |f| -%>
-	    <h1><%= _('Create a New Group') %></h1>
+	    <h1><%= @h1_title %></h1>
 			<%= render :partial => 'groups/form', :locals => {:f => f} %>
 			<div class="button">
 	    	<%= f.submit _('Create'), :class => 'button' %>
