@@ -52,7 +52,6 @@ namespace :luvfoo do
         :data_type => BagProperty::DATA_TYPE_ENUM,
         :display_type => BagProperty::DISPLAY_TYPE_RADIO, 
         :default_visibility => BagProperty::VISIBILITY_ADMIN, 
-        :registration_page => 1,
         :sort => 20 
       ).id
       [
@@ -293,6 +292,27 @@ namespace :luvfoo do
     end
   end
   end
+
+  namespace :db do
+    desc "Fix yfh profile"
+    task :fix_yfh_profile => :environment do
+      BagProperty.find(:first, :conditions => {:name => 'organization_member'}).update_attribute(:registration_page, nil)
+      BagProperty.find(:first, :conditions => {:name => 'organization'}).update_attribute(:registration_page, nil)
+      BagProperty.find(:first, :conditions => {:name => 'organization_status'}).update_attribute(:registration_page, nil)
+      BagProperty.find(:first, :conditions => {:name => 'organization_website'}).update_attribute(:registration_page, nil)
+#      BagProperty.create(
+#        :name => 'about_me', 
+#        :label => 'About Me', 
+#        :default_visibility => BagProperty::VISIBILITY_EVERYONE,
+#        :display_type => BagProperty::DISPLAY_TYPE_TEXT_AREA, 
+#        :registration_page => 1,
+#        :sort => 3 
+#      )
+    end
+    puts "Done fixing yfh profile"
+  end
+  
+
     
 end
 
