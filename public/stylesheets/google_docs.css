@@ -1,4 +1,4 @@
-body{font:normal 12px "Lucida Grande",Helvetica,Arial,sans-serif;background:#e9efd5;margin:0px auto;padding:0px;color:#eee;line-height:160%;}
+body{font:normal 12px "Lucida Grande",Helvetica,Arial,sans-serif;margin:0px auto;padding:0px;color:#eee;line-height:160%;}
 .google_doc_title{margin:0px 0 10px 0;}
 
 #top-navigation{font:normal 12px "Lucida Grande",Helvetica,Arial,sans-serif;float:left;display:inline;width:100%;background-color:#4B7041;margin:0 0 1px 0;}
@@ -24,6 +24,8 @@ body{font:normal 12px "Lucida Grande",Helvetica,Arial,sans-serif;background:#e9e
 
 .link-button a {font-family:"Arial",sans-serif;margin:0 3px 0 0;padding:3px;background:#4B7041;border:1px solid #333;color:#fff;font-size:12px;text-decoration:none;}
 .link-button a:hover{text-decoration:underline;}
+#footer a{text-decoration:none;}
+#footer a:hover{text-decoration:underline;}
 
 .right{float:right;}
 .clear{clear:both;}

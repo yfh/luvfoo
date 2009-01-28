@@ -3,21 +3,17 @@
 	<head>
 	  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	  <meta name="description" content="" />
-	  <meta name="keywords" content="" />
 	  <title><%= @title || _(GlobalConfig.application_name) -%></title>
-	  <%#= stylesheet_link_tag 'reset', 'ie', 'application', :cache=>true -%>
-	  <%= stylesheet_link_tag 'google_docs', 'custom' -%>
-		<%#= javascript_include_tag :defaults, 'jquery', 'thickbox', 'truncator', :cache=>true -%>
-		<%#= javascript_tag %[const AUTH_TOKEN = #{form_authenticity_token.inspect};] if protect_against_forgery? -%>
-	  <%= yield :head -%>
+	  <%= stylesheet_link_tag 'google_docs', 'yfh', :cache=>true -%>
+		<%= yield :head -%>
 	  <link rel="shortcut icon" href="/favicon.ico" >
 	  <!--[if lt IE 7.]>
 	    <script defer type="text/javascript" src="/javascripts/pngfix.js"></script>
 	  <![endif]-->
   </head>
-  <body class="twb-body">
+  <body>
     <div id="wrapper">
-			<%= render :partial => 'layouts/global/header' %>
+			<%= render :partial => 'layouts/global/header_yfh' %>
       <div id="content">
       	<div id="main">
         	<%= display_standard_flashes %>
@@ -26,7 +22,7 @@
         </div>
         <div class="clear"></div>
       </div>    
+      <%= render :partial => 'layouts/global/footer_yfh' %>
     </div>
-    <%= render :partial => 'layouts/global/footer' %>
   </body>
 </html>
