@@ -44,25 +44,24 @@ Rails::Initializer.run do |config|
   config.gem 'luigi-activerecord-activesalesforce-adapter', :lib => 'active_record', :version => '2.1.0', :source => "http://gems.github.com"
   #config.gem 'avatar', :version => '0.0.5'
   config.gem 'gcnovus-avatar', :version=>"0.0.7", :lib => 'avatar'
-  config.gem 'builder', :version => '2.1.2'
-  config.gem 'colored', :version => '1.1'
-  config.gem 'feed-normalizer', :version => '1.5.1'
-  config.gem 'gettext', :version => '1.93.0'
-  config.gem 'hoe', :version => '1.8.2'
-  config.gem 'hpricot', :version => '0.6.161'
-  config.gem 'mocha', :version => '0.5.6'
-  config.gem 'RedCloth', :lib => 'redcloth', :version => '3.0.4'
-  config.gem 'rflickr', :lib => 'flickr', :version => '2006.02.01'
-  config.gem 'ruby-openid', :lib => 'openid', :version => '2.1.2'
-  config.gem 'simple-rss', :version => '1.1'
-  config.gem 'SystemTimer', :lib => 'system_timer', :version => '1.0'
-  config.gem 'tzinfo', :version => '0.3.9'
-  config.gem 'uuidtools', :version => '1.0.3'
-  config.gem 'will_paginate', :version => '2.2.2'
-  config.gem 'youtube-g', :lib => 'youtube_g', :version => '0.4.1'
-  config.gem 'mini_magick', :version => '1.2.3'
-  config.gem 'mime-types', :lib =>'mime/types', :version => '1.15'
-  config.gem 'icalendar'
+  config.gem 'builder', :version => '>=2.1.2'
+  config.gem 'colored', :version => '>=1.1'
+  config.gem 'feed-normalizer', :version => '>=1.5.1'
+  config.gem 'gettext', :version => '>=1.93.0'
+  config.gem 'hoe', :version => '>=1.8.3'
+  config.gem 'hpricot', :version => '>=0.6.161'
+  config.gem 'mocha', :version => '>=0.5.6'
+  config.gem 'RedCloth', :lib => 'redcloth', :version => '>=3.0.4'
+  config.gem 'rflickr', :lib => 'flickr', :version => '>=2006.02.01'
+  config.gem 'ruby-openid', :lib => 'openid', :version => '>=2.1.2'
+  config.gem 'simple-rss', :version => '>=1.1'
+  config.gem 'SystemTimer', :lib => 'system_timer', :version => '>=1.0'
+  config.gem 'tzinfo', :version => '>=0.3.9'
+  config.gem 'uuidtools', :version => '>=1.0.3'
+  config.gem 'will_paginate', :version => '>=2.2.2'
+  config.gem 'youtube-g', :lib => 'youtube_g', :version => '>=0.4.1'
+  config.gem 'mini_magick', :version => '>=1.2.3'
+  config.gem 'mime-types', :lib =>'mime/types', :version => '>=1.15'
   
   # Only load the plugins named here, in the order given. By default, all plugins
   # in vendor/plugins are loaded in alphabetical order.
@@ -108,7 +107,7 @@ Rails::Initializer.run do |config|
   if ENV["DB_MIGRATION"] != "true"
     config.active_record.observers = :user_observer, :user_plone_observer
   end
-  
+
 end
 
 # HACK: We rescue this block here because the line:
