@@ -80,10 +80,10 @@ namespace :luvfoo do
       [
         ['Association','1',10],
         ['Foundation','2',20],
-        ['Youth Council','3',20],
-        ['Student Club/Union/Council','4',20],
-        ['Youth Network','5',20],
-        ['Other','6',20],
+        ['Youth Council','3',30],
+        ['Student Club/Union/Council','4',40],
+        ['Youth Network','5',50],
+        ['Other','6',60],
       ].each {|c| BagPropertyEnum.create(:bag_property_id => bp_id, :value => c[1], :name => c[0], :sort => c[2]) }
       
       BagProperty.create(
@@ -105,10 +105,10 @@ namespace :luvfoo do
       ).id
       [
         ['To benefit from the courses','1',10],
-        ['To represent my organization','2',20],
-        ['To learn about youth projects','3',20],
-        ['To find partners for new projects','4',20],
-        ['Other','5',20],
+        ['To represent my organization','2',30],
+        ['To learn about youth projects','3',40],
+        ['To find partners for new projects','4',50],
+        ['Other','5',60],
       ].each {|c| BagPropertyEnum.create(:bag_property_id => bp_id, :value => c[1], :name => c[0], :sort => c[2]) }
       
       bp_id = BagProperty.create(
@@ -122,9 +122,9 @@ namespace :luvfoo do
       ).id
       [
         ['Search Engine','1',10],
-        ['Youth Council Briefings','2',20],
-        ['Friends','3',20],
-        ['Other','4',20],
+        ['Youth Council Briefings','2',30],
+        ['Friends','3',40],
+        ['Other','4',50],
       ].each {|c| BagPropertyEnum.create(:bag_property_id => bp_id, :value => c[1], :name => c[0], :sort => c[2]) }
 
       BagProperty.create(
