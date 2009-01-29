@@ -300,16 +300,16 @@ namespace :luvfoo do
       BagProperty.find(:first, :conditions => {:name => 'organization'}).update_attribute(:registration_page, nil)
       BagProperty.find(:first, :conditions => {:name => 'organization_status'}).update_attribute(:registration_page, nil)
       BagProperty.find(:first, :conditions => {:name => 'organization_website'}).update_attribute(:registration_page, nil)
-#      BagProperty.create(
-#        :name => 'about_me', 
-#        :label => 'About Me', 
-#        :default_visibility => BagProperty::VISIBILITY_EVERYONE,
-#        :display_type => BagProperty::DISPLAY_TYPE_TEXT_AREA, 
-#        :registration_page => 1,
-#        :sort => 3 
-#      )
-    end
+      BagProperty.create(
+        :name => 'about_me', 
+        :label => 'About Me', 
+        :default_visibility => BagProperty::VISIBILITY_EVERYONE,
+        :display_type => BagProperty::DISPLAY_TYPE_TEXT_AREA, 
+        :registration_page => 1,
+        :sort => 3 
+      )
     puts "Done fixing yfh profile"
+    end
   end
   
 
