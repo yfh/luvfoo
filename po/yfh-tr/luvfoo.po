@@ -2644,3 +2644,6 @@ msgstr "herkese görünür"
 
 msgid "Please fill out the information below and upload a photo for your profile. By default your information can be searched by TWB members and colleagues; however, we have provided the option to change visibility preference. Below each area select who can view your information. TWB respects the privacy of all members."
 msgstr "Lütfen aşağıdaki bilgileri doldurunuz ve profiliniz için bir resim yükleyiniz. Varsayılan olarak, bilgileriniz UGP üyeleri ve arkadaşlarınız tarafından görülebilir fakat profilinizin kimler tarafından görüntülenebileceğini ayarlayabilirsiniz. Habitat için Gençlik Derneği kişilerin mahremiyetine saygı duyar."
+
+msgid "You must be logged in to access this feature."
+msgstr ""

@@ -1421,3 +1421,6 @@ msgstr ""
 
 msgid "We're glad to have you as a member of Teachers Without Borders."
 msgstr "We're glad to have you as a member of Youth for Habitat"
+
+msgid "People"
+msgstr "Members"
