@@ -175,11 +175,6 @@ msgstr "Profil Ata"
 msgid "Search Results"
 msgstr "Arama Sonuçları"
 
-#: app/views/comments/_comment.html.erb:11
-#: app/views/comments/_comment_title.html.erb:6
-msgid "%{comment_age} ago %{user_name_link} wrote :"
-msgstr "%{comment_age} ago %{user_name_link} wrote :"
-
 #: app/views/comments/_form.html.erb:6 app/views/news/_form.html.erb:11
 #: app/views/page/_form.html.erb:22
 msgid "To include a youtube video use: [youtube: address_of_video]"
@@ -2260,9 +2255,6 @@ msgstr "Burada neler yapabileceğinizi öğrenmek için %{getting_started_link_a
 #~ msgid "Other Language(s)"
 #~ msgstr "Diğer Diller"
 
-#~ msgid "About Me"
-#~ msgstr "Hakkımda"
-
 #~ msgid "A few words on why you joined TWB"
 #~ msgstr "TWB'ye niçin katıldığınız hakkında bir kaç söz"
 
@@ -2645,5 +2637,105 @@ msgstr "herkese görünür"
 msgid "Please fill out the information below and upload a photo for your profile. By default your information can be searched by TWB members and colleagues; however, we have provided the option to change visibility preference. Below each area select who can view your information. TWB respects the privacy of all members."
 msgstr "Lütfen aşağıdaki bilgileri doldurunuz ve profiliniz için bir resim yükleyiniz. Varsayılan olarak, bilgileriniz UGP üyeleri ve arkadaşlarınız tarafından görülebilir fakat profilinizin kimler tarafından görüntülenebileceğini ayarlayabilirsiniz. Habitat için Gençlik Derneği kişilerin mahremiyetine saygı duyar."
 
+msgid "Inbox (%{num_unread_messages})"
+msgstr "Gelen Kutusu (%{num_unread_messages})"
+
 msgid "You must be logged in to access this feature."
 msgstr ""
+
+msgid "created %{long_ago}"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Date Browse"
+msgstr ""
+
+msgid "Alpha Browse"
+msgstr ""
+
+msgid "About Me"
+msgstr "Hakkımda"
+
+msgid "(page)"
+msgstr ""
+
+msgid "(user)"
+msgstr ""
+
+msgid "(group)"
+msgstr ""
+
+msgid "(blog entry)"
+msgstr ""
+
+msgid "(news item)"
+msgstr ""
+
+msgid "(member story)"
+msgstr ""
+
+msgid "Blogs"
+msgstr "Blog Posta Geçmişi"
+
+msgid "Stories"
+msgstr "Hikayesi"
+
+msgid "All"
+msgstr ""
+
+msgid "Site Administration"
+msgstr ""
+
+msgid "What are you doing right now?"
+msgstr ""
+
+msgid "Updating your status.  Please wait."
+msgstr ""
+
+msgid "username available"
+msgstr ""
+
+msgid "email available"
+msgstr ""
+
+msgid "Welcome %{first_name}!"
+msgstr ""
+
+msgid "My Colleagues"
+msgstr ""
+
+msgid "My Recent Activity Feed"
+msgstr ""
+
+msgid "Comments On My Profile"
+msgstr ""
+
+msgid "Items I Have Shared"
+msgstr ""
+
+msgid "Complete Your Profile"
+msgstr ""
+
+msgid "clear"
+msgstr ""
+
+msgid "%{comment_age} ago %{user_name_link} wrote :"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "<span>%{user_name}</span> <span id="current-status-text">%{status}</span>"
+msgstr ""
+
+msgid "update your status!"
+msgstr ""
+
+msgid ""
+msgstr ""
+
