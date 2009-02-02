@@ -33,7 +33,6 @@ class Users::GroupsController < ApplicationController
     @group = Group.new(params[:group])
     @group.creator = @user
     @group.save!
-    
     respond_to do |format|
       flash[:notice] = _('Group was successfully created.')
       format.html { redirect_to(@group) }
@@ -41,8 +40,10 @@ class Users::GroupsController < ApplicationController
     end
   rescue
     flash[:notice] = _('There was a problem creating the group.  Please try again.')
-    format.html { render :action => "new" }
-    format.xml  { render :xml => @group.errors, :status => :unprocessable_entity }
+    respond_to do |format|
+      format.html { render :action => "new" }
+      format.xml { render :xml => @group.errors, :status => :unprocessable_entity }
+    end
   end
 
 end
