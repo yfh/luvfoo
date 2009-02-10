@@ -31,7 +31,7 @@ msgstr "Üye Hikayesi Düzenle"
 #: app/views/users/_dashboard_actions.html.erb:23
 
 msgid "Member Stories"
-msgstr "Arþiv"
+msgstr "Arşiv"
 
 #: app/views/admin/member_stories/index.html.erb:2
 #: app/views/admin/news_items/index.html.erb:2
@@ -428,6 +428,9 @@ msgstr "Forum Düzenle %{group_name}"
 msgid "Upload Photo:"
 msgstr "Fotoğraf Yükle"
 
+msgid "Upload Photos"
+msgstr "Fotoğraf Yükle"
+
 #: app/views/groups/edit.html.erb:45
 
 msgid "Delete Group"
@@ -562,7 +565,7 @@ msgstr "Gruplar"
 #: app/views/profiles/_google_docs.html.erb:3
 
 msgid "Shared Documents"
-msgstr "Paylaşılan Fotoğraflar"
+msgstr "Paylaşılan Dökümanlar"
 
 #: app/views/groups/_group_info.html.erb:9
 #: app/views/layouts/application.html.erb:35
@@ -591,6 +594,9 @@ msgstr "İçerikler"
 
 #: app/views/groups/_group_nav.html.erb:16
 msgid "Edit Group"
+msgstr "Grubu Düzenle"
+
+msgid "Edit Group Settings"
 msgstr "Grubu Düzenle"
 
 #: app/views/groups/_join_controls.html.erb:9
@@ -952,12 +958,12 @@ msgstr "Blog Posta Geçmişi"
 
 #: app/views/profiles/blogs/_list.html.erb:3
 msgid "Most Recent Blog Posts"
-msgstr "En yeni Blog postaları"
+msgstr "En yeni haberler"
 
 #: app/views/profiles/blogs/_list.html.erb:4
 
 msgid "latest %{number_of_posts_displayed} of %{total_blogs}"
-msgstr "(latest %{number_of_posts_displayed} of %{total_posts})"
+msgstr "(latest %{number_of_posts_displayed} of %{total_blogs})"
 
 #: app/views/profiles/blogs/_list.html.erb:8
 
@@ -1498,7 +1504,7 @@ msgid "Be Friends"
 msgstr "Arkadaşlar"
 
 msgid "Friend Request"
-msgstr "İzleyen"
+msgstr "Arkadaş olarak ekle"
 
 #: app/helpers/friends_helper.rb:11
 
@@ -2641,101 +2647,118 @@ msgid "Inbox (%{num_unread_messages})"
 msgstr "Gelen Kutusu (%{num_unread_messages})"
 
 msgid "You must be logged in to access this feature."
-msgstr ""
+msgstr "Bu özelliğe erişebilmek için giriş yapmak zorundasınız."
 
 msgid "created %{long_ago}"
-msgstr ""
+msgstr "%{long_ago} oluşturuldu"
 
 msgid "Previous"
-msgstr ""
+msgstr "Geri"
 
 msgid "Next"
-msgstr ""
+msgstr "İleri"
 
 msgid "Date Browse"
-msgstr ""
+msgstr "Tarihe göre Sıralama"
 
 msgid "Alpha Browse"
-msgstr ""
+msgstr "Alfabetik Sıralama"
 
 msgid "About Me"
 msgstr "Hakkımda"
 
 msgid "(page)"
-msgstr ""
+msgstr "(sayfa)"
 
 msgid "(user)"
-msgstr ""
+msgstr "(kullanıcı)"
 
 msgid "(group)"
-msgstr ""
+msgstr "(grup)"
 
 msgid "(blog entry)"
-msgstr ""
+msgstr "(blog girişi)"
 
 msgid "(news item)"
-msgstr ""
+msgstr "(yeni nesne)"
 
 msgid "(member story)"
-msgstr ""
+msgstr "(haberler)"
 
 msgid "Blogs"
 msgstr "Blog Posta Geçmişi"
 
 msgid "Stories"
-msgstr "Hikayesi"
+msgstr "Hikâyesi"
 
 msgid "All"
-msgstr ""
+msgstr "Tümü"
 
 msgid "Site Administration"
-msgstr ""
+msgstr "Site Yönetimi"
 
 msgid "What are you doing right now?"
-msgstr ""
+msgstr "Şu anda ne yapıyorsun?"
 
 msgid "Updating your status.  Please wait."
-msgstr ""
+msgstr "Bilgileriniz güncelleniyor. Lütfen bekleyiniz"
 
 msgid "username available"
-msgstr ""
+msgstr "kullanici adi uygun"
 
 msgid "email available"
-msgstr ""
+msgstr "e-mail adresi uygun"
 
 msgid "Welcome %{first_name}!"
-msgstr ""
+msgstr "Hoş geldin %{first_name}!"
 
 msgid "My Colleagues"
-msgstr ""
+msgstr "Arkadaşlarım"
 
 msgid "My Recent Activity Feed"
-msgstr ""
+msgstr "En son yaptıklarım"
 
 msgid "Comments On My Profile"
-msgstr ""
+msgstr "Profilim hakkındaki yorumlar"
 
 msgid "Items I Have Shared"
-msgstr ""
+msgstr "Paylaştığım Nesneler "
 
 msgid "Complete Your Profile"
-msgstr ""
+msgstr "Profilini tamamla"
 
 msgid "clear"
-msgstr ""
+msgstr "temizle"
 
 msgid "%{comment_age} ago %{user_name_link} wrote :"
-msgstr ""
+msgstr ""%{comment_age} önce %{user_name_link} yazdı:"
 
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 msgid "<span>%{user_name}</span> <span id="current-status-text">%{status}</span>"
-msgstr ""
+msgstr "<span>%{user_name}</span> <span id="şu_an_ki_durumu">%{status}</span>"
 
 msgid "update your status!"
-msgstr ""
+msgstr "Durumunu güncelle!"
+
+msgid "Activity"
+msgstr "Son Yenilikler"
+
+msgid "Files"
+msgstr "Dosyalar"
+
+msgid "New Topic"
+msgstr "Yeni Konu"
+
+msgid "Topic"
+msgstr "Konu"
+
+msgid "Views"
+msgstr "Görüntülenme"
+
+msgid "Last Post"
+msgstr "Son Yazılanlar"
 
 msgid ""
 msgstr ""
-
