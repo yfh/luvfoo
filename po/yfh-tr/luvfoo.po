@@ -779,7 +779,7 @@ msgstr "Global Colleagues Local Solutions"
 
 #: app/views/member_stories/_member_stories.html.erb:31
 msgid "More Stories"
-msgstr "Arþiv"
+msgstr "Arşiv"
 
 #: app/views/member_stories/_member_stories.html.erb:33
 msgid "Manage Stories"
