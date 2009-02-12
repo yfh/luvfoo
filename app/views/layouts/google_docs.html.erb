@@ -4,7 +4,7 @@
 	  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	  <meta name="description" content="" />
 	  <title><%= @title || _(GlobalConfig.application_name) -%></title>
-	  <%= stylesheet_link_tag 'google_docs', 'yfh', :cache=>true -%>
+	  <%= stylesheet_link_tag 'google_docs', 'yfh', :cache=> 'google_docs' -%>
 		<%= yield :head -%>
 	  <link rel="shortcut icon" href="/favicon.ico" >
 	  <!--[if lt IE 7.]>
