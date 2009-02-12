@@ -178,7 +178,10 @@ msgstr "Arama Sonuçları"
 #: app/views/comments/_form.html.erb:6 app/views/news/_form.html.erb:11
 #: app/views/page/_form.html.erb:22
 msgid "To include a youtube video use: [youtube: address_of_video]"
-msgstr "Google videosu kullanmak için: [googlevideo: address_of_video] "
+msgstr "Google videosu kullanmak için: [googlevideo: address_of_video]."
+
+msgid "<a href='http://www.youtube.com/my_videos_upload'>Upload a video</a> here."
+msgstr "<a href='http://video.google.com/videouploadform'>Upload a video</a> here."
 
 #: app/views/comments/_form.html.erb:8
 msgid "Add Comment"
@@ -1830,7 +1833,7 @@ msgstr "Eğer içerik uygunsuz ya da saldırı niteliğinde ise,banlama içeriğ
 #: app/views/comments/_form.html.erb:7 app/views/news/_form.html.erb:12
 #: app/views/page/_form.html.erb:23
 msgid "For example: [youtube: http://www.youtube.com/watch?v=J0K_s81Xe3E]"
-msgstr "Örneğin: [googlevideo: http://video.google.com/videoplay?docid=4343898391323537541]"
+msgstr "Örneğin: [googlevideo: http://video.google.com/videoplay?docid=4343898391323537541]."
 
 #: app/views/friends/_list.html.erb:12
 msgid "You aren't currently following anyone"
@@ -2759,6 +2762,15 @@ msgstr "Görüntülenme"
 
 msgid "Last Post"
 msgstr "Son Yazılanlar"
+
+msgid "Video Address"
+msgstr ""
+
+msgid "Or enter the address of a video."
+msgstr ""
+
+msgid "Tags"
+msgstr ""
 
 msgid ""
 msgstr ""

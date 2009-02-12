@@ -127,10 +127,13 @@ msgstr ""
 #: app/views/blogs/_blog.html.erb:34 app/views/blogs/_form.html.erb:18
 #: app/views/comments/_form.html.erb:9
 msgid "To include a youtube video use: [youtube: address_of_video]"
-msgstr "To include a Google video use: [googlevideo: address_of_video]"
+msgstr "To include a Google video use: [googlevideo: address_of_video]."
 
 msgid "For example: [youtube: http://www.youtube.com/watch?v=J0K_s81Xe3E]"
 msgstr "For example: [googlevideo: http://video.google.com/videoplay?docid=4343898391323537541]"
+
+msgid "<a href='http://www.youtube.com/my_videos_upload'>Upload a video</a> here."
+msgstr "<a href='http://video.google.com/videouploadform'>Upload a video</a> here."
 
 #: app/views/blogs/_blog.html.erb:36 app/views/comments/_form.html.erb:10
 msgid "Add Comment"
