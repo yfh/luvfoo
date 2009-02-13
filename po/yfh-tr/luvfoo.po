@@ -2637,6 +2637,9 @@ msgstr "<i>Kaydol </i>’a tıklayarak en az 18 yaşında olduğunuzu ve şartla
 msgid "private"
 msgstr "özel"
 
+msgid "(private)"
+msgstr "(özel)"
+
 msgid "visible to colleagues"
 msgstr "arkadaşlara görünür"
 
@@ -2779,7 +2782,13 @@ msgid "%{member_count} members"
 msgstr "%{member_count} üyeler"
 
 msgid "Recent Forum Posts"
-msgstr ""
+msgstr "En yeni forum postaları"
 
 msgid "Upcoming Events"
-msgstr ""
+msgstr "Etkinlikler"
+
+msgid "&laquo; Previous"
+msgstr "&laquo; Geri"
+
+msgid "Next &raquo;"
+msgstr "İleri &raquo;"
