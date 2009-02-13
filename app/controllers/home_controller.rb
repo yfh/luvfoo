@@ -9,7 +9,7 @@ class HomeController < ApplicationController
   def index
 #    @content_page = @site.pages.find_by_url_key('home')
     @about_us_pages = ContentPage.tagged_with(_('HomeAboutUs'), :on => :menus).by_alpha
-    @recent_posts = Post.find(:all, :order => 'created_at', :limit => 5)
+    @recent_posts = Post.find(:all, :order => 'created_at DESC', :limit => 5)
     @upcoming_events = Event.find(:all, :conditions => 'start_at > now()', :order => 'start_at', :limit => 5)
     respond_to do |format|
       format.html {render :layout => 'application'}
