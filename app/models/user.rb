@@ -262,6 +262,7 @@ class User < ActiveRecord::Base
 
   before_save :encrypt_password, :lower_login, :query_services
   before_create :make_activation_code
+  after_create :join_city_group
   before_destroy :remove_orphans
 
   class ActivationCodeNotFound < StandardError; end
@@ -564,6 +565,11 @@ class User < ActiveRecord::Base
   def can_edit?(user)
     return false if user.nil?
     self.id == user.id || user.is_admin?
+  end
+  
+  def join_city_group
+    group = Group.find_by_name(self.property_value('city'))
+    group.members << self unless group.is_member?(self) unless group == nil
   end
   
   # before filter
