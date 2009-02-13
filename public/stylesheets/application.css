@@ -374,13 +374,14 @@ table.news td.center{vertical-align:middle;}
 .group-profile{width:420px;float:left;height:150px;overflow:hidden;}
 .profile-divider{width:500px;margin:0px auto 6px;padding:4px 0px;clear:both;border-bottom: dashed #BBB 1px;}
 .profile-photo{width:50px;padding:2px;float:left;}
+.group-profile-info{float:left;padding-left:6px;}
 .profile-info{float:left;padding-left:6px;width:150px;}
 .group-info{float:left;padding-left:6px;}
 .profile-name a{font-weight:bold;font-size:110%;}
 .profile-info-left{width:150px;float:left}
 .profile-info-right{width:150px;float:left;padding:0px 0px 6px;}
-.group-info-left{width:120px;float:left}
-.group-info-right{width:360px;float:left;padding:0px 0px 6px;}
+.group-info-left{width:120px;float:left;text-align:center;}
+.group-info-right{width:260px;float:left;padding:0px 0px 6px;}
 #profile-list{height:500px;overflow:scroll;width:540px;margin:0px auto 12px; border: solid 1px #BBB;padding-top:10px;overflow-x:hidden;}
 .browse-type-link{font-weight:bold;font-size:100%;}
 #translation img{margin:0px 2px 2px 2px;}
