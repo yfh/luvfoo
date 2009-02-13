@@ -6,9 +6,8 @@
             <div class='profile-name'><%= link_to(profile.full_name, profile_path(profile)) %></div> 
         </div>
         <div class='profile-info-right'>
-            <%= profile.property_value('about_me') %>
+            <%= summarize(profile.property_value('about_me'),150) %>
         </div>
     </div>
 </div>
-<div class='profile-divider'></div>
 <% end %>

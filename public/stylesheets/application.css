@@ -370,13 +370,15 @@ table.news td.center{vertical-align:middle;}
 #search input[type="text"]{vertical-align:top;width:120px;margin:1px 0px 0px;padding:0px;color:#999;text-align:center;}
 .search_results li{line-height:30px;}
 #async-messages{margin:10px;width:80%;height:20px;}
-.profile-public{width:420px;float:left;height:150px;overflow:hidden;}
+.profile-public{width:210px;float:left;height:150px;overflow:hidden;}
+.group-profile{width:420px;float:left;height:150px;overflow:hidden;}
 .profile-divider{width:500px;margin:0px auto 6px;padding:4px 0px;clear:both;border-bottom: dashed #BBB 1px;}
 .profile-photo{width:50px;padding:2px;float:left;}
-.profile-info{float:left;padding-left:6px;}
+.profile-info{float:left;padding-left:6px;width:150px;}
+.group-info{float:left;padding-left:6px;}
 .profile-name a{font-weight:bold;font-size:110%;}
 .profile-info-left{width:150px;float:left}
-.profile-info-right{width:280px;float:left;padding:0px 0px 6px;}
+.profile-info-right{width:150px;float:left;padding:0px 0px 6px;}
 .group-info-left{width:120px;float:left}
 .group-info-right{width:360px;float:left;padding:0px 0px 6px;}
 #profile-list{height:500px;overflow:scroll;width:540px;margin:0px auto 12px; border: solid 1px #BBB;padding-top:10px;overflow-x:hidden;}

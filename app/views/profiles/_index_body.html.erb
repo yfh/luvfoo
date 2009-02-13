@@ -19,11 +19,9 @@
       <% end -%>
     <% end -%>
   </h2>
-  <div id='profile-list'>
     <% @results.each do |result| -%>
       <%= render :partial => 'profiles/profile_cache', :locals => {:profile => result} %>
     <% end -%>
-  </div>
 	<div class="clear"></div>
   <% if @browse == 'alpha' -%>
     <div style="margin:0 auto;width:540px;"><%=render(:partial => 'shared/alpha_index') %></div>
