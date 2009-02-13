@@ -1,0 +1,11 @@
+<li class="vevent">
+    <span class="date">
+        <span class="date-month"><%= event_summary.start_at.strftime("%b") %></span>
+        <span class="date-day"><%= event_summary.start_at.day %></span>
+    </span>
+    <a href="<%= group_event_path(event_summary.eventable, event_summary) %>" title="<%= event_summary.title %>">
+      <span class="title"><%= event_summary.title %></span>
+    </a>
+    <span class="summary"><%= event_summary.summary %></span>
+    <% if !event_summary.location.empty? %><span class="location">(<%= event_summary.location %>)</span><% end %>
+</li>

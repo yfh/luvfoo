@@ -22,6 +22,12 @@
 		<div id="about-us" class="home-info left home-box">
 			<h2><%= _('About Us') %></h2>
             <%= render :partial => 'shared/content_page_link', :collection => @about_us_pages -%>
+            
+			<h2 class="home-box" style="margin-top:10px;"><%= _('Recent Forum Posts') %></h2>
+            <ul><%= render :partial => 'forums/post_summary', :collection => @recent_posts -%></ul>
+            
+			<h2 class="home-box" style="margin-top:10px;"><%= _('Upcoming Events') %></h2>
+            <ul><%= render :partial => 'groups/events/event_summary', :collection => @upcoming_events -%></ul>
 		</div>
         <%#= render :partial => 'location_list' -%>
     		
