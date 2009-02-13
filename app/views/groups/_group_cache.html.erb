@@ -2,7 +2,7 @@
 	<div class='group-profile-info'>
 	    <div class='group-info-left'>
 			<%= link_to(icon(group, :medium, :title => h(group.name)), group_path(group)) -%><br/>
-            <%= _('%{member_count} members') % {:member_count => group.member_count}%><br/>
+            <%= _('%{member_count} members') % {:member_count => group.member_count}%>
             <%= '<br/>' + _('(private)') if group.visibility == Group::PRIVATE %><%= '<br/>' + _('(invisible)') if group.visibility == Group::INVISIBLE %> 
         </div>
         <div class='group-info-right'>
