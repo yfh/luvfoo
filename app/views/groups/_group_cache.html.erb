@@ -1,11 +1,12 @@
 <div class='group-profile'>
-	<div class='profile-info'>
+	<div class='group-profile-info'>
 	    <div class='group-info-left'>
-			<%= link_to(icon(group, :medium, :title => h(group.name)), group_path(group)) -%>
+			<%= link_to(icon(group, :medium, :title => h(group.name)), group_path(group)) -%><br/>
+            <%= _('%{member_count} members') % {:member_count => group.member_count}%><br/>
             <%= '<br/>' + _('(private)') if group.visibility == Group::PRIVATE %><%= '<br/>' + _('(invisible)') if group.visibility == Group::INVISIBLE %> 
         </div>
         <div class='group-info-right'>
-        	<div class='profile-name'><%= link_to(group.name, group_path(group)) %> (created <%= time_ago_in_words(group.created_at) %> ago)</div>
+        	<div class='profile-name'><%= link_to(group.name, group_path(group)) %></div>
             <div><%= summarize(group.description, 250) %></div>
         </div>
     </div>
