@@ -467,6 +467,9 @@ msgstr "Gruplar"
 msgid "Create a New Group"
 msgstr "Yeni Grup Oluştur"
 
+msgid "Create a New Working Group"
+msgstr "Yeni Çalışma Grupları Oluştur"
+
 #: app/views/groups/invites/new.html.erb:2
 #: app/views/users/invites/new.html.erb:2
 
@@ -616,7 +619,7 @@ msgstr "Gruba Katıl"
 #: app/views/groups/_join_form.html.erb:23
 
 msgid "Would you like to request membership in the group %{group_name}?"
-msgstr "%{group_name}grubuna katılmak istiyor musunuz?"
+msgstr "%{group_name} grubuna katılmak istiyor musunuz?"
 
 #: app/views/groups/_join_form.html.erb:26
 #: app/views/groups/_join_form.html.erb:39
@@ -1245,7 +1248,7 @@ msgstr "Herhangi bir gruba üye değilsiniz."
 
 #: app/views/users/groups/index.html.erb:13
 msgid "%{user_name} isn't a member of any groups."
-msgstr "%{user_name herhangi bir gruba üye değil."
+msgstr "%{user_name} herhangi bir gruba üye değil."
 
 #: app/views/users/index.html.erb:1
 msgid "All Users"
@@ -1590,7 +1593,7 @@ msgstr "%{group_name}grubuna katılmak istiyor musunuz?"
 #: app/controllers/groups/memberships_controller.rb:23
 
 msgid "You have joined the group %{group_name}"
-msgstr "%{group_name}grubuna katılmak istiyor musunuz?"
+msgstr "%{group_name} grubuna katılmak istiyor musunuz?"
 
 #: app/controllers/groups/memberships_controller.rb:32
 
@@ -2124,7 +2127,7 @@ msgstr "%{site} sitesindeki '%{group_name}' grubumuza katılın."
 
 #: app/controllers/groups/memberships_controller.rb:25
 msgid "An error occured while joining the group.  Please try again."
-msgstr "Gruba katılırken bir hata oluştu.Lütfen tekrar deneyiniz."
+msgstr "Gruba katılırken bir hata oluştu. Lütfen tekrar deneyiniz."
 
 #: app/controllers/groups/news_controller.rb:86
 msgid "You don't have permission manage the news for this group."
@@ -2772,5 +2775,11 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
-msgid ""
+msgid "%{member_count} members"
+msgstr "%{member_count} üyeler"
+
+msgid "Recent Forum Posts"
+msgstr ""
+
+msgid "Upcoming Events"
 msgstr ""
