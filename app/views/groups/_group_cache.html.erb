@@ -6,8 +6,8 @@
         </div>
         <div class='group-info-right'>
         	<div class='profile-name'><%= link_to(group.name, group_path(group)) %> (created <%= time_ago_in_words(group.created_at) %> ago)</div>
-            <div><%= group.description %></div>
+            <div><%= summarize(group.description, 250) %></div>
         </div>
     </div>
 </div>
-<div class='profile-divider'></div>
+

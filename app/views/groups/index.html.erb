@@ -19,8 +19,6 @@
 <div class="activity_box">
 <h2 style="text-align:center;">
  <% if @query.nil? %> 
- <%#= _("Browse By") -%>
- <%#= _("Name") -%>
   <%= render :partial => 'shared/alpha_index' %>
  <% end %>
 </h2>
@@ -28,9 +26,12 @@
 	<% if @groups.empty? %>
 			<p><%= _('No matching groups were found.') %></p>
   <% else %>
-     <div id='profile-list'>
     <% @groups.each do |result| %><%= render :partial => 'groups/group_cache', :locals => {:group => result} %><% end %>
-    </div>
  <% end %>
+<h2 style="text-align:center;">
+ <% if @query.nil? %> 
+  <%= render :partial => 'shared/alpha_index' %>
+ <% end %>
+</h2>
 </div>
 <% end %>
