@@ -22,7 +22,7 @@
 	<% else -%>
 		<%= _("%{login_link} %{signup_link}") % {:login_link => link_to(_('Login'), login_path), :signup_link => link_to(_('Sign-up'), signup_path)} %>
 	<% end -%>
-        <%= locale.to_s == "yfh_EN" ? '<a href="?lang=yfh-tr">T&#xFC;rk&#xE7;e</a>' : '<a href="?lang=yfh-en">English</a>' %>
+        <%= locale.to_s == "yfh_EN" ? '<a href="?lang=yfh-tr"><img src="/images/flags/flag_tr.png" /></a>' : '<a href="?lang=yfh-en"><img src="/images/flags/flag_gb.png"/></a>' %>
 	</div>
   </form>
 </div>
