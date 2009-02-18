@@ -2990,8 +2990,29 @@ msgstr "Ozel (İçerik sadece üyeler tarafından görüntülenebilir)"
 msgid "Public (existence and content visible to everyone)"
 msgstr "Genel (Grup ve İçerik herkes tarafından görüntülenebilir)"
 
-msgid "Observer (can\'t participate)"
+msgid "Observer (can't participate)"
 msgstr "Gözlemci"
 
 msgid "Group Tags"
 msgstr "Grup Etiketleri"
+
+msgid "Group was successfully removed."
+msgstr "Grup başarıyla kaldırıldı"
+
+msgid "Group was successfully created."
+msgstr "Grup başarıyla oluşturuldu"
+
+msgid "There was a problem creating the group.  Please try again."
+msgstr "Grubu oluştururken bir hata oluştu. Lütfen yeniden deneyiniz"
+
+msgid "Upload a photo for %{group_name}"
+msgstr ""
+
+msgid "Photo Tips:"
+msgstr ""
+
+msgid "Select an image that is square otherwise it might be cropped."
+msgstr ""
+
+msgid "For best quality select an image that is 200x200px."
+msgstr ""
