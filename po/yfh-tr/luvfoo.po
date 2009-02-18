@@ -2735,8 +2735,8 @@ msgstr "%{comment_age} önce %{user_name_link} yazdı:"
 msgid "Description"
 msgstr "Açıklama"
 
-msgid "<span>%{user_name}</span> <span id="current-status-text">%{status}</span>"
-msgstr "<span>%{user_name}</span> <span id="şu_an_ki_durumu">%{status}</span>"
+msgid "<span>%{user_name}</span> <span id=\"current-status-text\">%{status}</span>"
+msgstr "<span>%{user_name}</span> <span id=\"current-status-text\">%{status}</span>"
 
 msgid "update your status!"
 msgstr "Durumunu güncelle!"
@@ -2784,215 +2784,214 @@ msgid "User"
 msgstr "Kullanıcı"
 
 msgid "Video Address"
-msgstr ""
+msgstr "Video Adresi"
 
 msgid "Or enter the address of a video."
-msgstr ""
+msgstr "Ya da bir video adresi giriniz"
 
 msgid "Tags"
-msgstr ""
+msgstr "Etiketler"
 
 msgid "%{user} joined %{group}"
-msgstr ""
+msgstr "%{user} %{group} grubuna katıldı"
 
 msgid "%{user_name} blogged %{article_age} ago %{blog_title}"
-msgstr ""
+msgstr "%{user_name} %{article_age} önce %{blog_title} ekledi"
 
 msgid "%{group_name} was updated"
-msgstr ""
+msgstr "%{group_name} güncellendi"
 
 msgid "Group Icon"
-msgstr ""
+msgstr "Grup Simgesi"
 
 msgid "%{person_invited} accepted your colleague request"
-msgstr ""
+msgstr "%{person_invited} arkadaşlık teklifinizi kabul etti"
 
 msgid "%{person_invited} is now %{friendship_description} %{person_who_invited}"
-msgstr ""
+msgstr "%{person_invited} artık %{friendship_description} %{person_who_invited}"
 
 msgid "%{user} created the %{group} group"
-msgstr ""
+msgstr "%{user} %{group} grubunu olusturdu"
 
 msgid "Groups Icon"
-msgstr ""
+msgstr "Gruplar Simgesi"
 
-msgid "%{user} left %{group}" 
-msgstr ""
+msgid "%{user} left %{group}"
+msgstr "%{user} %{group} grubundan ayrıldı"
 
-msgid "Your request to join %{group} was accepted" 
-msgstr ""
+msgid "Your request to join %{group} was accepted"
+msgstr "%{group} grubuna katılma teklifinizi kabul edildi"
 
-msgid "%{user_name_link} uploaded a %{photo_link_begin_tag}new photo%{photo_link_end_tag} to %{upload_destination}" 
-msgstr ""
+msgid "%{user_name_link} uploaded a %{photo_link_begin_tag}new photo%{photo_link_end_tag} to %{upload_destination}"
+msgstr "%{user_name_link} %{photo_link_begin_tag} resmini %{photo_link_end_tag} adresine yükledi"
 
-msgid "%{user_name} posted to the forum %{forum}:" 
-msgstr ""
+msgid "%{user_name} posted to the forum %{forum}:"
+msgstr "%{user_name} %{forum} forumunda yazdı:"
 
-msgid "about %{age} ago" 
-msgstr ""
+msgid "about %{age} ago"
+msgstr "yaklaşık %{age} önce"
 
 msgid "%{user} updated their profile"
-msgstr ""
+msgstr "%{user} profilini güncelledi"
 
-msgid "%{user} uploaded a %{type}%{upload_to}: %{uploaded_file}" 
-msgstr ""
+msgid "%{user} uploaded a %{type}%{upload_to}: %{uploaded_file}"
+msgstr "%{user} %{uploaded_file} dosyasını  %{type}%{upload_to} adresine yükledi"
 
-msgid "&laquo; Newer" 
-msgstr ""
+msgid "&laquo; Newer"
+msgstr "&laquo; Daha yeni"
 
-msgid "Older &raquo;" 
-msgstr ""
+msgid "Older &raquo;"
+msgstr "Daha eski &raquo;"
 
 msgid " read more "
-msgstr ""
+msgstr "Daha fazlasını oku"
 
 msgid "Body:"
-msgstr ""
+msgstr "Gövde"
 
 msgid "Body"
-msgstr ""
+msgstr "Gövde"
 
-msgid "Latest Photos" 
-msgstr ""
+msgid "Latest Photos"
+msgstr "Son eklenen fotoğraflar"
 
 msgid "Caption"
-msgstr ""
+msgstr "Başlık"
 
 msgid "Reason for signing up for www.tgag.org"
-msgstr ""
+msgstr "www.ulusalgenclikparlamentosu.net adresine katılma nedeniniz"
 
 msgid "How learned about www.tgag.org"
-msgstr ""
+msgstr "www.ulusalgenclikparlamentosu.net adresini nereden duydunuz?"
 
-msgid "Login to view more profile information" 
-msgstr ""
+msgid "Login to view more profile information"
+msgstr "Daha fazla bilgi alma için giriş yapınız"
 
 msgid "%{group_name} - Latest News"
-msgstr ""
+msgstr "%{group_name} - Son Haberler"
 
-msgid "%{group_name} - Event" 
-msgstr ""
+msgid "%{group_name} - Event"
+msgstr "%{group_name} - Olay"
 
 msgid "%{group_name} - Events"
-msgstr ""
+msgstr "%{group_name} - Olaylar"
 
 msgid "Add events from this group to Google calendar"
-msgstr ""
+msgstr "Bu gruptan Google Takvime olay ekle"
 
 msgid "Add Event"
-msgstr ""
+msgstr "Olay Ekle"
 
-msgid "Posted %{time_ago} ago"  
-msgstr ""
+msgid "Posted %{time_ago} ago" 
+msgstr "%{time_ago} önce gönderildi"
 
 msgid "Comments (%{num_comments})"
-msgstr ""
+msgstr "Yorumlar (%{num_comments})"
 
-msgid "%{group_name} - Latest Activity" 
-msgstr ""
+msgid "%{group_name} - Latest Activity"
+msgstr "%{group_name} - Son Aktiviteler"
 
-msgid "Latest Activity" 
-msgstr ""
+msgid "Latest Activity"
+msgstr "Son Aktiviteler"
 
 msgid "Manager"
-msgstr ""
+msgstr "Yönetici"
 
 msgid "Member"
-msgstr ""
+msgstr "Üye"
 
 msgid "Observer"
-msgstr ""
+msgstr "Gözlemci"
 
 msgid "Banned"
-msgstr ""
+msgstr "Yasaklı"
 
-msgid "%{group_name} Forum"  
-msgstr ""
+msgid "%{group_name} Forum" 
+msgstr "%{group_name} Forumu"
 
-msgid "Admin" 
-msgstr ""
+msgid "Admin"
+msgstr "Yönetici"
 
-msgid "Create New Forum" 
-msgstr ""
+msgid "Create New Forum"
+msgstr "Yeni Forum Oluştur"
 
-msgid "Recent Posts" 
-msgstr ""
+msgid "Recent Posts"
+msgstr "En Yeni Gönderiler"
 
-msgid "No recent activity" 
-msgstr ""
+msgid "No recent activity"
+msgstr "Yeni Aktivite Mevcut Değil"
 
-msgid "by %{user}" 
-msgstr ""
+msgid "by %{user}"
+msgstr "%{user} tarafından"
 
-msgid "view" 
-msgstr ""
+msgid "view"
+msgstr "Görüntüle"
 
-msgid "Users online:" 
-msgstr ""
+msgid "Users online:"
+msgstr "Çevirim içi Üyeler"
 
-msgid "Recent activity #{post}" 
-msgstr ""
+msgid "Recent activity #{post}"
+msgstr "Son Aktiviteler #{post}"
 
-msgid "No recent activity #{post}"  
-msgstr ""
+msgid "No recent activity #{post}" 
+msgstr "Yeni Aktivite Mevcut Değil #{post}"
 
-msgid "Sticky: <strong>" 
-msgstr ""
+msgid "Sticky: <strong>"
+msgstr "Yapışkan <strong>"
 
-msgid "last" 
-msgstr ""
+msgid "last"
+msgstr "SOn"
 
-msgid "ago by %{user}" 
-msgstr ""
+msgid "ago by %{user}"
+msgstr "önce %{user} tarafından"
 
-msgid "Edit Forum" 
-msgstr ""
+msgid "Edit Forum"
+msgstr "Forumu Düzenle"
 
-msgid "Save Forum" 
-msgstr ""
+msgid "Save Forum"
+msgstr "Forumu Kaydet"
 
-msgid "File Name"  
-msgstr ""
+msgid "File Name" 
+msgstr "Dosya İsmi"
 
-msgid "Upload File" 
-msgstr ""
+msgid "Upload File"
+msgstr "Dosya Yükle"
 
-msgid "Cancel All Uploads" 
-msgstr ""
+msgid "Cancel All Uploads"
+msgstr "Bütün Yüklemeleri İptal Et"
 
-msgid "We're sorry.  SWFUpload could not load.  You must have JavaScript enabled to enjoy SWFUpload." 
-msgstr ""
+msgid "We're sorry.  SWFUpload could not load.  You must have JavaScript enabled to enjoy SWFUpload."
+msgstr "Üzgünüz. Yükleme tamamlanamadı. Yüklemenin tamamlanabilmesi için bilgisayarınızda JavaScript’in yüklü olması gerekmektedir."
 
 msgid "SWFUpload is loading. Please wait a moment..."
-msgstr ""
+msgstr "Yükleme tamamlanıyor. Lütfen bekleyiniz."
 
-msgid "SWFUpload is taking a long time to load or the load has failed.  Please make sure that the Flash Plugin is enabled and that a working version of the Adobe Flash Player is installed."  
-msgstr ""
+msgid "SWFUpload is taking a long time to load or the load has failed.  Please make sure that the Flash Plugin is enabled and that a working version of the Adobe Flash Player is installed." 
+msgstr "Yükleme sırasında bir hata oluştu. Lütfen bilgisayarınızda Flash Player’in yüklü olduğunu kontrol edin."
 
-msgid "All Files"  
-msgstr ""
+msgid "All Files" 
+msgstr "Tüm Dosyalar"
 
-msgid "We're sorry.  SWFUpload could not load.  You may need to install or upgrade Flash Player. Visit the <a href=\"http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash\">Adobe website</a> to get the Flash Player." 
-msgstr ""
+msgid "We're sorry.  SWFUpload could not load.  You may need to install or upgrade Flash Player. Visit the <a href=\"http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash\">Adobe website</a> to get the Flash Player."
+msgstr "Üzgünüz. Yükleme tamamlanamadı. Lutfen <a href=\"http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash\">Adobe web sitesi</a>'nden Flash Player'i yukleyiniz."
 
-msgid "File Upload Queue" 
-msgstr ""
+msgid "File Upload Queue"
+msgstr "Dosya Yükleme Sırası"
 
-msgid "Visibility" 
-msgstr ""
+msgid "Visibility"
+msgstr "Görünürlük"
 
 msgid "Invisible (existence and content visible only to members)"
-msgstr ""
+msgstr "Görünmez (Grup ve İçerik sadece grup üyeleri tarafından görüntülenebilir)"
 
 msgid "Private (content visible only to members)"
-msgstr ""
+msgstr "Ozel (İçerik sadece üyeler tarafından görüntülenebilir)"
 
-msgid "Public (existence and content visible to everyone)" 
-msgstr ""
+msgid "Public (existence and content visible to everyone)"
+msgstr "Genel (Grup ve İçerik herkes tarafından görüntülenebilir)"
 
-msgid "Observer (can\'t participate)" 
-msgstr ""
+msgid "Observer (can\'t participate)"
+msgstr "Gözlemci"
 
 msgid "Group Tags"
-msgstr ""
-
+msgstr "Grup Etiketleri"
