@@ -11,7 +11,7 @@ class Groups::NewsController < ApplicationController
 
   cache_sweeper :group_news_sweeper, :only => [:create, :update, :destroy]
 
-  uses_tiny_mce(:options => GlobalConfig.news_mce_options,
+  uses_tiny_mce(:options => GlobalConfig.news_mce_options.merge(:language => 'tr'),
                 :only => [:new, :create, :edit, :update])
                 
   def index

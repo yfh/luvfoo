@@ -15,7 +15,7 @@ class Users::BlogsController < ApplicationController
 
   cache_sweeper :latest_news_sweeper, :only => [:create, :update, :destroy]
 
-  uses_tiny_mce(:options => GlobalConfig.news_mce_options,
+  uses_tiny_mce(:options => GlobalConfig.news_mce_options.merge(:language => 'tr'),
                 :only => [:new, :create, :edit, :update])
                 
   def index

@@ -7,11 +7,11 @@ class Admin::PagesController < Admin::BaseController
   before_filter :get_site
   before_filter :get_site_content_page, :only => [:edit, :update, :destroy]
 
-  uses_tiny_mce(:options => GlobalConfig.advanced_mce_options.merge(:save_onsavecallback => 'save_page'),
+  uses_tiny_mce(:options => GlobalConfig.advanced_mce_options.merge(:save_onsavecallback => 'save_page', :language => 'tr'),
                 :raw_options => GlobalConfig.raw_mce_options,
                 :only => [:edit, :update])
                 
-  uses_tiny_mce(:options => GlobalConfig.advanced_mce_options,
+  uses_tiny_mce(:options => GlobalConfig.advanced_mce_options.merge(:language => 'tr'),
                 :raw_options => GlobalConfig.raw_mce_options, 
                 :only => [:new, :create])
   

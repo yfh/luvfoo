@@ -6,7 +6,7 @@ class Admin::MemberStoriesController < Admin::BaseController
   
   cache_sweeper :member_stories_sweeper, :only => [:create, :update, :destroy]
                 
-  uses_tiny_mce(:options => GlobalConfig.advanced_mce_options,
+  uses_tiny_mce(:options => GlobalConfig.advanced_mce_options.merge(:language => 'tr'),
                 :raw_options => GlobalConfig.raw_mce_options, 
                 :only => [:new, :create, :edit, :update])
                 
