@@ -192,10 +192,6 @@ msgstr "Yorum ekle"
 msgid "User Photo Icon"
 msgstr "Kullanıcı Fotoğraf Simgesi"
 
-#: app/views/feed_items/_blog.html.erb:5
-msgid "%{user_name} blogged %{article_age} ago %{blog_title}"
-msgstr "%{user_name} blogged %{article_age} ago %{blog_title}"
-
 #: app/views/feed_items/_comment.html.erb:4
 msgid "Comment Icon"
 msgstr "Yorum Simgesi"
@@ -347,10 +343,6 @@ msgstr "%{time_since_post} önce gönderildi"
 #: app/views/forum_topics/show.html.erb:12
 msgid "Back to %{forum_name}"
 msgstr "%{forum_name} geri dön"
-
-#: app/views/forum_topics/new.html.erb:15 app/views/messages/_form.html.erb:21
-msgid "Body:"
-msgstr "Body:"
 
 #: app/views/forum_topics/show.html.erb:11
 msgid "Post a follow up"
@@ -563,9 +555,6 @@ msgid "Group Name"
 msgstr "Gruplar"
 
 #: app/views/groups/_form.html.erb:7
-
-msgid "Group Tags"
-msgstr "Gruplar"
 
 #: app/views/groups/_google_docs.html.erb:3
 #: app/views/profiles/_google_docs.html.erb:3
@@ -956,7 +945,7 @@ msgstr "Görüşler (%{number_of_comments}) "
 #: app/views/profiles/blogs/_blog.html.erb:7
 
 msgid "Posted %{time_ago} ago"
-msgstr "%{time_since_post} önce gönderildi"
+msgstr "%{time_ago} önce gönderildi"
 
 #: app/views/profiles/blogs/_history.html.erb:4
 msgid "Blog Post History"
@@ -1416,6 +1405,9 @@ msgstr "Mesaj"
 msgid "Upload and Manage Photos"
 msgstr "Fotoğraf yükle"
 
+msgid "Upload and Manage Files"
+msgstr "Dosyalar yükle"
+
 #: app/views/users/_dashboard_actions.html.erb:16
 
 msgid "Share a Web Page or Google Document"
@@ -1482,6 +1474,9 @@ msgstr "Profili düzenle"
 #: app/helpers/forums_helper.rb:4
 
 msgid "post"
+msgstr "Postalar"
+
+msgid "Post"
 msgstr "Postalar"
 
 #: app/helpers/forums_helper.rb:4
@@ -2430,8 +2425,6 @@ msgstr "Diğer"
 msgid "Other"
 msgstr "Diğer"
 
-msgid "Reason for signing up for www.tgag.org"
-msgstr "www.tgag.org web sitesinden nasıl haberdar oldunuz? "
 
 msgid "To benefit from the courses"
 msgstr "Eğitim bölümlerinde yer alan kurs içeriklerinden faydalanmak için"
@@ -2444,9 +2437,6 @@ msgstr "Gençlik alanında gerçekleştirilen çalışmalardan haberdar olmak i�
 
 msgid "To find partners for new projects"
 msgstr "Gençlik alanında yeni projeler geliştirmede yeni ortaklar bulmak için."
-
-msgid "How learned about www.tgag.org"
-msgstr "www.tgag.org web sitesinden nasıl haberdar oldunuz?"
 
 msgid "Search Engine"
 msgstr "Arama Motorlarından"
@@ -2740,7 +2730,7 @@ msgid "clear"
 msgstr "temizle"
 
 msgid "%{comment_age} ago %{user_name_link} wrote :"
-msgstr ""%{comment_age} önce %{user_name_link} yazdı:"
+msgstr "%{comment_age} önce %{user_name_link} yazdı:"
 
 msgid "Description"
 msgstr "Açıklama"
@@ -2766,17 +2756,8 @@ msgstr "Konu"
 msgid "Views"
 msgstr "Görüntülenme"
 
-msgid "Last Post"
-msgstr "Son Yazılanlar"
-
-msgid "Video Address"
-msgstr ""
-
-msgid "Or enter the address of a video."
-msgstr ""
-
-msgid "Tags"
-msgstr ""
+msgid "Last post"
+msgstr "Son posta"
 
 msgid "%{member_count} members"
 msgstr "%{member_count} üyeler"
@@ -2792,3 +2773,226 @@ msgstr "&laquo; Geri"
 
 msgid "Next &raquo;"
 msgstr "İleri &raquo;"
+
+msgid "Recent activity" 
+msgstr "Son faaliyet"
+
+msgid "New topic"
+msgstr "Yeni konu"
+
+msgid "User"
+msgstr "Kullanıcı"
+
+msgid "Video Address"
+msgstr ""
+
+msgid "Or enter the address of a video."
+msgstr ""
+
+msgid "Tags"
+msgstr ""
+
+msgid "%{user} joined %{group}"
+msgstr ""
+
+msgid "%{user_name} blogged %{article_age} ago %{blog_title}"
+msgstr ""
+
+msgid "%{group_name} was updated"
+msgstr ""
+
+msgid "Group Icon"
+msgstr ""
+
+msgid "%{person_invited} accepted your colleague request"
+msgstr ""
+
+msgid "%{person_invited} is now %{friendship_description} %{person_who_invited}"
+msgstr ""
+
+msgid "%{user} created the %{group} group"
+msgstr ""
+
+msgid "Groups Icon"
+msgstr ""
+
+msgid "%{user} left %{group}" 
+msgstr ""
+
+msgid "Your request to join %{group} was accepted" 
+msgstr ""
+
+msgid "%{user_name_link} uploaded a %{photo_link_begin_tag}new photo%{photo_link_end_tag} to %{upload_destination}" 
+msgstr ""
+
+msgid "%{user_name} posted to the forum %{forum}:" 
+msgstr ""
+
+msgid "about %{age} ago" 
+msgstr ""
+
+msgid "%{user} updated their profile"
+msgstr ""
+
+msgid "%{user} uploaded a %{type}%{upload_to}: %{uploaded_file}" 
+msgstr ""
+
+msgid "&laquo; Newer" 
+msgstr ""
+
+msgid "Older &raquo;" 
+msgstr ""
+
+msgid " read more "
+msgstr ""
+
+msgid "Body:"
+msgstr ""
+
+msgid "Body"
+msgstr ""
+
+msgid "Latest Photos" 
+msgstr ""
+
+msgid "Caption"
+msgstr ""
+
+msgid "Reason for signing up for www.tgag.org"
+msgstr ""
+
+msgid "How learned about www.tgag.org"
+msgstr ""
+
+msgid "Login to view more profile information" 
+msgstr ""
+
+msgid "%{group_name} - Latest News"
+msgstr ""
+
+msgid "%{group_name} - Event" 
+msgstr ""
+
+msgid "%{group_name} - Events"
+msgstr ""
+
+msgid "Add events from this group to Google calendar"
+msgstr ""
+
+msgid "Add Event"
+msgstr ""
+
+msgid "Posted %{time_ago} ago"  
+msgstr ""
+
+msgid "Comments (%{num_comments})"
+msgstr ""
+
+msgid "%{group_name} - Latest Activity" 
+msgstr ""
+
+msgid "Latest Activity" 
+msgstr ""
+
+msgid "Manager"
+msgstr ""
+
+msgid "Member"
+msgstr ""
+
+msgid "Observer"
+msgstr ""
+
+msgid "Banned"
+msgstr ""
+
+msgid "%{group_name} Forum"  
+msgstr ""
+
+msgid "Admin" 
+msgstr ""
+
+msgid "Create New Forum" 
+msgstr ""
+
+msgid "Recent Posts" 
+msgstr ""
+
+msgid "No recent activity" 
+msgstr ""
+
+msgid "by %{user}" 
+msgstr ""
+
+msgid "view" 
+msgstr ""
+
+msgid "Users online:" 
+msgstr ""
+
+msgid "Recent activity #{post}" 
+msgstr ""
+
+msgid "No recent activity #{post}"  
+msgstr ""
+
+msgid "Sticky: <strong>" 
+msgstr ""
+
+msgid "last" 
+msgstr ""
+
+msgid "ago by %{user}" 
+msgstr ""
+
+msgid "Edit Forum" 
+msgstr ""
+
+msgid "Save Forum" 
+msgstr ""
+
+msgid "File Name"  
+msgstr ""
+
+msgid "Upload File" 
+msgstr ""
+
+msgid "Cancel All Uploads" 
+msgstr ""
+
+msgid "We're sorry.  SWFUpload could not load.  You must have JavaScript enabled to enjoy SWFUpload." 
+msgstr ""
+
+msgid "SWFUpload is loading. Please wait a moment..."
+msgstr ""
+
+msgid "SWFUpload is taking a long time to load or the load has failed.  Please make sure that the Flash Plugin is enabled and that a working version of the Adobe Flash Player is installed."  
+msgstr ""
+
+msgid "All Files"  
+msgstr ""
+
+msgid "We're sorry.  SWFUpload could not load.  You may need to install or upgrade Flash Player. Visit the <a href=\"http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash\">Adobe website</a> to get the Flash Player." 
+msgstr ""
+
+msgid "File Upload Queue" 
+msgstr ""
+
+msgid "Visibility" 
+msgstr ""
+
+msgid "Invisible (existence and content visible only to members)"
+msgstr ""
+
+msgid "Private (content visible only to members)"
+msgstr ""
+
+msgid "Public (existence and content visible to everyone)" 
+msgstr ""
+
+msgid "Observer (can\'t participate)" 
+msgstr ""
+
+msgid "Group Tags"
+msgstr ""
+
