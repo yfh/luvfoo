@@ -3006,13 +3006,13 @@ msgid "There was a problem creating the group.  Please try again."
 msgstr "Grubu oluştururken bir hata oluştu. Lütfen yeniden deneyiniz"
 
 msgid "Upload a photo for %{group_name}"
-msgstr ""
+msgstr "%{group_name} grubuna bir resim yükleyin."
 
 msgid "Photo Tips:"
-msgstr ""
+msgstr "Fotoğraflar hakkında İpuçları"
 
 msgid "Select an image that is square otherwise it might be cropped."
-msgstr ""
+msgstr "Kare olan bir resim secin, aksi takdirde resmin üzerinde otomatik değişiklikler olabilir."
 
 msgid "For best quality select an image that is 200x200px."
-msgstr ""
+msgstr "En iyi kalite icin 200x200 piksel bir resim secin."
