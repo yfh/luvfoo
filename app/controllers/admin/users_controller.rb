@@ -77,17 +77,17 @@ class Admin::UsersController < Admin::BaseController
 
   end
 
-  def destroy
-    @user.destroy
-    respond_to do |format|
-      format.html do
-        flash[:notice] = "User '#{@user.login}' was successfully deleted."
-        redirect_to admin_users_path
-      end
-      format.xml  { head :ok }
-      format.js { render(:update){|page| page.visual_effect :fade, "#{@user.dom_id('row')}".to_sym} }
-    end
-  end
+#  def destroy
+#    @user.destroy
+#    respond_to do |format|
+#      format.html do
+#        flash[:notice] = "User '#{@user.login}' was successfully deleted."
+#        redirect_to admin_users_path
+#      end
+#      format.xml  { head :ok }
+#      format.js { render(:update){|page| page.visual_effect :fade, "#{@user.dom_id('row')}".to_sym} }
+#    end
+#  end
   
   private 
   

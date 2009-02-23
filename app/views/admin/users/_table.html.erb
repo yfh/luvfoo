@@ -18,7 +18,7 @@
 		<td><%= _('%{when} ago') % {:when => time_ago_in_words(user.created_at.to_s)} %></td>
 		<td id="<%=user.dom_id('link')%>"><%= render :partial => 'admin/users/activate', :locals => {:user => user} %></td>
 		<td><%#=link_to _('Delete'), admin_user_path(user.id), :method => :delete, :title => _('Delete this user.') -%>
-			<%= link_to_remote _("Delete"), {:url => admin_user_path(user.id), :method => :delete}, {:title => _('Delete this user.'), :class => 'delete-user'} -%></td>
+			<%#= link_to_remote _("Delete"), {:url => admin_user_path(user.id), :method => :delete}, {:title => _('Delete this user.'), :class => 'delete-user'} -%></td>
 	</tr>
 	<% end -%>
 	</tbody>
